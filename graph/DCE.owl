@@ -127,6 +127,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Host -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Host">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Service"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#ServiceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Ontology -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Ontology">
@@ -142,6 +152,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Repository">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Collection"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Terminology_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Service">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#ServiceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
     </owl:Class>
     
 
