@@ -5,8 +5,49 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-37="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#hasSubjectArea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#hasSubjectArea">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Service"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#hostsService -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#hostsService">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Host"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#isHostedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#isHostedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Service"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Host"/>
+    </owl:ObjectProperty>
     
 
 
@@ -302,6 +343,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#KIT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#KIT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#KITopenData"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#RADAR4KIT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#KITopenData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#KITopenData">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Repository"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Interdisciplinary"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#KIT"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science">
@@ -322,6 +384,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#RADAR4KIT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#RADAR4KIT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Repository"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Interdisciplinary"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#KIT"/>
     </owl:NamedIndividual>
     
 
@@ -1160,6 +1233,13 @@
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#KITopenData"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#RADAR4KIT"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
