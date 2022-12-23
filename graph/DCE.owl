@@ -184,6 +184,1054 @@
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Terminology_Service">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Collection"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Engineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Interdisciplinary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Interdisciplinary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Energy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Environmental_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Hydraulic_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Materials_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mathematics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Mining"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Software"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/2022/11/untitled-ontology-37#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
 </rdf:RDF>
 
 
