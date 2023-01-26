@@ -42,10 +42,12 @@ These are the currently available object properties:
     - Domain: Host class
     - Range: Service class
     - Asymmetric
+    - Inverse of isHostedBy
 - isHostedBy
     - Domain: Service class
     - Range: Host class
     - Asymmetric
+    - Inverse of hostsService
 
 ## How to access it
 
