@@ -29,6 +29,16 @@ The structure is as follows:
 
 The classes "Host", "Service", "SubjectArea" and "ServiceType" are mutually disjoint.
 
+## Individuals
+
+There are individuals of different types in the graph:
+
+- SubjectArea: In the future, these could be imported from a controlled vocabulary.
+- Host
+- Service: These individuals have more than one type, the other coming from the class ServiceType.
+
+All individuals of each type are mutually different to other individuals of the same type.
+
 ## Properties
 
 ### Object Properties
