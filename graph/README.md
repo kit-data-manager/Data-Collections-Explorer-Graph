@@ -29,6 +29,24 @@ The structure is as follows:
 
 The classes "Host", "Service", "SubjectArea" and "ServiceType" are mutually disjoint.
 
+## Properties
+
+### Object Properties
+
+These are the currently available object properties:
+
+- hasSubjectArea
+    - Domain: Service class
+    - Range: SubjectArea class
+- hostsService
+    - Domain: Host class
+    - Range: Service class
+    - Asymmetric
+- isHostedBy
+    - Domain: Service class
+    - Range: Host class
+    - Asymmetric
+
 ## How to access it
 
 Assuming you have a local instance of Apache Fuseki running, load `DCE.owl`. The ontology IRI is `http://www.semanticweb.org/p.ost/ontologies/dceng`.
