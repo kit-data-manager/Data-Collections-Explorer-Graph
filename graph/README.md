@@ -13,7 +13,7 @@ The structure is as follows:
 - SubjectArea
     - Instances: should be provided by a controlled vocabulary in the future
 - ServiceType
-    - Two subclasses: Collection and Discrete. 'Collection' encompasses everything that comprises more than one dataset, 'Discrete' contains only the subclass "Dataset". Both classes "Collection" and "Discrete" are disjoint; all of "Collection's" subclasses are mutually disjoint.
+    - Two subclasses: Collection and Discrete. "Collection" encompasses everything that comprises more than one dataset, "Discrete" contains only the subclass "Dataset". Both classes "Collection" and "Discrete" are disjoint; all of "Collection's" subclasses are mutually disjoint.
     - Collection:
         - Archive
         - Bibliography
@@ -45,7 +45,7 @@ All individuals of each type are mutually different to other individuals of the 
 
 - isOpenAccess
     - Domain: Service class
-    - Range: 'xsd:string'
+    - Range: `xsd:string`
 
 ### Object Properties
 
