@@ -381,6 +381,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT"/>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
     </owl:NamedIndividual>
     
 
@@ -416,6 +417,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT"/>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
     </owl:NamedIndividual>
     
 
