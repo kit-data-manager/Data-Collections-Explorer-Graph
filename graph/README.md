@@ -41,6 +41,12 @@ All individuals of each type are mutually different to other individuals of the 
 
 ## Properties
 
+### Data Properties
+
+- isOpenAccess
+    - Domain: Service class
+    - Range: 'xsd:string'
+
 ### Object Properties
 
 These are the currently available object properties:
