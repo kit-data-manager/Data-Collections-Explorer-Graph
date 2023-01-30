@@ -52,7 +52,7 @@ All data properties are mutually disjoint.
 
 - hasHostURL
     - Domain: Host class
-    - range: `xsd:anyURI`
+    - Range: `xsd:anyURI`
 
 - hasServiceURL
     - Domain: Service class
