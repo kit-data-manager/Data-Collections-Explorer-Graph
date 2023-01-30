@@ -47,7 +47,7 @@ All data properties are mutually disjoint.
 
 - hasAPI
     - Domain: Service class
-    - Range: ´xsd:string`
+    - Range: `xsd:string`
     - This might change in the future to not only indicate whether a service provides API access, but also the type(s) and URLs.
 
 - hasDatasetSizeLimit
