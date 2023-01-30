@@ -22,7 +22,7 @@ The structure is as follows:
         - Digital_Library
         - Encyclopedia
         - Ontology
-        - Repsository
+        - Repository
         - Terminology_Service
     - Discrete
         - Dataset
