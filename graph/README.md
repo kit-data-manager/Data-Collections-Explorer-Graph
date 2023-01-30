@@ -50,6 +50,11 @@ All data properties are mutually disjoint.
     - Range: ´xsd:string`
     - This might change in the future to not only indicate whether a service provides API access, but also the type(s) and URLs.
 
+- hasDatasetSizeLimit
+    - Domain: Service class
+    - Range: `xsd:nonNegativeInteger`
+    - Values currently range from 0.2 to 300GB; decide later about which base unit to use.
+
 - hasHostURL
     - Domain: Host class
     - Range: `xsd:anyURI`
