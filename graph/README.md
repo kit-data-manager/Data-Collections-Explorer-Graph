@@ -45,6 +45,10 @@ All individuals of each type are mutually different to other individuals of the 
 
 All data properties are mutually disjoint.
 
+- hasHostURL
+    - Domain: Host class
+    - range: `xsd:anyURI`
+
 - hasServiceURL
     - Domain: Service class
     - Range: `xsd:anyURI`
