@@ -432,6 +432,7 @@
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT"/>
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
+        <hasDatasetSizeLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180</hasDatasetSizeLimit>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://bwdatadiss.kit.edu</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
     </owl:NamedIndividual>
