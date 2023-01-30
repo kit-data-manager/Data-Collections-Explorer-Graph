@@ -75,6 +75,8 @@ These are the currently available object properties:
     - Asymmetric
     - Inverse of hostsService
 
+All object properties are mutually disjoint.
+
 ## How to access it
 
 Assuming you have a local instance of Apache Fuseki running, load `DCE.owl`. The ontology IRI is `http://www.semanticweb.org/p.ost/ontologies/dceng`.
