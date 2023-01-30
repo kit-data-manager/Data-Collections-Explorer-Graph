@@ -43,6 +43,12 @@ All individuals of each type are mutually different to other individuals of the 
 
 ### Data Properties
 
+All data properties are mutually disjoint.
+
+- hasServiceURL
+    - Domain: Service class
+    - Range: `xsd:anyURI`
+
 - isOpenAccess
     - Domain: Service class
     - Range: `xsd:string`
