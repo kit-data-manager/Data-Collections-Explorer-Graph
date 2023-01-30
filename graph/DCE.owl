@@ -66,6 +66,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#hasAPI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#hasAPI">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#hasHostURL"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#hasServiceURL"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#isOpenAccess"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#hasHostURL -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#hasHostURL">

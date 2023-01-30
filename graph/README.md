@@ -45,6 +45,11 @@ All individuals of each type are mutually different to other individuals of the 
 
 All data properties are mutually disjoint.
 
+- hasAPI
+    - Domain: Service class
+    - Range: ´xsd:string`
+    - This might change in the future to not only indicate whether a service provides API access, but also the type(s) and URLs.
+
 - hasHostURL
     - Domain: Host class
     - range: `xsd:anyURI`
