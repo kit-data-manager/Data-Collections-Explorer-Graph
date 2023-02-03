@@ -1051,6 +1051,13 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Crystallography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Crystallography"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Environmental_Science"/>
         </owl:distinctMembers>
     </rdf:Description>
