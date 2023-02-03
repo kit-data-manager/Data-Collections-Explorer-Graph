@@ -58,10 +58,12 @@ All data properties are mutually disjoint.
 - hasHostURL
     - Domain: Host class
     - Range: `xsd:anyURI`
+    - Characteristic: Functional
 
 - hasServiceURL
     - Domain: Service class
     - Range: `xsd:anyURI`
+    - Characteristic: Functional
 
 - isOpenAccess
     - Domain: Service class
