@@ -52,8 +52,7 @@ All data properties are mutually disjoint.
 
 - hasDatasetSizeLimit
     - Domain: Service class
-    - Range: `xsd:nonNegativeInteger`
-    - Values currently range from 0.2 to 300GB; decide later about which base unit to use.
+    - Range: `xsd:decimal[>=0]`
 
 - hasHostURL
     - Domain: Host class
