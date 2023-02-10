@@ -91,3 +91,10 @@ All object properties are mutually disjoint.
 ## How to access it
 
 Assuming you have a local instance of Apache Fuseki running, load `DCE.owl`. The ontology IRI is `http://www.semanticweb.org/p.ost/ontologies/dceng`.
+
+## To Do
+
+Some points that are still open:
+
+- handling of comments
+- separate namespaces for hosts, services, properties, etc.
