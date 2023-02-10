@@ -88,6 +88,10 @@ These are the currently available object properties:
 
 All object properties are mutually disjoint.
 
+## Comments
+
+The current version of the Data Collections Explorer has a comment field. This is replicated as an annotation: the `owl:annotationSource` is the host, whith the `owl:annotationTarget` being the service this comment is valid for.
+
 ## How to access it
 
 Assuming you have a local instance of Apache Fuseki running, load `DCE.owl`. The ontology IRI is `http://www.semanticweb.org/p.ost/ontologies/dceng`.
@@ -96,5 +100,4 @@ Assuming you have a local instance of Apache Fuseki running, load `DCE.owl`. The
 
 Some points that are still open:
 
-- handling of comments
 - separate namespaces for hosts, services, properties, etc.
