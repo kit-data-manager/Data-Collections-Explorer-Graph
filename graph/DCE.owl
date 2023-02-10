@@ -432,6 +432,12 @@
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4KIT"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
     </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#hostsService"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData"/>
+        <rdfs:comment xml:lang="en">Publication and (long term) archiving of research data from participating institutions in Baden-Württemberg</rdfs:comment>
+    </owl:Axiom>
     
 
 
