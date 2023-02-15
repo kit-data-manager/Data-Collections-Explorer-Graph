@@ -76,15 +76,18 @@ These are the currently available object properties:
     - Domain: Service class
     - Range: SubjectArea class
     - Asymmetric
+    - Irreflexive
 - hostsService
     - Domain: Host class
     - Range: Service class
     - Asymmetric
+    - Irreflexive
     - Inverse of isHostedBy
 - isHostedBy
     - Domain: Service class
     - Range: Host class
     - Asymmetric
+    - Irreflexive
     - Inverse of hostsService
 
 All object properties are mutually disjoint.
