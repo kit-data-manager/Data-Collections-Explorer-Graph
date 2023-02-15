@@ -75,6 +75,7 @@ These are the currently available object properties:
 - hasSubjectArea
     - Domain: Service class
     - Range: SubjectArea class
+    - Asymmetric
 - hostsService
     - Domain: Host class
     - Range: Service class
