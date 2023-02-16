@@ -78,7 +78,6 @@
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#hasDatasetSizeLimit"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#hasHostURL"/>
         <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#hasServiceURL"/>
-        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#isOpenAccess"/>
     </owl:DatatypeProperty>
     
 
@@ -285,7 +284,6 @@
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Service -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Service">
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ServiceType"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
     </owl:Class>
     

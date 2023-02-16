@@ -27,7 +27,7 @@ The structure is as follows:
     - Discrete
         - Dataset
 
-The classes "Host", "Service", "SubjectArea" and "ServiceType" are mutually disjoint.
+The classes "Service" and "ServiceType" are disjoint with the classes "Host" and "SubjectArea". All other classes are mutually disjoint.
 
 ## Individuals
 
