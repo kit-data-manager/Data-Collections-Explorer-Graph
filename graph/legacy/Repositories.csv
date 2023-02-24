@@ -1,5 +1,6 @@
 Hosting Institution;Name;Type;Subject area;Open Access;API;Publication Cost;Dataset size limit (GB);URL;Comment
-BAM;BAM-Publica;Institutional Repository/Bibliography;Interdisciplinary;partially;;;;https://opus4.kobv.de/opus4-bam/home;Bibliography and institutional repository for publications by BAM scientists
+BAM;BAM-Publica;Institutional Repository;Interdisciplinary;partially;;;;https://opus4.kobv.de/opus4-bam/home;Bibliography and institutional repository for publications by BAM scientists
+BAM;BAM-Publica;Bibliography;Interdisciplinary;partially;;;;https://opus4.kobv.de/opus4-bam/home;Bibliography and institutional repository for publications by BAM scientists
 CERN;CERN Document Server;Bibliography;Interdisciplinary;partially;;;;https://cds.cern.ch;CERN and HEP articles, reports, etc.
 TU München;mediaTUM;Institutional Repository;Interdisciplinary;;;;;https://mediatum.ub.tum.de;Repository to publish, archive and research public records, documents, images as well as research data
 TU Dresden;OpARA;Institutional Repository;Interdisciplinary;yes;yes;free;;https://opara.zih.tu-dresden.de;Research data repository and archive jointly operated by TU Dresden and TU Bergakademie Freiberg
@@ -12,13 +13,17 @@ Universität Stuttgart;DaRUS;Institutional Repository;Interdisciplinary;;yes;;;h
 RWTH Aachen;RWTH Publications ;Institutional Repository;Interdisciplinary;yes;yes;free;;https://publications.rwth-aachen.de;
 SLUB;Qucosa;Repository;Interdisciplinary;yes;yes;free;;https://slub.qucosa.de;
 Fraunhofer-Gesellschaft;Fordatis;Institutional Repository;Interdisciplinary;partially;yes;free;5;https://fordatis.fraunhofer.de;Research data repository of the Fraunhofer association. Upload possible for Fraunhofer employees and their project partners.
-Geoforschungszentrum Potsdam;GFZpublic;Institutional Repository/Bibliography;Earth science;yes;yes;;;https://gfzpublic.gfz-potsdam.de;
+Geoforschungszentrum Potsdam;GFZpublic;Institutional Repository;Earth science;yes;yes;;;https://gfzpublic.gfz-potsdam.de;
+Geoforschungszentrum Potsdam;GFZpublic;Bibliography;Earth science;yes;yes;;;https://gfzpublic.gfz-potsdam.de;
 FID GEO;GEO-LEO e-docs;Repository;Earth science;yes;;;;https://e-docs.geo-leo.de;Repository and archive of scientific publications from the earth sciences (including grey literature and maps, amongst others)
 FID Montan, Bergbau, Hüttenwesen;Montanportal;Bibliography;Mining;;;;;https://montanportal.com;Information portal concerning everything about mining, raw materials, metallurgy, etc., cooperation with FiD GEO
-FID BAU;Fachinformationsdienst BAUdigital;Bibliography/Repository;Civil Engineering;;;;;https://www.fid-bau.de;In active development, first services are available as beta versions
+FID BAU;Fachinformationsdienst BAUdigital;Bibliography;Civil Engineering;;;;;https://www.fid-bau.de;In active development, first services are available as beta versions
+FID BAU;Fachinformationsdienst BAUdigital;Repository;Civil Engineering;;;;;https://www.fid-bau.de;In active development, first services are available as beta versions
 FID Mathematik;fidmath;Bibliography;Mathematics;yes;;;;https://fidmath.de;Provides a central search interface to information sources of interest to mathematicians: library catalogues, preprint servers, journals, etc.
-FID Karten;Fachinformationsdienst Kartographie und Geobasisdaten;Bibliography/Repository;Cartography;partially;;;;https://kartographie.staatsbibliothek-berlin.de;Provides resources for research of special cartographic literature, some services require registration
-FID Move;Fachinformationsdienst Mobilitäts- und Verkehrsforschung;Bibliography/Repository;Transportation;;;;;https://fid-move.de;Repository and search interface to various sources relevant to the field of mobility and transport research
+FID Karten;Fachinformationsdienst Kartographie und Geobasisdaten;Bibliography;Cartography;partially;;;;https://kartographie.staatsbibliothek-berlin.de;Provides resources for research of special cartographic literature, some services require registration
+FID Karten;Fachinformationsdienst Kartographie und Geobasisdaten;Repository;Cartography;partially;;;;https://kartographie.staatsbibliothek-berlin.de;Provides resources for research of special cartographic literature, some services require registration
+FID Move;Fachinformationsdienst Mobilitäts- und Verkehrsforschung;Bibliography;Transportation;;;;;https://fid-move.de;Repository and search interface to various sources relevant to the field of mobility and transport research
+FID Move;Fachinformationsdienst Mobilitäts- und Verkehrsforschung;Repository;Transportation;;;;;https://fid-move.de;Repository and search interface to various sources relevant to the field of mobility and transport research
 FID Move;FID Move Repositorium;Repository;Transportation;yes;yes;;;https://data.fid-move.de;Research data repository for the field of mobility and transport research
 FID Material Science;Fachinformationsdienst Materialwissenschaft und Werkstofftechnik;Catalogue;Materials Science;;;;;https://www.materials-science.info;Integrated interface to MaterialHub and TIB search portal, service is currently being set up
 NFDI4Ing;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;n/a;n/a;https://terminology.nfdi4ing.de;Repository for engineering ontologies
@@ -26,7 +31,9 @@ TIB;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;n/a;
 BioPortal;MatPortal;Terminology Service;Materials Science;;yes;n/a;n/a;https://matportal.org;Ontology repository for the material sciences
 Eric Meier;The Wood Database;Catalogue;Materials Science;yes;;n/a;n/a;https://www.wood-database.com;Privately curated online database of various wood species and their characteristics, usage, etc.
 SLUB;Material Hub;Repository;Materials Science;yes;;free;;https://www.materialhub.de;Materials research repository with partners from science and industry
-FAIR DI e.V.;NOMAD Novel Materials Discovery;Encyclopedia/Repository/Archive;Materials Science;yes;yes;free;32;https://nomad-lab.eu;Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials
+FAIR DI e.V.;NOMAD Novel Materials Discovery;Encyclopedia;Materials Science;yes;yes;free;32;https://nomad-lab.eu;Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials
+FAIR DI e.V.;NOMAD Novel Materials Discovery;Repository;Materials Science;yes;yes;free;32;https://nomad-lab.eu;Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials
+FAIR DI e.V.;NOMAD Novel Materials Discovery;Archive;Materials Science;yes;yes;free;32;https://nomad-lab.eu;Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials
 NIST;Database of Novel and Emerging Adsorbent Materials;Catalogue;Materials Science;;yes;n/a;n/a;https://adsorption.nist.gov/isodb/index.php;Database of adsorption characteristics of novel and emerging materials, includes isotherm visualisation
 University of Chicago;Polymer Property Predictor and Database;Database;Materials Science;;;n/a;n/a;https://pppdb.uchicago.edu;
 Northwestern University;The Open Quantum Materials Database;Database;Materials Science;yes;yes;n/a;n/a;http://oqmd.org;Database of DFT-calculated thermodynamic and structural material properties
@@ -62,10 +69,12 @@ CHIMaD;PFHub;Community Repository;Materials Science;yes;;;;https://pages.nist.go
 Dryad;Dryad Digital Repository;Repository;Interdisciplinary;yes;yes;120$;300;https://datadryad.org;Curated general-purpose repository, software submissions are published on Zenodo
 Digital Science;figshare;Repository;Interdisciplinary;yes;yes;free;20;https://figshare.com;
 CERN;Zenodo;Repository;Interdisciplinary;yes;yes;donations encouraged;50;https://zenodo.org;
-SciELO Scientific Electronic Library Online;SciELO;Bibliography/Digital Library;Interdisciplinary;yes;;free;;https://www.scielo.org;Database of open access journals from Latin America, the Iberian Peninsula and South Africa
+SciELO Scientific Electronic Library Online;SciELO;Bibliography;Interdisciplinary;yes;;free;;https://www.scielo.org;Database of open access journals from Latin America, the Iberian Peninsula and South Africa
+SciELO Scientific Electronic Library Online;SciELO;Digital Library;Interdisciplinary;yes;;free;;https://www.scielo.org;Database of open access journals from Latin America, the Iberian Peninsula and South Africa
 SciELO Scientific Electronic Library Online;SciELO Data;Repository;Interdisciplinary;yes;;free;2;https://data.scielo.org;Repository for deposition of research data published on SciELO
 Centre pour la Communication Scientifique Directe;HAL science ouverte;Repository;Interdisciplinary;yes;yes;;0.2;https://hal.archives-ouvertes.fr;Also provides access to other repositories of french universities and research centers
-Japan Science and Technology Agency;J-STAGE;Bibliography/Digital Library;Interdisciplinary;partially;no;;;https://www.jstage.jst.go.jp/browse/-char/en;Electronic publishing platform for academic institutions from Japan
+Japan Science and Technology Agency;J-STAGE;Bibliography;Interdisciplinary;partially;no;;;https://www.jstage.jst.go.jp/browse/-char/en;Electronic publishing platform for academic institutions from Japan
+Japan Science and Technology Agency;J-STAGE;Digital Library;Interdisciplinary;partially;no;;;https://www.jstage.jst.go.jp/browse/-char/en;Electronic publishing platform for academic institutions from Japan
 Autonomous Vision Group, Department of Computer Science, University of Tübingen;The KITTI Vision Benchmark Suite;Dataset;Computer Vision;no;no;n/a;n/a;http://www.cvlibs.net/datasets/kitti;Novel computer vision benchmarks. Access to the data requires an account
 Universität Bonn;SemanticKITTI;Dataset;Autonomous Driving;yes;no;n/a;n/a;http://semantic-kitti.org;Dataset based on the KITTI Vision Benchmark for semantic scene understanding.
 Audi AG;A2D2: Audi Autonomous Driving Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://www.a2d2.audi;Labeled dataset from a car equipped with a multimodal sensor suite. The dataset features 2D image segmentation, 3D point clouds and bounding boxes as well as vehicle bus data.
