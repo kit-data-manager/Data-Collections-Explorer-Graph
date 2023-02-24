@@ -9,3 +9,9 @@ Before importing the data into the graph, the following was carried out in the E
 - Split entries of services with more than one hosting institution into separate lines.
 - Split entries of services with more than one Type entry into separate lines
 - Move Datasets to a separate spreadsheet: All entries of type Dataset are located in Datasets.csv
+
+## Transformation Rules
+
+Cellfie transformation rules are saved as JSON files. These are the current transformation rules:
+- Import the Hosting Institution as an Individual of Type Host and sets the hostsService object property.
+- Import the Service as an Individual of Type Service and set object properties hasSubjectArea and isHostedBy, as well as data properties hasAPI, hasDatasetSizeLimit, hasServiceURL and isOpenAccess.
