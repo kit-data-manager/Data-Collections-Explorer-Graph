@@ -1,0 +1,84 @@
+Hosting Institution;Name;Type;Subject area;Open Access;API;Publication Cost;Dataset size limit (GB);URL;Comment
+BAM;BAM-Publica;Institutional Repository/Bibliography;Interdisciplinary;partially;;;;https://opus4.kobv.de/opus4-bam/home;Bibliography and institutional repository for publications by BAM scientists
+CERN;CERN Document Server;Bibliography;Interdisciplinary;partially;;;;https://cds.cern.ch;CERN and HEP articles, reports, etc.
+TU München;mediaTUM;Institutional Repository;Interdisciplinary;undef.;;;;https://mediatum.ub.tum.de;Repository to publish, archive and research public records, documents, images as well as research data
+KIT;KITopenData;Repository;Interdisciplinary;yes;yes;n/a;180;https://bwdatadiss.kit.edu;Publication and (long term) archiving of research data from participating institutions in Baden-Württemberg
+KIT;RADAR4KIT;Institutional Repository;Interdisciplinary;yes;yes;;;https://radar.kit.edu;
+TU Dresden;OpARA;Institutional Repository;Interdisciplinary;yes;yes;free;;https://opara.zih.tu-dresden.de;Research data repository and archive jointly operated by TU Dresden and TU Bergakademie Freiberg
+TU Darmstadt;TUdatalib;Institutional Repository;Interdisciplinary;undef.;yes;free (up to 2TB/year);;https://tudatalib.ulb.tu-darmstadt.de;
+TU Berlin;DepositOnce;Institutional Repository;Interdisciplinary;yes;yes;;;https://www.depositonce.tu-berlin.de;
+TU Braunschweig;Digitale Bibliothek Der Publikationsserver der TU Braunschweig ;Institutional Repository;Interdisciplinary;partially;yes;free;;https://publikationsserver.tu-braunschweig.de;Also publishes collections of special interest of TU Braunschweig and regional institutions
+Universität Hannover;Forschungsdatenrepositorium;Institutional Repository;Interdisciplinary;yes;yes;free;;https://data.uni-hannover.de;Research data repository for researchers at Leibniz Universität Hannover (LUH)
+Universität Hannover;Institutionelles Repositorium der Leibniz Universität Hannover;Institutional Repository;Interdisciplinary;yes;;free;;https://www.repo.uni-hannover.de;Institutional repository open to members and alumni of LUH
+Universität Stuttgart;DaRUS;Institutional Repository;Interdisciplinary;undef.;yes;;;https://darus.uni-stuttgart.de;
+RWTH Aachen;RWTH Publications ;Institutional Repository;Interdisciplinary;yes;yes;free;;https://publications.rwth-aachen.de;
+SLUB;Qucosa;Repository;Interdisciplinary;yes;yes;free;;https://slub.qucosa.de;
+Fraunhofer-Gesellschaft;Fordatis;Institutional Repository;Interdisciplinary;partially;yes;free;5;https://fordatis.fraunhofer.de;Research data repository of the Fraunhofer association. Upload possible for Fraunhofer employees and their project partners.
+Geoforschungszentrum Potsdam;GFZpublic;Institutional Repository/Bibliography;Earth science;yes;yes;;;https://gfzpublic.gfz-potsdam.de;
+FID GEO;GEO-LEO e-docs;Repository;Earth science;yes;;;;https://e-docs.geo-leo.de;Repository and archive of scientific publications from the earth sciences (including grey literature and maps, amongst others)
+FID Montan, Bergbau, Hüttenwesen;Montanportal;Bibliography;Mining;undef.;;;;https://montanportal.com;Information portal concerning everything about mining, raw materials, metallurgy, etc., cooperation with FiD GEO
+FID BAU;Fachinformationsdienst BAUdigital;Bibliography/Repository;Civil Engineering;undef.;;;;https://www.fid-bau.de;In active development, first services are available as beta versions
+FID Mathematik;fidmath;Bibliography;Mathematics;yes;;;;https://fidmath.de;Provides a central search interface to information sources of interest to mathematicians: library catalogues, preprint servers, journals, etc.
+FID Karten;Fachinformationsdienst Kartographie und Geobasisdaten;Bibliography/Repository;Cartography;partially;;;;https://kartographie.staatsbibliothek-berlin.de;Provides resources for research of special cartographic literature, some services require registration
+FID Move;Fachinformationsdienst Mobilitäts- und Verkehrsforschung;Bibliography/Repository;Transportation;undef.;;;;https://fid-move.de;Repository and search interface to various sources relevant to the field of mobility and transport research
+FID Move;FID Move Repositorium;Repository;Transportation;yes;yes;;;https://data.fid-move.de;Research data repository for the field of mobility and transport research
+FID Material Science;Fachinformationsdienst Materialwissenschaft und Werkstofftechnik;Catalogue;Materials Science;undef.;;;;https://www.materials-science.info;Integrated interface to MaterialHub and TIB search portal, service is currently being set up
+NFDI4Ing/TIB;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;undef.;yes;n/a;n/a;https://terminology.nfdi4ing.de;Repository for engineering ontologies
+BioPortal;MatPortal;Terminology Service;Materials Science;undef.;yes;n/a;n/a;https://matportal.org;Ontology repository for the material sciences
+Eric Meier;The Wood Database;Catalogue;Materials Science;yes;;n/a;n/a;https://www.wood-database.com;Privately curated online database of various wood species and their characteristics, usage, etc.
+SLUB;Material Hub;Repository;Materials Science;yes;;free;;https://www.materialhub.de;Materials research repository with partners from science and industry
+FAIR DI e.V.;NOMAD Novel Materials Discovery;Encyclopedia/Repository/Archive;Materials Science;yes;yes;free;32;https://nomad-lab.eu;Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials
+NIST;Database of Novel and Emerging Adsorbent Materials;Catalogue;Materials Science;undef.;yes;n/a;n/a;https://adsorption.nist.gov/isodb/index.php;Database of adsorption characteristics of novel and emerging materials, includes isotherm visualisation
+University of Chicago;Polymer Property Predictor and Database;Database;Materials Science;undef.;;n/a;n/a;https://pppdb.uchicago.edu;
+Northwestern University;The Open Quantum Materials Database;Database;Materials Science;yes;yes;n/a;n/a;http://oqmd.org;Database of DFT-calculated thermodynamic and structural material properties
+KIM Project;openKIM;Repository;Materials Science;yes;yes;;;https://openkim.org;Curated repository of interatomic potentials and framework to facilitate molecular simulation.
+The Materials Project;Materials Project;Database;Materials Science;yes;yes;;;https://materialsproject.org;Database of computed information about materials, both known and predicted.
+Materials Consortia;OPTIMADE;Database;Materials Science;yes;yes;;;https://www.optimade.org;OPTIMADE is the Open Database Integration for Materials Design
+Technical University of Denmark;Computational Materials Repository;Repository;Materials Science;yes;yes;;;https://cmr.fysik.dtu.dk;Repository containing various databases of different kinds of computational materials
+University of Florida;Materialsweb;Database;Materials Science;yes;yes;;;https://materialsweb.org;
+National University of Singapore;2D Materials Encyclopedia;Database;Materials Science;yes;;;;http://2dmatpedia.org;Collection of (computed) two dimensional materials
+Linköping University;Open Materials Database;Database;Materials Science;yes;yes;free;;https://openmaterialsdb.se;Database of (computational) materials properties
+University of Alabama;Heusler Database;Database;Materials Science;yes;no;n/a;;http://heusleralloys.mint.ua.edu;Database of (calculated) properties of Heusler alloys
+RSC;ChemSpider;Repository;Chemistry;yes;yes;;;https://www.chemspider.com;Chemical structure database, access by API requires an account with RSC
+Open Reaction Databse Project;Open Reaction Database;Community Repository;Chemistry;yes;;free;n/a;https://open-reaction-database.org;Chemical reaction database of single-step organic reactions, still in development (12/2021)
+Organic Syntheses, Inc.;Organic Syntheses;Catalogue;Chemistry;yes;;n/a;n/a;http://www.orgsyn.org;Catalogue of reliable preparations of organic compounds
+NIH National Library of Medicine;PubChem;Repository;Chemistry;yes;yes;free;n/a;https://pubchem.ncbi.nlm.nih.gov;Database with information about chemical structures, physical and chemical properties, toxicity, etc.
+Vilnius University;Crystallography Open Database;Repository;Crystallography;yes;yes;;;https://www.crystallography.net/cod;
+Vilnius University;Theoretical Crystallography Open Database;Repository;Crystallography;yes;yes;;;https://www.crystallography.net/tcod/;
+Geoforschungszentrum Potsdam;GFZ Data Services;Repository;Earth and environmental science;yes;;;;https://dataservices.gfz-potsdam.de;Research data repository for the earth and environmental sciences, accepts research data as well as scientific software
+AWI/MARUM;PANGAEA;Repository;Earth and environmental science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
+OEP Community;Open Energy Platform;Database;Energy;yes;yes;n/a;;https://openenergy-platform.org;Collection of tools for and information about energy system research
+OEP Community;Open Energy Ontology;Ontology;Energy;yes;;n/a;;https://openenergy-platform.org/ontology/;Developed as part of the Open Energy Platform
+NFDI4Ing;Metadata4Ing;Ontology;Engineering;yes;;n/a;n/a;https://w3id.org/nfdi4ing/metadata4ing;Ontology focused on the semantic description of research data in the engineering sciences
+Bundesamt für Wasserbau;HENRY Hydraulic Engineering Repository;Repository;Hydraulic Engineering;yes;;free;;https://henry.baw.de;Also provides an archive for reports and scientific publications from BAW and WSV
+Open Engineering;engrXiv;Repository;Engineering;yes;;free;;https://engrxiv.org;Eprint server for engineering
+Cranfield University;AERADE Reports Archive;Archive;Aeronautics;yes;;n/a;n/a;https://reports.aerade.cranfield.ac.uk;Archive of historically significant reports from the Aeronautical Research Council and the National Advisory Commitee for Aeronautics
+Schloss Dagstuhl – Leibniz-Zentrum für Informatik;dblp computer science bibliography;Bibliography;Computer Science;yes;yes;n/a;n/a;https://dblp.org;Bibliography focused on computer science journals and proceedings
+FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur;zbMATH Open;Bibliography;Mathematics;yes;yes;n/a;n/a;https://zbmath.org;Abstracting and reviewing service in pure and applied mathematics, also covers applications in the natural sciences, computer science, economics and engineering
+FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur;swMATH;Database;Mathematics;yes;;n/a;n/a;https://swmath.org;Database about mathematical software
+U.S. Department of Energy Office of Scientific and Technical Information;DOE CODE;Institutional Repository;Software;undef.;yes;;;https://www.osti.gov/doecode;Repository and archive for DOE funded software (business and scientific)
+NIST/CHIMaD;PFHub;Community Repository;Materials Science;yes;;;;https://pages.nist.gov/pfhub;Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources
+Dryad;Dryad Digital Repository;Repository;Interdisciplinary;yes;yes;120$;300;https://datadryad.org;Curated general-purpose repository, software submissions are published on Zenodo
+Digital Science;figshare;Repository;Interdisciplinary;yes;yes;free;20;https://figshare.com;
+CERN;Zenodo;Repository;Interdisciplinary;yes;yes;donations encouraged;50;https://zenodo.org;
+SciELO Scientific Electronic Library Online;SciELO;Bibliography/Digital Library;Interdisciplinary;yes;;free;;https://www.scielo.org;Database of open access journals from Latin America, the Iberian Peninsula and South Africa
+SciELO Scientific Electronic Library Online;SciELO Data;Repository;Interdisciplinary;yes;;free;2;https://data.scielo.org;Repository for deposition of research data published on SciELO
+Centre pour la Communication Scientifique Directe;HAL science ouverte;Repository;Interdisciplinary;yes;yes;;0.2;https://hal.archives-ouvertes.fr;Also provides access to other repositories of french universities and research centers
+Japan Science and Technology Agency;J-STAGE;Bibliography/Digital Library;Interdisciplinary;partially;no;;;https://www.jstage.jst.go.jp/browse/-char/en;Electronic publishing platform for academic institutions from Japan
+Autonomous Vision Group, Department of Computer Science, University of Tübingen;The KITTI Vision Benchmark Suite;Dataset;Computer Vision;no;no;n/a;n/a;http://www.cvlibs.net/datasets/kitti;Novel computer vision benchmarks. Access to the data requires an account
+Universität Bonn;SemanticKITTI;Dataset;Autonomous Driving;yes;no;n/a;n/a;http://semantic-kitti.org;Dataset based on the KITTI Vision Benchmark for semantic scene understanding.
+Audi AG;A2D2: Audi Autonomous Driving Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://www.a2d2.audi;Labeled dataset from a car equipped with a multimodal sensor suite. The dataset features 2D image segmentation, 3D point clouds and bounding boxes as well as vehicle bus data.
+Oxford University;Oxford RobotCar Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://robotcar-dataset.robots.ox.ac.uk;The dataset contains over 100 repetitions of the same fixed route. A SDK is provided.
+Oxford University;Oxford Radar RobotCar Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://oxford-robotics-institute.github.io/radar-robotcar-dataset/;Radar extension to the Oxford RobotCar Dataset.
+Ford Motor Company;Ford Autonomous Vehicle Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://avdata.ford.com;The dataset contains data from multiple vehicles in a variety of driving and weather conditions
+University of Technology of Belfort-Montbéliard;EU Long-term Dataset with Multiple Sensors for Autonomous Driving;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://epan-utbm.github.io/utbm_robocar_dataset/;
+Hong Kong Polytechnic University/UC Berkeley;UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://advdataset2019.wixsite.com/urbanloco;Localization data in challenging urban environments
+Max Planck Society for the Advancement of Science;The Cityscapes Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://www.cityscapes-dataset.com;The dataset contains data from 50 different cities and focusses on semantic understanding of urban scenes. Download requires an account.
+Woven Planet Holdings, Inc;Level 5 Prediction Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://level-5.global/data/prediction/;The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account.
+Woven Planet Holdings, Inc.;Level 5 Perception Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://level-5.global/data/perception/;The dataset contains raw lidar and camera data. Download requires an account.
+Motional;nuScenes: A multimodal dataset for autonomous driving;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://www.nuscenes.org/nuscenes;The dataset contains manually curated scenes from diverse driving situations. Download requires an account.
+Motional;nuImages;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://www.nuscenes.org/nuimages;The datasets complements the nuScenes dataset by providing a manually curated set of 2D annotated images. Download requires an account.
+Universität Ulm;DENSE datasets;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets/;The datasets contains scenes in adverse and challenging weather conditions
+Baidu;ApolloScape;Dataset;Autonomous Driving;partially;no;n/a;n/a;https://apolloscape.auto;
+ETH Zürich;ACDC Dataset;Dataset;Autonomous Driving;partially;no;n/a;n/a;https://acdc.vision.ee.ethz.ch;ACDC is the Adverse Conditions Dataset with Correspondences and supports both standard and uncertainty-aware semantic segmentation
+ULB Darmstadt;ELN Finder;Catalogue;Interdisciplinary;yes;no;n/a;n/a;https://eln-finder.ulb.tu-darmstadt.de;Overview of currently available ELN software solutions. Still in development.
