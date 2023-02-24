@@ -21,7 +21,8 @@ FID Karten;Fachinformationsdienst Kartographie und Geobasisdaten;Bibliography/Re
 FID Move;Fachinformationsdienst Mobilitäts- und Verkehrsforschung;Bibliography/Repository;Transportation;;;;;https://fid-move.de;Repository and search interface to various sources relevant to the field of mobility and transport research
 FID Move;FID Move Repositorium;Repository;Transportation;yes;yes;;;https://data.fid-move.de;Research data repository for the field of mobility and transport research
 FID Material Science;Fachinformationsdienst Materialwissenschaft und Werkstofftechnik;Catalogue;Materials Science;;;;;https://www.materials-science.info;Integrated interface to MaterialHub and TIB search portal, service is currently being set up
-NFDI4Ing/TIB;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;n/a;n/a;https://terminology.nfdi4ing.de;Repository for engineering ontologies
+NFDI4Ing;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;n/a;n/a;https://terminology.nfdi4ing.de;Repository for engineering ontologies
+TIB;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;n/a;n/a;https://terminology.nfdi4ing.de;Repository for engineering ontologies
 BioPortal;MatPortal;Terminology Service;Materials Science;;yes;n/a;n/a;https://matportal.org;Ontology repository for the material sciences
 Eric Meier;The Wood Database;Catalogue;Materials Science;yes;;n/a;n/a;https://www.wood-database.com;Privately curated online database of various wood species and their characteristics, usage, etc.
 SLUB;Material Hub;Repository;Materials Science;yes;;free;;https://www.materialhub.de;Materials research repository with partners from science and industry
@@ -44,7 +45,8 @@ NIH National Library of Medicine;PubChem;Repository;Chemistry;yes;yes;free;n/a;h
 Vilnius University;Crystallography Open Database;Repository;Crystallography;yes;yes;;;https://www.crystallography.net/cod;
 Vilnius University;Theoretical Crystallography Open Database;Repository;Crystallography;yes;yes;;;https://www.crystallography.net/tcod/;
 Geoforschungszentrum Potsdam;GFZ Data Services;Repository;Earth and environmental science;yes;;;;https://dataservices.gfz-potsdam.de;Research data repository for the earth and environmental sciences, accepts research data as well as scientific software
-AWI/MARUM;PANGAEA;Repository;Earth and environmental science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
+AWI;PANGAEA;Repository;Earth and environmental science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
+MARUM;PANGAEA;Repository;Earth and environmental science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
 OEP Community;Open Energy Platform;Database;Energy;yes;yes;n/a;;https://openenergy-platform.org;Collection of tools for and information about energy system research
 OEP Community;Open Energy Ontology;Ontology;Energy;yes;;n/a;;https://openenergy-platform.org/ontology/;Developed as part of the Open Energy Platform
 NFDI4Ing;Metadata4Ing;Ontology;Engineering;yes;;n/a;n/a;https://w3id.org/nfdi4ing/metadata4ing;Ontology focused on the semantic description of research data in the engineering sciences
@@ -55,7 +57,8 @@ Schloss Dagstuhl – Leibniz-Zentrum für Informatik;dblp computer science bibli
 FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur;zbMATH Open;Bibliography;Mathematics;yes;yes;n/a;n/a;https://zbmath.org;Abstracting and reviewing service in pure and applied mathematics, also covers applications in the natural sciences, computer science, economics and engineering
 FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur;swMATH;Database;Mathematics;yes;;n/a;n/a;https://swmath.org;Database about mathematical software
 U.S. Department of Energy Office of Scientific and Technical Information;DOE CODE;Institutional Repository;Software;;yes;;;https://www.osti.gov/doecode;Repository and archive for DOE funded software (business and scientific)
-NIST/CHIMaD;PFHub;Community Repository;Materials Science;yes;;;;https://pages.nist.gov/pfhub;Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources
+NIST;PFHub;Community Repository;Materials Science;yes;;;;https://pages.nist.gov/pfhub;Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources
+CHIMaD;PFHub;Community Repository;Materials Science;yes;;;;https://pages.nist.gov/pfhub;Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources
 Dryad;Dryad Digital Repository;Repository;Interdisciplinary;yes;yes;120$;300;https://datadryad.org;Curated general-purpose repository, software submissions are published on Zenodo
 Digital Science;figshare;Repository;Interdisciplinary;yes;yes;free;20;https://figshare.com;
 CERN;Zenodo;Repository;Interdisciplinary;yes;yes;donations encouraged;50;https://zenodo.org;
@@ -70,7 +73,8 @@ Oxford University;Oxford RobotCar Dataset;Dataset;Autonomous Driving;yes;no;n/a;
 Oxford University;Oxford Radar RobotCar Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://oxford-robotics-institute.github.io/radar-robotcar-dataset/;Radar extension to the Oxford RobotCar Dataset.
 Ford Motor Company;Ford Autonomous Vehicle Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://avdata.ford.com;The dataset contains data from multiple vehicles in a variety of driving and weather conditions
 University of Technology of Belfort-Montbéliard;EU Long-term Dataset with Multiple Sensors for Autonomous Driving;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://epan-utbm.github.io/utbm_robocar_dataset/;
-Hong Kong Polytechnic University/UC Berkeley;UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://advdataset2019.wixsite.com/urbanloco;Localization data in challenging urban environments
+Hong Kong Polytechnic University;UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://advdataset2019.wixsite.com/urbanloco;Localization data in challenging urban environments
+UC Berkeley;UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://advdataset2019.wixsite.com/urbanloco;Localization data in challenging urban environments
 Max Planck Society for the Advancement of Science;The Cityscapes Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://www.cityscapes-dataset.com;The dataset contains data from 50 different cities and focusses on semantic understanding of urban scenes. Download requires an account.
 Woven Planet Holdings, Inc;Level 5 Prediction Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://level-5.global/data/prediction/;The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account.
 Woven Planet Holdings, Inc.;Level 5 Perception Dataset;Dataset;Autonomous Driving;yes;no;n/a;n/a;https://level-5.global/data/perception/;The dataset contains raw lidar and camera data. Download requires an account.
