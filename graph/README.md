@@ -94,7 +94,7 @@ All object properties are mutually disjoint.
 
 ## Comments
 
-The current version of the Data Collections Explorer has a comment field. This is replicated as an annotation: the `owl:annotationSource` is the host, whith the `owl:annotationTarget` being the service this comment is valid for.
+The current version of the Data Collections Explorer has a comment field. This is replicated as an annotation: the `owl:annotatedSource` is the host, whith the `owl:annotatedTarget` being the service this comment is valid for.
 
 ## How to access it
 
