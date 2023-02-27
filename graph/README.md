@@ -23,6 +23,8 @@ The structure is as follows:
         - Encyclopedia
         - Ontology
         - Repository
+            - Community Repository
+            - Institutional Repository
         - Terminology_Service
     - Discrete
         - Dataset
