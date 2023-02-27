@@ -215,6 +215,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Community_Repository -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Community_Repository">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Insitutional_Repository"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Database -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Database">
@@ -273,6 +282,14 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ServiceType"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Insitutional_Repository -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Insitutional_Repository">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
     </owl:Class>
     
 

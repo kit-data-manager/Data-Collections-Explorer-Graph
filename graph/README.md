@@ -23,6 +23,8 @@ The structure is as follows:
         - Encyclopedia
         - Ontology
         - Repository
+            - Community Repository
+            - Institutional Repository
         - Terminology_Service
     - Discrete
         - Dataset
@@ -99,7 +101,7 @@ All object properties are mutually disjoint.
 
 ## Comments
 
-The current version of the Data Collections Explorer has a comment field. This is replicated as an annotation: the `owl:annotationSource` is the host, whith the `owl:annotationTarget` being the service this comment is valid for.
+The current version of the Data Collections Explorer has a comment field. This is replicated as an annotation: the `owl:annotatedSource` is the host, with the `owl:annotatedTarget` being the service this comment is valid for; The `owl:annotatedProperty` is `hostsService` and the comment itself is an `rdfs:comment`.
 
 ## How to access it
 
