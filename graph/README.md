@@ -59,6 +59,11 @@ All data properties are mutually disjoint.
     - Range: `xsd:anyURI`
     - Characteristic: Functional
 
+- hasPublicationCost
+    - Domain: Service class
+    - Range: `xsd:string` (for now; there are multiple non-numeric entries)
+    - Characteristic: Functional
+
 - hasServiceURL
     - Domain: Service class
     - Range: `xsd:anyURI`
