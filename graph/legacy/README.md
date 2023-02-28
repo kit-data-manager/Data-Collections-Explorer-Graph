@@ -15,4 +15,4 @@ The original dataset in `Repositories.csv` is imported into the graph using the 
 
 These are the current transformation rules:
 - Import the Hosting Institution as an Individual of Type Host and sets the hostsService object property.
-- Import the Service as an Individual of Type Service and set object properties hasSubjectArea and isHostedBy, as well as data properties hasAPI, hasDatasetSizeLimit, hasServiceURL and isOpenAccess.
+- Import the Service as an Individual of Type Service and set object properties hasSubjectArea and isHostedBy, as well as data properties hasAPI, hasDatasetSizeLimit, hasServiceURL and isOpenAccess. Ensure consistent encoding by setting `mm:snakeCaseEncoding` where necessary.
