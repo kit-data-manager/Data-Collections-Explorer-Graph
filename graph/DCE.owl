@@ -219,7 +219,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Community_Repository">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Insitutional_Repository"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Institutional_Repository"/>
     </owl:Class>
     
 
@@ -286,9 +286,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Insitutional_Repository -->
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Institutional_Repository -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Insitutional_Repository">
+    <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Institutional_Repository">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
     </owl:Class>
     
