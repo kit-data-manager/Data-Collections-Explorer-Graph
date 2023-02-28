@@ -11,7 +11,7 @@ Before importing the data into the graph, the following was carried out in the E
 
 ## Transformation Rules
 
-The original dataset in `Repositories.csv` is imported into the graph using the Cellfie plugin in Protégé. Cellfie transformation rules are saved as JSON files. The syntax for these rules is explained in the [MappingMaster wiki](https://github.com/protegeproject/mapping-master/wiki/MappingMasterDSL).
+The original dataset in `Repositories.csv` has been split into two files -- `Repositories.csv` and `Datasets.csv` --, corresponding to the two worksheets in the Excel document `Repositories.xlsx`. The data in this Excel document is imported into the graph using the Cellfie plugin in Protégé. Cellfie transformation rules are saved as JSON files. The syntax for these rules is explained in the [MappingMaster wiki](https://github.com/protegeproject/mapping-master/wiki/MappingMasterDSL).
 
 These are the current transformation rules:
 - Import the Hosting Institution as an Individual of Type Host and sets the hostsService object property.
