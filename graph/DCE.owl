@@ -373,6 +373,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering">
@@ -565,6 +573,13 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Aeronautics"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
         </owl:distinctMembers>
     </rdf:Description>
@@ -663,6 +678,13 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
         </owl:distinctMembers>
     </rdf:Description>
@@ -748,6 +770,13 @@
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
@@ -845,6 +874,90 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Vision"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Crystallography"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Earth_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Energy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Environmental_Science"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Hydraulic_Engineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Mathematics"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
         </owl:distinctMembers>
     </rdf:Description>

@@ -18,6 +18,7 @@ The structure is as follows:
         - Archive
         - Bibliography
         - Catalogue
+        - Chemistry
         - Database
         - Digital_Library
         - Encyclopedia
