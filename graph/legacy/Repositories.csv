@@ -51,9 +51,12 @@ Organic Syntheses, Inc.;Organic Syntheses;Catalogue;Chemistry;yes;;n/a;n/a;http:
 NIH National Library of Medicine;PubChem;Repository;Chemistry;yes;yes;free;n/a;https://pubchem.ncbi.nlm.nih.gov;Database with information about chemical structures, physical and chemical properties, toxicity, etc.
 Vilnius University;Crystallography Open Database;Repository;Crystallography;yes;yes;;;https://www.crystallography.net/cod;
 Vilnius University;Theoretical Crystallography Open Database;Repository;Crystallography;yes;yes;;;https://www.crystallography.net/tcod/;
-Geoforschungszentrum Potsdam;GFZ Data Services;Repository;Earth and environmental science;yes;;;;https://dataservices.gfz-potsdam.de;Research data repository for the earth and environmental sciences, accepts research data as well as scientific software
-AWI;PANGAEA;Repository;Earth and environmental science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
-MARUM;PANGAEA;Repository;Earth and environmental science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
+Geoforschungszentrum Potsdam;GFZ Data Services;Repository;Eearth Science;yes;;;;https://dataservices.gfz-potsdam.de;Research data repository for the earth and environmental sciences, accepts research data as well as scientific software
+Geoforschungszentrum Potsdam;GFZ Data Services;Repository;Environmental Science;yes;;;;https://dataservices.gfz-potsdam.de;Research data repository for the earth and environmental sciences, accepts research data as well as scientific software
+AWI;PANGAEA;Repository;Earth Science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
+AWI;PANGAEA;Repository;Environmental Science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
+MARUM;PANGAEA;Repository;Earth Science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
+MARUM;PANGAEA;Repository;Environmental Science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
 OEP Community;Open Energy Platform;Database;Energy;yes;yes;n/a;;https://openenergy-platform.org;Collection of tools for and information about energy system research
 OEP Community;Open Energy Ontology;Ontology;Energy;yes;;n/a;;https://openenergy-platform.org/ontology/;Developed as part of the Open Energy Platform
 NFDI4Ing;Metadata4Ing;Ontology;Engineering;yes;;n/a;n/a;https://w3id.org/nfdi4ing/metadata4ing;Ontology focused on the semantic description of research data in the engineering sciences
