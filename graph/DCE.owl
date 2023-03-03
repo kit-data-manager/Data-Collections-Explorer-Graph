@@ -1369,7 +1369,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
-        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc"/>
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account.</rdfs:comment>
@@ -2636,20 +2635,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc">
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
-        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc. -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc.">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Perception_Dataset"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset"/>
     </owl:NamedIndividual>
     
 
