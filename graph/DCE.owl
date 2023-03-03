@@ -613,10 +613,6 @@
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.crystallography.net/cod</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vilnius University</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystallography Open Database</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -647,10 +643,6 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Stuttgart"/>
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://darus.uni-stuttgart.de</hasServiceURL>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universität Stuttgart</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DaRUS</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -682,10 +674,6 @@
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.depositonce.tu-berlin.de</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TU Berlin</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DepositOnce</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -1050,10 +1038,6 @@
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://gfzpublic.gfz-potsdam.de</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geoforschungszentrum Potsdam</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFZpublic</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -1324,10 +1308,6 @@
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://materialsweb.org</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Florida</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materialsweb</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -1672,10 +1652,6 @@
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Materials_Science"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Chicago"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pppdb.uchicago.edu</hasServiceURL>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Chicago</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polymer Property Predictor and Database</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -1710,10 +1686,6 @@
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://slub.qucosa.de</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLUB</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qucosa</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -1761,10 +1733,6 @@
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://publications.rwth-aachen.de</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWTH Aachen</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWTH Publications</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -1899,10 +1867,6 @@
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free (up to 2TB/year)</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://tudatalib.ulb.tu-darmstadt.de</hasServiceURL>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TU Darmstadt</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TUdatalib</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -1970,10 +1934,6 @@
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.crystallography.net/tcod/</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vilnius University</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theoretical Crystallography Open Database</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -2072,10 +2032,6 @@
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">donations encouraged</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://zenodo.org</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CERN</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zenodo</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -2145,10 +2101,6 @@
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://figshare.com</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital Science</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">figshare</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
