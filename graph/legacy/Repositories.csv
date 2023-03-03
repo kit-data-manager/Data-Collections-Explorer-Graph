@@ -1,4 +1,4 @@
-Hosting Institution;Name;Type;Subject area;Open Access;API;Publication Cost;Dataset size limit (GB);URL;Comment
+;Hosting Institution;Name;Type;Subject area;Open Access;API;Publication Cost;Dataset size limit (GB);URL;Comment
 BAM;BAM-Publica;Institutional Repository;Interdisciplinary;partially;;;;https://opus4.kobv.de/opus4-bam/home;Bibliography and institutional repository for publications by BAM scientists
 BAM;BAM-Publica;Bibliography;Interdisciplinary;partially;;;;https://opus4.kobv.de/opus4-bam/home;Bibliography and institutional repository for publications by BAM scientists
 CERN;CERN Document Server;Bibliography;Interdisciplinary;partially;;;;https://cds.cern.ch;CERN and HEP articles, reports, etc.
@@ -26,17 +26,17 @@ FID Move;Fachinformationsdienst Mobilitäts- und Verkehrsforschung;Bibliography;
 FID Move;Fachinformationsdienst Mobilitäts- und Verkehrsforschung;Repository;Transportation;;;;;https://fid-move.de;Repository and search interface to various sources relevant to the field of mobility and transport research
 FID Move;FID Move Repositorium;Repository;Transportation;yes;yes;;;https://data.fid-move.de;Research data repository for the field of mobility and transport research
 FID Material Science;Fachinformationsdienst Materialwissenschaft und Werkstofftechnik;Catalogue;Materials Science;;;;;https://www.materials-science.info;Integrated interface to MaterialHub and TIB search portal, service is currently being set up
-NFDI4Ing;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;n/a;n/a;https://terminology.nfdi4ing.de;Repository for engineering ontologies
-TIB;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;n/a;n/a;https://terminology.nfdi4ing.de;Repository for engineering ontologies
-BioPortal;MatPortal;Terminology Service;Materials Science;;yes;n/a;n/a;https://matportal.org;Ontology repository for the material sciences
-Eric Meier;The Wood Database;Catalogue;Materials Science;yes;;n/a;n/a;https://www.wood-database.com;Privately curated online database of various wood species and their characteristics, usage, etc.
+NFDI4Ing;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;;;https://terminology.nfdi4ing.de;Repository for engineering ontologies
+TIB;NFDI4Ing Terminology Service;Terminology Service;Interdisciplinary;;yes;;;https://terminology.nfdi4ing.de;Repository for engineering ontologies
+BioPortal;MatPortal;Terminology Service;Materials Science;;yes;;;https://matportal.org;Ontology repository for the material sciences
+Eric Meier;The Wood Database;Catalogue;Materials Science;yes;;;;https://www.wood-database.com;Privately curated online database of various wood species and their characteristics, usage, etc.
 SLUB;Material Hub;Repository;Materials Science;yes;;free;;https://www.materialhub.de;Materials research repository with partners from science and industry
 FAIR DI e.V.;NOMAD Novel Materials Discovery;Encyclopedia;Materials Science;yes;yes;free;32;https://nomad-lab.eu;Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials
 FAIR DI e.V.;NOMAD Novel Materials Discovery;Repository;Materials Science;yes;yes;free;32;https://nomad-lab.eu;Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials
 FAIR DI e.V.;NOMAD Novel Materials Discovery;Archive;Materials Science;yes;yes;free;32;https://nomad-lab.eu;Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials
-NIST;Database of Novel and Emerging Adsorbent Materials;Catalogue;Materials Science;;yes;n/a;n/a;https://adsorption.nist.gov/isodb/index.php;Database of adsorption characteristics of novel and emerging materials, includes isotherm visualisation
-University of Chicago;Polymer Property Predictor and Database;Database;Materials Science;;;n/a;n/a;https://pppdb.uchicago.edu;
-Northwestern University;The Open Quantum Materials Database;Database;Materials Science;yes;yes;n/a;n/a;http://oqmd.org;Database of DFT-calculated thermodynamic and structural material properties
+NIST;Database of Novel and Emerging Adsorbent Materials;Catalogue;Materials Science;;yes;;;https://adsorption.nist.gov/isodb/index.php;Database of adsorption characteristics of novel and emerging materials, includes isotherm visualisation
+University of Chicago;Polymer Property Predictor and Database;Database;Materials Science;;;;;https://pppdb.uchicago.edu;
+Northwestern University;The Open Quantum Materials Database;Database;Materials Science;yes;yes;;;http://oqmd.org;Database of DFT-calculated thermodynamic and structural material properties
 KIM Project;openKIM;Repository;Materials Science;yes;yes;;;https://openkim.org;Curated repository of interatomic potentials and framework to facilitate molecular simulation.
 The Materials Project;Materials Project;Database;Materials Science;yes;yes;;;https://materialsproject.org;Database of computed information about materials, both known and predicted.
 Materials Consortia;OPTIMADE;Database;Materials Science;yes;yes;;;https://www.optimade.org;OPTIMADE is the Open Database Integration for Materials Design
@@ -44,11 +44,11 @@ Technical University of Denmark;Computational Materials Repository;Repository;Ma
 University of Florida;Materialsweb;Database;Materials Science;yes;yes;;;https://materialsweb.org;
 National University of Singapore;2D Materials Encyclopedia;Database;Materials Science;yes;;;;http://2dmatpedia.org;Collection of (computed) two dimensional materials
 Linköping University;Open Materials Database;Database;Materials Science;yes;yes;free;;https://openmaterialsdb.se;Database of (computational) materials properties
-University of Alabama;Heusler Database;Database;Materials Science;yes;no;n/a;;http://heusleralloys.mint.ua.edu;Database of (calculated) properties of Heusler alloys
+University of Alabama;Heusler Database;Database;Materials Science;yes;no;;;http://heusleralloys.mint.ua.edu;Database of (calculated) properties of Heusler alloys
 RSC;ChemSpider;Repository;Chemistry;yes;yes;;;https://www.chemspider.com;Chemical structure database, access by API requires an account with RSC
-Open Reaction Databse Project;Open Reaction Database;Community Repository;Chemistry;yes;;free;n/a;https://open-reaction-database.org;Chemical reaction database of single-step organic reactions, still in development (12/2021)
-Organic Syntheses, Inc.;Organic Syntheses;Catalogue;Chemistry;yes;;n/a;n/a;http://www.orgsyn.org;Catalogue of reliable preparations of organic compounds
-NIH National Library of Medicine;PubChem;Repository;Chemistry;yes;yes;free;n/a;https://pubchem.ncbi.nlm.nih.gov;Database with information about chemical structures, physical and chemical properties, toxicity, etc.
+Open Reaction Databse Project;Open Reaction Database;Community Repository;Chemistry;yes;;free;;https://open-reaction-database.org;Chemical reaction database of single-step organic reactions, still in development (12/2021)
+Organic Syntheses, Inc.;Organic Syntheses;Catalogue;Chemistry;yes;;;;http://www.orgsyn.org;Catalogue of reliable preparations of organic compounds
+NIH National Library of Medicine;PubChem;Repository;Chemistry;yes;yes;free;;https://pubchem.ncbi.nlm.nih.gov;Database with information about chemical structures, physical and chemical properties, toxicity, etc.
 Vilnius University;Crystallography Open Database;Repository;Crystallography;yes;yes;;;https://www.crystallography.net/cod;
 Vilnius University;Theoretical Crystallography Open Database;Repository;Crystallography;yes;yes;;;https://www.crystallography.net/tcod/;
 Geoforschungszentrum Potsdam;GFZ Data Services;Repository;Eearth Science;yes;;;;https://dataservices.gfz-potsdam.de;Research data repository for the earth and environmental sciences, accepts research data as well as scientific software
@@ -57,15 +57,15 @@ AWI;PANGAEA;Repository;Earth Science;yes;yes;free, but a donation of 500€ is w
 AWI;PANGAEA;Repository;Environmental Science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
 MARUM;PANGAEA;Repository;Earth Science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
 MARUM;PANGAEA;Repository;Environmental Science;yes;yes;free, but a donation of 500€ is welcome;;https://www.pangaea.de;Repository and archive for georeferenced data from earth system research
-OEP Community;Open Energy Platform;Database;Energy;yes;yes;n/a;;https://openenergy-platform.org;Collection of tools for and information about energy system research
-OEP Community;Open Energy Ontology;Ontology;Energy;yes;;n/a;;https://openenergy-platform.org/ontology/;Developed as part of the Open Energy Platform
-NFDI4Ing;Metadata4Ing;Ontology;Engineering;yes;;n/a;n/a;https://w3id.org/nfdi4ing/metadata4ing;Ontology focused on the semantic description of research data in the engineering sciences
+OEP Community;Open Energy Platform;Database;Energy;yes;yes;;;https://openenergy-platform.org;Collection of tools for and information about energy system research
+OEP Community;Open Energy Ontology;Ontology;Energy;yes;;;;https://openenergy-platform.org/ontology/;Developed as part of the Open Energy Platform
+NFDI4Ing;Metadata4Ing;Ontology;Engineering;yes;;;;https://w3id.org/nfdi4ing/metadata4ing;Ontology focused on the semantic description of research data in the engineering sciences
 Bundesamt für Wasserbau;HENRY Hydraulic Engineering Repository;Repository;Hydraulic Engineering;yes;;free;;https://henry.baw.de;Also provides an archive for reports and scientific publications from BAW and WSV
 Open Engineering;engrXiv;Repository;Engineering;yes;;free;;https://engrxiv.org;Eprint server for engineering
-Cranfield University;AERADE Reports Archive;Archive;Aeronautics;yes;;n/a;n/a;https://reports.aerade.cranfield.ac.uk;Archive of historically significant reports from the Aeronautical Research Council and the National Advisory Commitee for Aeronautics
-Schloss Dagstuhl – Leibniz-Zentrum für Informatik;dblp computer science bibliography;Bibliography;Computer Science;yes;yes;n/a;n/a;https://dblp.org;Bibliography focused on computer science journals and proceedings
-FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur;zbMATH Open;Bibliography;Mathematics;yes;yes;n/a;n/a;https://zbmath.org;Abstracting and reviewing service in pure and applied mathematics, also covers applications in the natural sciences, computer science, economics and engineering
-FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur;swMATH;Database;Mathematics;yes;;n/a;n/a;https://swmath.org;Database about mathematical software
+Cranfield University;AERADE Reports Archive;Archive;Aeronautics;yes;;;;https://reports.aerade.cranfield.ac.uk;Archive of historically significant reports from the Aeronautical Research Council and the National Advisory Commitee for Aeronautics
+Schloss Dagstuhl – Leibniz-Zentrum für Informatik;dblp computer science bibliography;Bibliography;Computer Science;yes;yes;;;https://dblp.org;Bibliography focused on computer science journals and proceedings
+FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur;zbMATH Open;Bibliography;Mathematics;yes;yes;;;https://zbmath.org;Abstracting and reviewing service in pure and applied mathematics, also covers applications in the natural sciences, computer science, economics and engineering
+FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur;swMATH;Database;Mathematics;yes;;;;https://swmath.org;Database about mathematical software
 U.S. Department of Energy Office of Scientific and Technical Information;DOE CODE;Institutional Repository;Software;;yes;;;https://www.osti.gov/doecode;Repository and archive for DOE funded software (business and scientific)
 NIST;PFHub;Community Repository;Materials Science;yes;;;;https://pages.nist.gov/pfhub;Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources
 CHIMaD;PFHub;Community Repository;Materials Science;yes;;;;https://pages.nist.gov/pfhub;Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources
@@ -78,4 +78,4 @@ SciELO Scientific Electronic Library Online;SciELO Data;Repository;Interdiscipli
 Centre pour la Communication Scientifique Directe;HAL science ouverte;Repository;Interdisciplinary;yes;yes;;0.2;https://hal.archives-ouvertes.fr;Also provides access to other repositories of french universities and research centers
 Japan Science and Technology Agency;J-STAGE;Bibliography;Interdisciplinary;partially;no;;;https://www.jstage.jst.go.jp/browse/-char/en;Electronic publishing platform for academic institutions from Japan
 Japan Science and Technology Agency;J-STAGE;Digital Library;Interdisciplinary;partially;no;;;https://www.jstage.jst.go.jp/browse/-char/en;Electronic publishing platform for academic institutions from Japan
-ULB Darmstadt;ELN Finder;Catalogue;Interdisciplinary;yes;no;n/a;n/a;https://eln-finder.ulb.tu-darmstadt.de;Overview of currently available ELN software solutions. Still in development.
+ULB Darmstadt;ELN Finder;Catalogue;Interdisciplinary;yes;no;;;https://eln-finder.ulb.tu-darmstadt.de;Overview of currently available ELN software solutions. Still in development.
