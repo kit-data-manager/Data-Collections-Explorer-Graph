@@ -446,6 +446,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Audi_AG">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#A2D2_–_Audi_Autonomous_Driving_Dataset"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.audi.de</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -830,6 +831,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#ETH_Zürich">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ACDC_Dataset"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ethz.ch</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -1065,6 +1067,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Motor_Company">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Autonomous_Vehicle_Dataset"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ford.com</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -1239,6 +1242,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Hong_Kong_Polytechnic_University">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.polyu.edu.hk</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -1497,6 +1501,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Max_Planck_Society_for_the_Advancement_of_Science">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#The_Cityscapes_Dataset"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.mpi-inf.mpg.de</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -1548,6 +1553,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#nuImages"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#nuScenes_–_A_multimodal_dataset_for_autonomous_driving"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://motional.com</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -1840,6 +1846,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_Radar_RobotCar_Dataset"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_RobotCar_Dataset"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ori.ox.ac.uk</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -2262,6 +2269,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#UC_Berkeley">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.berkeley.edu</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -2311,6 +2319,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Technology_of_Belfort-Montbéliard">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#EU_Long-term_Dataset_with_Multiple_Sensors_for_Autonomous_Driving"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.utbm.fr</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -2320,6 +2329,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Bonn">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SemanticKITTI"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uni-bonn.de</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -2350,6 +2360,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Ulm">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#DENSE_datasets"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uni-ulm.de</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -2573,6 +2584,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Vision_Group,_Department_of_Computer_Science,_University_of_Tübingen">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#The_KITTI_Vision_Benchmark_Suite"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cvlibs.net</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -2641,6 +2653,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Perception_Dataset"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.woven-planet.global</hasHostURL>
     </owl:NamedIndividual>
     
 
