@@ -437,10 +437,6 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Baidu"/>
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baidu</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ApolloScape</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -846,10 +842,6 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Technology_of_Belfort-Montbéliard"/>
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Technology of Belfort-Montbéliard</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU Long-term Dataset with Multiple Sensors for Autonomous Driving</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
