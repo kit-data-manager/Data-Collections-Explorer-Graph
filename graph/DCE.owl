@@ -378,6 +378,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#ACDC_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#ACDC_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ETH_Zürich"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACDC is the Adverse Conditions Dataset with Correspondences and supports both standard and uncertainty-aware semantic segmentation</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETH Zürich</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACDC Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#AERADE_Reports_Archive -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#AERADE_Reports_Archive">
@@ -409,6 +425,31 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Aeronautics">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#ApolloScape -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#ApolloScape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Baidu"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baidu</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ApolloScape</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Audi_AG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Audi_AG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#A2D2_–_Audi_Autonomous_Driving_Dataset"/>
     </owl:NamedIndividual>
     
 
@@ -445,6 +486,15 @@
         <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
         <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAM</owl:annotatedSource>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAM-Publica</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Baidu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Baidu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ApolloScape"/>
     </owl:NamedIndividual>
     
 
@@ -625,6 +675,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#DENSE_datasets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#DENSE_datasets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Ulm"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The datasets contains scenes in adverse and challenging weather conditions</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universität Ulm</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DENSE datasets</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#DOE_CODE -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#DOE_CODE">
@@ -759,6 +825,31 @@
         <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
         <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULB Darmstadt</owl:annotatedSource>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ELN Finder</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#ETH_Zürich -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#ETH_Zürich">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ACDC_Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#EU_Long-term_Dataset_with_Multiple_Sensors_for_Autonomous_Driving -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#EU_Long-term_Dataset_with_Multiple_Sensors_for_Autonomous_Driving">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Technology_of_Belfort-Montbéliard"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Technology of Belfort-Montbéliard</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU Long-term Dataset with Multiple Sensors for Autonomous Driving</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -961,6 +1052,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Autonomous_Vehicle_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Autonomous_Vehicle_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Motor_Company"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains data from multiple vehicles in a variety of driving and weather conditions</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ford Motor Company</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ford Autonomous Vehicle Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Motor_Company -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Motor_Company">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Autonomous_Vehicle_Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Fordatis -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Fordatis">
@@ -1126,6 +1242,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Hong_Kong_Polytechnic_University -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Hong_Kong_Polytechnic_University">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Hydraulic_Engineering -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Hydraulic_Engineering">
@@ -1227,6 +1352,38 @@
         <hasDatasetSizeLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180</hasDatasetSizeLimit>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://bwdatadiss.kit.edu</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Perception_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Perception_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc."/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains raw lidar and camera data. Download requires an account.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woven Planet Holdings, Inc.</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Level 5 Perception Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woven Planet Holdings, Inc</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Level 5 Prediction Dataset</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -1344,6 +1501,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Max_Planck_Society_for_the_Advancement_of_Science -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Max_Planck_Society_for_the_Advancement_of_Science">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#The_Cityscapes_Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Metadata4Ing -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Metadata4Ing">
@@ -1381,6 +1547,16 @@
         <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
         <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FID Montan, Bergbau, Hüttenwesen</owl:annotatedSource>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montanportal</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Motional -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Motional">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#nuImages"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#nuScenes_–_A_multimodal_dataset_for_autonomous_driving"/>
     </owl:NamedIndividual>
     
 
@@ -1635,6 +1811,48 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_Radar_RobotCar_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_Radar_RobotCar_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_University"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radar extension to the Oxford RobotCar Dataset.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxford University</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxford Radar RobotCar Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_RobotCar_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_RobotCar_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_University"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains over 100 repetitions of the same fixed route. A SDK is provided.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxford University</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxford RobotCar Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_University -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_University">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_Radar_RobotCar_Dataset"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_RobotCar_Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#PANGAEA -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#PANGAEA">
@@ -1831,6 +2049,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#SemanticKITTI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#SemanticKITTI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Bonn"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dataset based on the KITTI Vision Benchmark for semantic scene understanding.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universität Bonn</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SemanticKITTI</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Software -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Software">
@@ -1923,6 +2157,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#The_Cityscapes_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#The_Cityscapes_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Max_Planck_Society_for_the_Advancement_of_Science"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains data from 50 different cities and focusses on semantic understanding of urban scenes. Download requires an account.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Max Planck Society for the Advancement of Science</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cityscapes Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#The_KITTI_Vision_Benchmark_Suite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#The_KITTI_Vision_Benchmark_Suite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Vision"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Vision_Group,_Department_of_Computer_Science,_University_of_Tübingen"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Novel computer vision benchmarks. Access to the data requires an account</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autonomous Vision Group, Department of Computer Science, University of Tübingen</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The KITTI Vision Benchmark Suite</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#The_Materials_Project -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#The_Materials_Project">
@@ -2000,6 +2266,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#UC_Berkeley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#UC_Berkeley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#ULB_Darmstadt -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#ULB_Darmstadt">
@@ -2040,6 +2315,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Technology_of_Belfort-Montbéliard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Technology_of_Belfort-Montbéliard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#EU_Long-term_Dataset_with_Multiple_Sensors_for_Autonomous_Driving"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Bonn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Bonn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SemanticKITTI"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Hannover -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Hannover">
@@ -2057,6 +2350,15 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#DaRUS"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uni-stuttgart.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Ulm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Ulm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#DENSE_datasets"/>
     </owl:NamedIndividual>
     
 
@@ -2173,6 +2475,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#nuImages -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#nuImages">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Motional"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The datasets complements the nuScenes dataset by providing a manually curated set of 2D annotated images. Download requires an account.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motional</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuImages</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#openKIM -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#openKIM">
@@ -2243,6 +2561,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#A2D2_–_Audi_Autonomous_Driving_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#A2D2_–_Audi_Autonomous_Driving_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Audi_AG"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Labeled dataset from a car equipped with a multimodal sensor suite. The dataset features 2D image segmentation, 3D point clouds and bounding boxes as well as vehicle bus data.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Audi AG</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2D2 – Audi Autonomous Driving Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Vision_Group,_Department_of_Computer_Science,_University_of_Tübingen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Vision_Group,_Department_of_Computer_Science,_University_of_Tübingen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#The_KITTI_Vision_Benchmark_Suite"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Montan,_Bergbau,_Hüttenwesen -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Montan,_Bergbau,_Hüttenwesen">
@@ -2279,6 +2622,58 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#dblp_computer_science_bibliography"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.dagstuhl.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Hong_Kong_Polytechnic_University"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#UC_Berkeley"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localization data in challenging urban environments</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hong Kong Polytechnic University</owl:annotatedSource>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UC Berkeley</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UrbanLoco – A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Perception_Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#nuScenes_–_A_multimodal_dataset_for_autonomous_driving -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#nuScenes_–_A_multimodal_dataset_for_autonomous_driving">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Motional"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains manually curated scenes from diverse driving situations. Download requires an account.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motional</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuScenes – A multimodal dataset for autonomous driving</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
