@@ -434,9 +434,19 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#ApolloScape">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
-        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Baidu"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Apollo_Auto"/>
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially</isOpenAccess>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Apollo_Auto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Apollo_Auto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ApolloScape"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.apollo.auto</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -483,15 +493,6 @@
         <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
         <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAM</owl:annotatedSource>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAM-Publica</owl:annotatedTarget>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Baidu -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Baidu">
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
-        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ApolloScape"/>
     </owl:NamedIndividual>
     
 
