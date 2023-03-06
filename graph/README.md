@@ -13,16 +13,19 @@ The structure is as follows:
 - SubjectArea
     - Instances: should be provided by a controlled vocabulary in the future
 - ServiceType
-    - Two subclasses: Collection and Discrete. "Collection" encompasses everything that comprises more than one dataset, "Discrete" contains only the subclass "Dataset". Both classes "Collection" and "Discrete" are disjoint; all of "Collection's" subclasses are mutually disjoint.
+    - Two subclasses: Collection and Discrete. "Collection" encompasses everything that comprises more than one dataset, "Discrete" contains only the subclass "Dataset". Both classes "Collection" and "Discrete" are disjoint.
     - Collection:
         - Archive
         - Bibliography
         - Catalogue
+        - Chemistry
         - Database
         - Digital_Library
         - Encyclopedia
         - Ontology
         - Repository
+            - Community Repository
+            - Institutional Repository
         - Terminology_Service
     - Discrete
         - Dataset
@@ -57,6 +60,11 @@ All data properties are mutually disjoint.
 - hasHostURL
     - Domain: Host class
     - Range: `xsd:anyURI`
+    - Characteristic: Functional
+
+- hasPublicationCost
+    - Domain: Service class
+    - Range: `xsd:string` (for now; there are multiple non-numeric entries)
     - Characteristic: Functional
 
 - hasServiceURL
