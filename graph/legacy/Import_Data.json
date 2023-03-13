@@ -1,6 +1,16 @@
 {
   "Collections": [
     {
+      "sheetName": "Repositories",
+      "startColumn": "A",
+      "endColumn": "B",
+      "startRow": "2",
+      "endRow": "+",
+      "comment": "",
+      "rule": "Individual:\t@A*(mm:snakeCaseEncode)\nTypes:\tHost\nFacts:\thostsService @B*(mm:snakeCaseEncode)",
+      "active": true
+    },
+    {
       "sheetName": "Datasets",
       "startColumn": "A",
       "endColumn": "B",
@@ -13,7 +23,7 @@
     {
       "sheetName": "Repositories",
       "startColumn": "B",
-      "endColumn": "I",
+      "endColumn": "J",
       "startRow": "2",
       "endRow": "+",
       "comment": "",
@@ -21,23 +31,13 @@
       "active": true
     },
     {
-      "sheetName": "Repositories",
-      "startColumn": "A",
-      "endColumn": "B",
-      "startRow": "2",
-      "endRow": "+",
-      "comment": "",
-      "rule": "Individual:\t@A*(mm:snakeCaseEncode)\nTypes:\tHost\nFacts:\thostsService @B*(mm:snakeCaseEncode)",
-      "active": true
-    },
-    {
       "sheetName": "Datasets",
       "startColumn": "B",
-      "endColumn": "I",
+      "endColumn": "J",
       "startRow": "2",
       "endRow": "+",
       "comment": "",
-      "rule": "Individual:\t@B*(mm:snakeCaseEncode)\nTypes:\tDataset\nFacts:\tisHostedBy @A*(mm:snakeCaseEncode),\n\thasSubjectArea @D*(mm:snakeCaseEncode),\n\tisOpenAccess @E*(xsd:string),\n\thasAPI @F*(xsd:string),\n\thasServiceURL @H*(xsd:anyURI)\nAnnotations:\towl:annotatedSource @A*,\n\towl:annotatedTarget @B*,\n\towl:annotatedProperty hostsService,\n\trdfs:comment @J*(mm:ProcessIfEmptyLocation)",
+      "rule": "Individual:\t@B*(mm:snakeCaseEncode)\nTypes:\tDataset\nFacts:\tisHostedBy @A*(mm:snakeCaseEncode),\n\thasSubjectArea @D*(mm:snakeCaseEncode),\n\tisOpenAccess @E*(xsd:string),\n\thasAPI @F*(xsd:string),\n\thasServiceURL @I*(xsd:anyURI)\nAnnotations:\towl:annotatedSource @A*,\n\towl:annotatedTarget @B*,\n\towl:annotatedProperty hostsService,\n\trdfs:comment @J*(mm:ProcessIfEmptyLocation)",
       "active": true
     }
   ]
