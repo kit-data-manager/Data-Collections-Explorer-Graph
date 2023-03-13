@@ -1359,39 +1359,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Perception_Dataset -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Perception_Dataset">
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
-        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
-        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc."/>
-        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
-        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://level-5.global/data/perception/</hasServiceURL>
-        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains raw lidar and camera data. Download requires an account.</rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woven Planet Holdings, Inc.</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Level 5 Perception Dataset</owl:annotatedTarget>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset">
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
-        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
-        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
-        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://level-5.global/data/prediction/</hasServiceURL>
-        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account.</rdfs:comment>
-        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
-        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woven Planet Holdings, Inc</owl:annotatedSource>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Level 5 Prediction Dataset</owl:annotatedTarget>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Linköping_University -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Linköping_University">
@@ -2390,6 +2357,39 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Perception_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Perception_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc."/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.woven-planet.global/en/data/perception-dataset</hasServiceURL>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains raw lidar and camera data. Download requires an account.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woven Planet Holdings, Inc.</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Level 5 Perception Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Prediction_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Prediction_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.woven-planet.global/en/data/prediction-dataset</hasServiceURL>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woven Planet Holdings, Inc</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Level 5 Prediction Dataset</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Zenodo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Zenodo">
@@ -2668,8 +2668,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc.">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
-        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Perception_Dataset"/>
-        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Level_5_Prediction_Dataset"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Perception_Dataset"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Prediction_Dataset"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.woven-planet.global</hasHostURL>
     </owl:NamedIndividual>
     
