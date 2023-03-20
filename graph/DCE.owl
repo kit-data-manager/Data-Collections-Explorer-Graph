@@ -2041,6 +2041,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#SLUB">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Material_Hub"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Qucosa"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.slub-dresden.de</hasHostURL>
@@ -2732,6 +2733,15 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#dblp_computer_science_bibliography"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.dagstuhl.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.slub-dresden.de</hasHostURL>
     </owl:NamedIndividual>
     
 
