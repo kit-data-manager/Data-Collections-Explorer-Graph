@@ -571,6 +571,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#CHIMaD">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Center_for_Hierarchical_Materials_Design"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#PFHub"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://chimad.northwestern.edu</hasHostURL>
     </owl:NamedIndividual>
@@ -581,6 +582,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Center_for_Hierarchical_Materials_Design -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Center_for_Hierarchical_Materials_Design">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://chimad.northwestern.edu</hasHostURL>
     </owl:NamedIndividual>
     
 
