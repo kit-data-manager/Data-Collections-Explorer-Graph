@@ -416,6 +416,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#AWI">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Alfred-Wegener-Institut"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#PANGAEA"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.awi.de</hasHostURL>
     </owl:NamedIndividual>
@@ -426,6 +427,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Aeronautics">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Alfred-Wegener-Institut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Alfred-Wegener-Institut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.awi.de</hasHostURL>
     </owl:NamedIndividual>
     
 
