@@ -2342,6 +2342,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#ULB_Darmstadt">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ELN_Finder"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ulb.tu-darmstadt.de</hasHostURL>
     </owl:NamedIndividual>
@@ -2425,6 +2426,15 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#DENSE_datasets"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uni-ulm.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ulb.tu-darmstadt.de</hasHostURL>
     </owl:NamedIndividual>
     
 
