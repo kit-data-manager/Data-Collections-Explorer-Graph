@@ -416,6 +416,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#AWI">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Alfred-Wegener-Institut"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#PANGAEA"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.awi.de</hasHostURL>
     </owl:NamedIndividual>
@@ -426,6 +427,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Aeronautics">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Alfred-Wegener-Institut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Alfred-Wegener-Institut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.awi.de</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -475,6 +485,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#BAM">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Bundesanstalt_für_Materialforschung_und_-prüfung"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#BAM-Publica"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.bam.de</hasHostURL>
     </owl:NamedIndividual>
@@ -519,6 +530,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Bundesanstalt_für_Materialforschung_und_-prüfung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Bundesanstalt_für_Materialforschung_und_-prüfung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.bam.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#CERN -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#CERN">
@@ -551,6 +571,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#CHIMaD">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Center_for_Hierarchical_Materials_Design"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#PFHub"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://chimad.northwestern.edu</hasHostURL>
     </owl:NamedIndividual>
@@ -561,6 +582,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Center_for_Hierarchical_Materials_Design -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Center_for_Hierarchical_Materials_Design">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://chimad.northwestern.edu</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -1331,6 +1361,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4KIT"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
@@ -1359,6 +1391,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Linköping_University -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Linköping_University">
@@ -1373,6 +1424,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#MARUM">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Zentrum_für_Marine_Umweltwissenschaften"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#PANGAEA"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.marum.de</hasHostURL>
     </owl:NamedIndividual>
@@ -1578,6 +1630,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#NIST">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#National_Institute_of_Standards_and_Technology"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Database_of_Novel_and_Emerging_Adsorbent_Materials"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#PFHub"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nist.gov</hasHostURL>
@@ -1603,6 +1656,15 @@
         <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
         <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAIR DI e.V.</owl:annotatedSource>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOMAD Novel Materials Discovery</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#National_Institute_of_Standards_and_Technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#National_Institute_of_Standards_and_Technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nist.gov</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -1934,6 +1996,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#RSC">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Royal_Society_of_Chemistry"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ChemSpider"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rsc.org</hasHostURL>
     </owl:NamedIndividual>
@@ -1965,10 +2028,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Royal_Society_of_Chemistry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Royal_Society_of_Chemistry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rsc.org</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#SLUB -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#SLUB">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Material_Hub"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Qucosa"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.slub-dresden.de</hasHostURL>
@@ -2054,6 +2127,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#TIB">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Technische_Informationsbibliothek"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing_Terminology_Service"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tib.eu</hasHostURL>
     </owl:NamedIndividual>
@@ -2130,6 +2204,15 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Computational_Materials_Repository"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.dtu.dk</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Technische_Informationsbibliothek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Technische_Informationsbibliothek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tib.eu</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -2259,6 +2342,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#ULB_Darmstadt">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ELN_Finder"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ulb.tu-darmstadt.de</hasHostURL>
     </owl:NamedIndividual>
@@ -2346,6 +2430,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ulb.tu-darmstadt.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Vilnius_University -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Vilnius_University">
@@ -2402,6 +2495,15 @@
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">donations encouraged</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://zenodo.org</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Zentrum_für_Marine_Umweltwissenschaften -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Zentrum_für_Marine_Umweltwissenschaften">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.marum.de</hasHostURL>
     </owl:NamedIndividual>
     
 
@@ -2641,6 +2743,15 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#dblp_computer_science_bibliography"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.dagstuhl.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.slub-dresden.de</hasHostURL>
     </owl:NamedIndividual>
     
 
