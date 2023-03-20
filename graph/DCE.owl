@@ -1361,6 +1361,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4KIT"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
@@ -1385,6 +1387,25 @@
         <hasDatasetSizeLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180</hasDatasetSizeLimit>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://bwdatadiss.kit.edu</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
     </owl:NamedIndividual>
     
 
