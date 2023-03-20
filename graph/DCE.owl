@@ -1424,6 +1424,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#MARUM">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Zentrum_für_Marine_Umweltwissenschaften"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#PANGAEA"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.marum.de</hasHostURL>
     </owl:NamedIndividual>
@@ -2473,6 +2474,15 @@
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">donations encouraged</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://zenodo.org</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Zentrum_für_Marine_Umweltwissenschaften -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Zentrum_für_Marine_Umweltwissenschaften">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.marum.de</hasHostURL>
     </owl:NamedIndividual>
     
 
