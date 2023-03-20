@@ -1630,6 +1630,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#NIST">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#National_Institute_of_Standards_and_Technology"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Database_of_Novel_and_Emerging_Adsorbent_Materials"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#PFHub"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nist.gov</hasHostURL>
@@ -1655,6 +1656,15 @@
         <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
         <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAIR DI e.V.</owl:annotatedSource>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOMAD Novel Materials Discovery</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#National_Institute_of_Standards_and_Technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#National_Institute_of_Standards_and_Technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nist.gov</hasHostURL>
     </owl:NamedIndividual>
     
 
