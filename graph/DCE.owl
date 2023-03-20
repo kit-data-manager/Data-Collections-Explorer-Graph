@@ -1934,6 +1934,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#RSC">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Royal_Society_of_Chemistry"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ChemSpider"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rsc.org</hasHostURL>
     </owl:NamedIndividual>
@@ -1961,6 +1962,15 @@
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://publications.rwth-aachen.de</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Royal_Society_of_Chemistry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Royal_Society_of_Chemistry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rsc.org</hasHostURL>
     </owl:NamedIndividual>
     
 
