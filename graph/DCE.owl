@@ -631,6 +631,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Chemotion_Repository -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemotion_Repository">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.chemotion-repository.net</hasServiceURL>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotion Repository provides an archive for materials, as well as research data repository for samples, reactions and analyses</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KIT</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotion Repository</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering">
@@ -1014,6 +1032,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4Chem"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Fachinformationsdienst_BAUdigital -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Fachinformationsdienst_BAUdigital">
@@ -1363,6 +1390,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemotion_Repository"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4KIT"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
@@ -1974,6 +2002,24 @@
         <hasPublicationCost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://slub.qucosa.de</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4Chem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4Chem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://radar4chem.radar-service.eu</hasServiceURL>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">API access only includes metadata</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIZ Karlsruhe</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RADAR4Chem</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
