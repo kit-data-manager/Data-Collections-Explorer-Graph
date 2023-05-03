@@ -641,7 +641,7 @@
         <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.chemotion-repository.net</hasServiceURL>
         <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotion Repository provides an archive for materials, as well as research data repository for samples, reactions and analyses</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotion Repository provides an archive for materials, as well as a research data repository for samples, reactions and analyses</rdfs:comment>
         <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
         <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KIT</owl:annotatedSource>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemotion Repository</owl:annotatedTarget>
