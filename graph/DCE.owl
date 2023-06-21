@@ -1036,6 +1036,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4Chem"/>
     </owl:NamedIndividual>
     
