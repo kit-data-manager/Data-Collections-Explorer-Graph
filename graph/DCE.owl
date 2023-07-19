@@ -1411,31 +1411,9 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemotion_Repository"/>
-        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI-MatWerk_Repository"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4KIT"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
-    </owl:NamedIndividual>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT"/>
-        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#hostsService"/>
-        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData"/>
-        <rdfs:comment xml:lang="en">Publication and (long term) archiving of research data from participating institutions in Baden-Württemberg</rdfs:comment>
-    </owl:Axiom>
-    
-
-
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData">
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
-        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
-        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#KIT"/>
-        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</hasAPI>
-        <hasDatasetSizeLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180</hasDatasetSizeLimit>
-        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://bwdatadiss.kit.edu</hasServiceURL>
-        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</isOpenAccess>
     </owl:NamedIndividual>
     
 
@@ -3819,13 +3797,6 @@
         <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Hydraulic_Engineering"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#KITopenData"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4KIT"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
