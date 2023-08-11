@@ -13,7 +13,7 @@ The structure is as follows:
 - SubjectArea
     - Instances: should be provided by a controlled vocabulary in the future
 - ServiceType
-    - Two subclasses: Collection and Discrete. "Collection" encompasses everything that comprises more than one dataset, "Discrete" contains only the subclass "Dataset". Both classes "Collection" and "Discrete" are disjoint.
+    - Three subclasses: Collection, Discrete and Terminology. "Collection" encompasses everything that comprises more than one dataset, "Discrete" contains only the subclass "Dataset", while "Terminology" contains everything related to nomenclature. Both classes "Collection" and "Discrete" are disjoint.
     - Collection:
         - Archive
         - Bibliography
@@ -22,13 +22,14 @@ The structure is as follows:
         - Database
         - Digital_Library
         - Encyclopedia
-        - Ontology
         - Repository
             - Community Repository
             - Institutional Repository
-        - Terminology_Service
     - Discrete
         - Dataset
+    - Terminology
+        - Ontology
+        - Terminology_Service
 
 The classes "Service" and "ServiceType" are disjoint with the classes "Host" and "SubjectArea". All other classes are mutually disjoint.
 

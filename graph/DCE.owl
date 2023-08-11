@@ -321,7 +321,7 @@
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Ontology -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Ontology">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Collection"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology_Service"/>
     </owl:Class>
@@ -359,10 +359,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ServiceType"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology_Service -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology_Service">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Collection"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology"/>
     </owl:Class>
     
 
