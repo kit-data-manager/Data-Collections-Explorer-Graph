@@ -13,7 +13,7 @@ The structure is as follows:
 - SubjectArea
     - Instances: should be provided by a controlled vocabulary in the future
 - ServiceType
-    - Three subclasses: Collection, Discrete and Terminology. "Collection" encompasses everything that comprises more than one dataset, "Discrete" contains only the subclass "Dataset", while "Terminology" contains everything related to nomenclature. Both classes "Collection" and "Discrete" are disjoint.
+    - Three subclasses: Collection, Discrete and Terminology. "Collection" encompasses everything that comprises more than one dataset, "Discrete" contains only the subclass "Dataset", while "Terminology" contains everything related to nomenclature. The classes "Collection", "Discrete", and "Terminology" are mutually disjoint.
     - Collection:
         - Archive
         - Bibliography

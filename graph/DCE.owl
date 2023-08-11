@@ -236,6 +236,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Collection">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ServiceType"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Discrete"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology"/>
     </owl:Class>
     
 
@@ -286,6 +287,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Discrete">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ServiceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology"/>
     </owl:Class>
     
 
