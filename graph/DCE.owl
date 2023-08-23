@@ -750,6 +750,43 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#DLR-TS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#DLR-TS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#DLR_Institut_für_Verkehrssystemtechnik"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.dlr.de/ts</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#DLR_Digitaler_Atlas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#DLR_Digitaler_Atlas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Catalogue"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#DLR-TS"/>
+        <hasAPI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no</hasAPI>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ts.dlr.de/geonetwork/srv/ger/catalog.search#/home</hasServiceURL>
+        <isOpenAccess rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially</isOpenAccess>
+        <rdfs:comment>Metadata catalogue (Geonetwork) for spatially referenced resources.</rdfs:comment>
+        <owl:annotatedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostsService</owl:annotatedProperty>
+        <owl:annotatedSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLR-TS</owl:annotatedSource>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DLR Digitaler Atlas</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#DLR_Institut_für_Verkehrssystemtechnik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#DLR_Institut_für_Verkehrssystemtechnik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.dlr.de/ts</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#DOE_CODE -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#DOE_CODE">
