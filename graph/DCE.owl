@@ -501,6 +501,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
