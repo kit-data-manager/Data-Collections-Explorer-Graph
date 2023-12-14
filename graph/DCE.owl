@@ -443,6 +443,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Aeronautics">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
@@ -459,6 +460,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -495,6 +497,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Science"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Vision"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Crystallography"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Earth_Science"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Energy"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Environmental_Science"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Hydraulic_Engineering"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Materials_Science"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mathematics"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Audi_AG -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Audi_AG">
@@ -524,6 +551,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -656,6 +684,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -713,6 +742,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -751,6 +781,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -788,6 +819,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -806,6 +838,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -834,6 +867,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -1118,6 +1152,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -1133,6 +1168,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -1159,6 +1195,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -1285,7 +1322,9 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Bibliography"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture"/>
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_BAU"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fid-bau.de</hasServiceURL>
         <rdfs:comment>In active development, first services are available as beta versions</rdfs:comment>
@@ -1558,6 +1597,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -1794,6 +1834,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -1819,6 +1860,7 @@
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -1856,6 +1898,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -2476,6 +2519,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Software">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -2677,6 +2721,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
     </owl:NamedIndividual>
     
 
@@ -2814,6 +2859,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ulb.tu-darmstadt.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
     </owl:NamedIndividual>
     
 
