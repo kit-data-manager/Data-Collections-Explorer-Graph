@@ -443,6 +443,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Aeronautics">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography"/>
         <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
@@ -491,6 +492,29 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#ApolloScape"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.apollo.auto</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Science"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Vision"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Crystallography"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Earth_Science"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Energy"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Environmental_Science"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Hydraulic_Engineering"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Materials_Science"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mathematics"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Software"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
     </owl:NamedIndividual>
     
 
