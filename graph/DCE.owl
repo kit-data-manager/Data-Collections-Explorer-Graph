@@ -935,6 +935,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Institutional_Repository"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Datenrepository_der_Universität_Kassel"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Kassel"/>
         <hasAPI>yes</hasAPI>
         <hasPublicationCost>free</hasPublicationCost>
