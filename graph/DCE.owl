@@ -929,6 +929,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#DaKS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#DaKS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Institutional_Repository"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Datenrepository_der_Universität_Kassel"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Kassel"/>
+        <hasAPI>yes</hasAPI>
+        <hasPublicationCost>free</hasPublicationCost>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daks.uni-kassel.de</hasServiceURL>
+        <isOpenAccess>partially</isOpenAccess>
+        <rdfs:comment>Institutional repository of the Universität Kassel</rdfs:comment>
+        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
+        <owl:annotatedSource>Universität Kassel</owl:annotatedSource>
+        <owl:annotatedTarget>DaKS</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Datenrepository_der_Universität_Kassel -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Datenrepository_der_Universität_Kassel"/>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#DaRUS -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#DaRUS">
@@ -956,6 +981,12 @@
         <owl:annotatedSource>NIST</owl:annotatedSource>
         <owl:annotatedTarget>Database of Novel and Emerging Adsorbent Materials</owl:annotatedTarget>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Datenrepository_der_Universität_Kassel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Datenrepository_der_Universität_Kassel"/>
     
 
 
@@ -2743,6 +2774,16 @@
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Forschungsdatenrepositorium"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Institutionelles_Repositorium_der_Leibniz_Universität_Hannover"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uni-hannover.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Kassel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Kassel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#DaKS"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uni-kassel.de</hasHostURL>
     </owl:NamedIndividual>
     
 
