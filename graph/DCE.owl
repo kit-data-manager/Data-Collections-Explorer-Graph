@@ -2038,9 +2038,9 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.nmrshiftdb.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment xml:lang="en">NMR database for organic structures</rdfs:comment>
+        <rdfs:comment>NMR database for organic structures</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
-        <owl:annotatedSource xml:lang="de">Universität zu Köln</owl:annotatedSource>
+        <owl:annotatedSource>Universität zu Köln</owl:annotatedSource>
         <owl:annotatedTarget>NMRShiftDB</owl:annotatedTarget>
     </owl:NamedIndividual>
     
@@ -3091,10 +3091,10 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Jena"/>
-        <hasAPI xml:lang="en">yes</hasAPI>
-        <hasPublicationCost xml:lang="en">no</hasPublicationCost>
+        <hasAPI>yes</hasAPI>
+        <hasPublicationCost>no</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nmrxiv.org</hasServiceURL>
-        <isOpenAccess xml:lang="en">yes</isOpenAccess>
+        <isOpenAccess>yes</isOpenAccess>
         <rdfs:comment xml:lang="en">Repository of raw and processed NMR data</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource xml:lang="de">Universität Jena</owl:annotatedSource>
