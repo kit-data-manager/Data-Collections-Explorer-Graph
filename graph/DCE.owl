@@ -2863,6 +2863,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Jena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Jena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#nmrXiv"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uni-jena.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Kassel -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Kassel">
@@ -3070,6 +3080,25 @@
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>TU München</owl:annotatedSource>
         <owl:annotatedTarget>mediaTUM</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#nmrXiv -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#nmrXiv">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Jena"/>
+        <hasAPI xml:lang="en">yes</hasAPI>
+        <hasPublicationCost xml:lang="en">no</hasPublicationCost>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nmrxiv.org</hasServiceURL>
+        <isOpenAccess xml:lang="en">yes</isOpenAccess>
+        <rdfs:comment xml:lang="en">Repository of raw and processed NMR data</rdfs:comment>
+        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
+        <owl:annotatedSource xml:lang="de">Universität Jena</owl:annotatedSource>
+        <owl:annotatedTarget>nmrXiv</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
