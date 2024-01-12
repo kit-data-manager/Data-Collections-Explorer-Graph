@@ -397,7 +397,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://acdc.vision.ee.ethz.ch</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>ACDC is the Adverse Conditions Dataset with Correspondences and supports both standard and uncertainty-aware semantic segmentation</rdfs:comment>
+        <rdfs:comment xml:lang="en">ACDC is the Adverse Conditions Dataset with Correspondences and supports both standard and uncertainty-aware semantic segmentation</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>ETH Zürich</owl:annotatedSource>
         <owl:annotatedTarget>ACDC Dataset</owl:annotatedTarget>
@@ -414,7 +414,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Cranfield_University"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://reports.aerade.cranfield.ac.uk</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Archive of historically significant reports from the Aeronautical Research Council and the National Advisory Commitee for Aeronautics</rdfs:comment>
+        <rdfs:comment xml:lang="en">Archive of historically significant reports from the Aeronautical Research Council and the National Advisory Commitee for Aeronautics</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Cranfield University</owl:annotatedSource>
         <owl:annotatedTarget>AERADE Reports Archive</owl:annotatedTarget>
@@ -583,7 +583,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#BAM"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opus4.kobv.de/opus4-bam/home</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>Bibliography and institutional repository for publications by BAM scientists</rdfs:comment>
+        <rdfs:comment xml:lang="en">Bibliography and institutional repository for publications by BAM scientists</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>BAM</owl:annotatedSource>
         <owl:annotatedTarget>BAM-Publica</owl:annotatedTarget>
@@ -640,7 +640,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#CERN"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cds.cern.ch</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>CERN and HEP articles, reports, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">CERN and HEP articles, reports, etc.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>CERN</owl:annotatedSource>
         <owl:annotatedTarget>CERN Document Server</owl:annotatedTarget>
@@ -718,7 +718,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.chemspider.com</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Chemical structure database, access by API requires an account with RSC</rdfs:comment>
+        <rdfs:comment xml:lang="en">Chemical structure database, access by API requires an account with RSC</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>RSC</owl:annotatedSource>
         <owl:annotatedTarget>ChemSpider</owl:annotatedTarget>
@@ -757,7 +757,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.chemotion-repository.net</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Chemotion Repository provides an archive for materials, as well as a research data repository for samples, reactions and analyses</rdfs:comment>
+        <rdfs:comment xml:lang="en">Chemotion Repository provides an archive for materials, as well as a research data repository for samples, reactions and analyses</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>KIT</owl:annotatedSource>
         <owl:annotatedTarget>Chemotion Repository</owl:annotatedTarget>
@@ -796,7 +796,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cmr.fysik.dtu.dk</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Repository containing various databases of different kinds of computational materials</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository containing various databases of different kinds of computational materials</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Technical University of Denmark</owl:annotatedSource>
         <owl:annotatedTarget>Computational Materials Repository</owl:annotatedTarget>
@@ -895,7 +895,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets/</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>The datasets contains scenes in adverse and challenging weather conditions</rdfs:comment>
+        <rdfs:comment xml:lang="en">The datasets contains scenes in adverse and challenging weather conditions</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Universität Ulm</owl:annotatedSource>
         <owl:annotatedTarget>DENSE datasets</owl:annotatedTarget>
@@ -929,7 +929,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ts.dlr.de/geonetwork/srv/ger/catalog.search#/home</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>Metadata catalogue (Geonetwork) for spatially referenced resources.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Metadata catalogue (Geonetwork) for spatially referenced resources.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>DLR-TS</owl:annotatedSource>
         <owl:annotatedTarget>DLR Digitaler Atlas</owl:annotatedTarget>
@@ -955,7 +955,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#U.S._Department_of_Energy_Office_of_Scientific_and_Technical_Information"/>
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.osti.gov/doecode</hasServiceURL>
-        <rdfs:comment>Repository and archive for DOE funded software (business and scientific)</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository and archive for DOE funded software (business and scientific)</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>U.S. Department of Energy Office of Scientific and Technical Information</owl:annotatedSource>
         <owl:annotatedTarget>DOE CODE</owl:annotatedTarget>
@@ -975,7 +975,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daks.uni-kassel.de</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>Institutional repository of the Universität Kassel</rdfs:comment>
+        <rdfs:comment xml:lang="en">Institutional repository of the Universität Kassel</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Universität Kassel</owl:annotatedSource>
         <owl:annotatedTarget>DaKS</owl:annotatedTarget>
@@ -1011,7 +1011,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#NIST"/>
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://adsorption.nist.gov/isodb/index.php</hasServiceURL>
-        <rdfs:comment>Database of adsorption characteristics of novel and emerging materials, includes isotherm visualisation</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database of adsorption characteristics of novel and emerging materials, includes isotherm visualisation</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>NIST</owl:annotatedSource>
         <owl:annotatedTarget>Database of Novel and Emerging Adsorbent Materials</owl:annotatedTarget>
@@ -1060,7 +1060,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://publikationsserver.tu-braunschweig.de</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>Also publishes collections of special interest of TU Braunschweig and regional institutions</rdfs:comment>
+        <rdfs:comment xml:lang="en">Also publishes collections of special interest of TU Braunschweig and regional institutions</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>TU Braunschweig</owl:annotatedSource>
         <owl:annotatedTarget>Digitale Bibliothek Der Publikationsserver der TU Braunschweig</owl:annotatedTarget>
@@ -1090,7 +1090,7 @@
         <hasPublicationCost>120$</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datadryad.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Curated general-purpose repository, software submissions are published on Zenodo</rdfs:comment>
+        <rdfs:comment xml:lang="en">Curated general-purpose repository, software submissions are published on Zenodo</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Dryad</owl:annotatedSource>
         <owl:annotatedTarget>Dryad Digital Repository</owl:annotatedTarget>
@@ -1108,7 +1108,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://eln-finder.ulb.tu-darmstadt.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Overview of currently available ELN software solutions. Still in development.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Overview of currently available ELN software solutions. Still in development.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>ULB Darmstadt</owl:annotatedSource>
         <owl:annotatedTarget>ELN Finder</owl:annotatedTarget>
@@ -1243,7 +1243,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://workbench.fid-bau.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Repository for civil engineering, architecture and urbanism.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository for civil engineering, architecture and urbanism.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID BAU</owl:annotatedSource>
         <owl:annotatedTarget>FID BAU Workbench</owl:annotatedTarget>
@@ -1312,7 +1312,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://data.fid-move.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Research data repository for the field of mobility and transport research</rdfs:comment>
+        <rdfs:comment xml:lang="en">Research data repository for the field of mobility and transport research</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID Move</owl:annotatedSource>
         <owl:annotatedTarget>FID Move Repositorium</owl:annotatedTarget>
@@ -1348,7 +1348,7 @@
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_BAU"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.fid-bau.de</hasServiceURL>
-        <rdfs:comment>In active development, first services are available as beta versions</rdfs:comment>
+        <rdfs:comment xml:lang="en">In active development, first services are available as beta versions</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID BAU</owl:annotatedSource>
         <owl:annotatedTarget>Fachinformationsdienst BAUdigital</owl:annotatedTarget>
@@ -1366,7 +1366,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Karten"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://kartographie.staatsbibliothek-berlin.de</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>Provides resources for research of special cartographic literature, some services require registration</rdfs:comment>
+        <rdfs:comment xml:lang="en">Provides resources for research of special cartographic literature, some services require registration</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID Karten</owl:annotatedSource>
         <owl:annotatedTarget>Fachinformationsdienst Kartographie und Geobasisdaten</owl:annotatedTarget>
@@ -1382,7 +1382,7 @@
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Materials_Science"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Material_Science"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.materials-science.info</hasServiceURL>
-        <rdfs:comment>Integrated interface to MaterialHub and TIB search portal, service is currently being set up</rdfs:comment>
+        <rdfs:comment xml:lang="en">Integrated interface to MaterialHub and TIB search portal, service is currently being set up</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID Material Science</owl:annotatedSource>
         <owl:annotatedTarget>Fachinformationsdienst Materialwissenschaft und Werkstofftechnik</owl:annotatedTarget>
@@ -1399,7 +1399,7 @@
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Move"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fid-move.de</hasServiceURL>
-        <rdfs:comment>Repository and search interface to various sources relevant to the field of mobility and transport research</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository and search interface to various sources relevant to the field of mobility and transport research</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID Move</owl:annotatedSource>
         <owl:annotatedTarget>Fachinformationsdienst Mobilitäts- und Verkehrsforschung</owl:annotatedTarget>
@@ -1416,7 +1416,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://avdata.ford.com</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>The dataset contains data from multiple vehicles in a variety of driving and weather conditions</rdfs:comment>
+        <rdfs:comment xml:lang="en">The dataset contains data from multiple vehicles in a variety of driving and weather conditions</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Ford Motor Company</owl:annotatedSource>
         <owl:annotatedTarget>Ford Autonomous Vehicle Dataset</owl:annotatedTarget>
@@ -1446,7 +1446,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fordatis.fraunhofer.de</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>Research data repository of the Fraunhofer association. Upload possible for Fraunhofer employees and their project partners.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Research data repository of the Fraunhofer association. Upload possible for Fraunhofer employees and their project partners.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Fraunhofer-Gesellschaft</owl:annotatedSource>
         <owl:annotatedTarget>Fordatis</owl:annotatedTarget>
@@ -1465,7 +1465,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://data.uni-hannover.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Research data repository for researchers at Leibniz Universität Hannover (LUH)</rdfs:comment>
+        <rdfs:comment xml:lang="en">Research data repository for researchers at Leibniz Universität Hannover (LUH)</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Universität Hannover</owl:annotatedSource>
         <owl:annotatedTarget>Forschungsdatenrepositorium</owl:annotatedTarget>
@@ -1492,7 +1492,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_GEO"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://e-docs.geo-leo.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Repository and archive of scientific publications from the earth sciences (including grey literature and maps, amongst others)</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository and archive of scientific publications from the earth sciences (including grey literature and maps, amongst others)</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID GEO</owl:annotatedSource>
         <owl:annotatedTarget>GEO-LEO e-docs</owl:annotatedTarget>
@@ -1510,7 +1510,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Geoforschungszentrum_Potsdam"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://dataservices.gfz-potsdam.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Research data repository for the earth and environmental sciences, accepts research data as well as scientific software</rdfs:comment>
+        <rdfs:comment xml:lang="en">Research data repository for the earth and environmental sciences, accepts research data as well as scientific software</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Geoforschungszentrum Potsdam</owl:annotatedSource>
         <owl:annotatedTarget>GFZ Data Services</owl:annotatedTarget>
@@ -1555,7 +1555,7 @@
         <hasDatasetSizeLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</hasDatasetSizeLimit>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://hal.archives-ouvertes.fr</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Also provides access to other repositories of french universities and research centers</rdfs:comment>
+        <rdfs:comment xml:lang="en">Also provides access to other repositories of french universities and research centers</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Centre pour la Communication Scientifique Directe</owl:annotatedSource>
         <owl:annotatedTarget>HAL science ouverte</owl:annotatedTarget>
@@ -1573,7 +1573,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://henry.baw.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Also provides an archive for reports and scientific publications from BAW and WSV</rdfs:comment>
+        <rdfs:comment xml:lang="en">Also provides an archive for reports and scientific publications from BAW and WSV</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Bundesamt für Wasserbau</owl:annotatedSource>
         <owl:annotatedTarget>HENRY Hydraulic Engineering Repository</owl:annotatedTarget>
@@ -1591,7 +1591,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://heusleralloys.mint.ua.edu</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Database of (calculated) properties of Heusler alloys</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database of (calculated) properties of Heusler alloys</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>University of Alabama</owl:annotatedSource>
         <owl:annotatedTarget>Heusler Database</owl:annotatedTarget>
@@ -1633,7 +1633,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://icsd.products.fiz-karlsruhe.de</hasServiceURL>
         <isOpenAccess>no</isOpenAccess>
-        <rdfs:comment>Database for completely identified inorganic crystal structures. Access requires a license.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database for completely identified inorganic crystal structures. Access requires a license.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FIZ Karlsruhe</owl:annotatedSource>
         <owl:annotatedTarget>Inorganic Crystal Structure Database</owl:annotatedTarget>
@@ -1651,7 +1651,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.repo.uni-hannover.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Institutional repository open to members and alumni of LUH</rdfs:comment>
+        <rdfs:comment xml:lang="en">Institutional repository open to members and alumni of LUH</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Universität Hannover</owl:annotatedSource>
         <owl:annotatedTarget>Institutionelles Repositorium der Leibniz Universität Hannover</owl:annotatedTarget>
@@ -1678,7 +1678,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.jstage.jst.go.jp/browse/-char/en</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment>Electronic publishing platform for academic institutions from Japan</rdfs:comment>
+        <rdfs:comment xml:lang="en">Electronic publishing platform for academic institutions from Japan</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Japan Science and Technology Agency</owl:annotatedSource>
         <owl:annotatedTarget>J-STAGE</owl:annotatedTarget>
@@ -1793,7 +1793,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#BioPortal"/>
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://matportal.org</hasServiceURL>
-        <rdfs:comment>Ontology repository for the material sciences</rdfs:comment>
+        <rdfs:comment xml:lang="en">Ontology repository for the material sciences</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>BioPortal</owl:annotatedSource>
         <owl:annotatedTarget>MatPortal</owl:annotatedTarget>
@@ -1811,7 +1811,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.materialhub.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Materials research repository with partners from science and industry</rdfs:comment>
+        <rdfs:comment xml:lang="en">Materials research repository with partners from science and industry</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>SLUB</owl:annotatedSource>
         <owl:annotatedTarget>Material Hub</owl:annotatedTarget>
@@ -1839,7 +1839,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://materialsproject.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Database of computed information about materials, both known and predicted.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database of computed information about materials, both known and predicted.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>The Materials Project</owl:annotatedSource>
         <owl:annotatedTarget>Materials Project</owl:annotatedTarget>
@@ -1905,7 +1905,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/nfdi4ing/metadata4ing</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Ontology focused on the semantic description of research data in the engineering sciences</rdfs:comment>
+        <rdfs:comment xml:lang="en">Ontology focused on the semantic description of research data in the engineering sciences</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>NFDI4Ing</owl:annotatedSource>
         <owl:annotatedTarget>Metadata4Ing</owl:annotatedTarget>
@@ -1932,7 +1932,7 @@
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Mining"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Montan,_Bergbau,_Hüttenwesen"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://montanportal.com</hasServiceURL>
-        <rdfs:comment>Information portal concerning everything about mining, raw materials, metallurgy, etc., cooperation with FiD GEO</rdfs:comment>
+        <rdfs:comment xml:lang="en">Information portal concerning everything about mining, raw materials, metallurgy, etc., cooperation with FiD GEO</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID Montan, Bergbau, Hüttenwesen</owl:annotatedSource>
         <owl:annotatedTarget>Montanportal</owl:annotatedTarget>
@@ -1962,7 +1962,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://matwerk.datamanager.kit.edu</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Data and metadata repository for NFDI-MatWerk. File size limit for the metadata repository is 10MB.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Data and metadata repository for NFDI-MatWerk. File size limit for the metadata repository is 10MB.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>KIT</owl:annotatedSource>
         <owl:annotatedTarget>NFDI-MatWerk Repository</owl:annotatedTarget>
@@ -1991,7 +1991,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#TIB"/>
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://terminology.nfdi4ing.de</hasServiceURL>
-        <rdfs:comment>Repository for engineering ontologies</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository for engineering ontologies</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>NFDI4Ing</owl:annotatedSource>
         <owl:annotatedSource>TIB</owl:annotatedSource>
@@ -2038,7 +2038,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.nmrshiftdb.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>NMR database for organic structures</rdfs:comment>
+        <rdfs:comment xml:lang="en">NMR database for organic structures</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Universität zu Köln</owl:annotatedSource>
         <owl:annotatedTarget>NMRShiftDB</owl:annotatedTarget>
@@ -2060,7 +2060,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nomad-lab.eu</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FAIR DI e.V.</owl:annotatedSource>
         <owl:annotatedTarget>NOMAD Novel Materials Discovery</owl:annotatedTarget>
@@ -2118,7 +2118,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.optimade.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>OPTIMADE is the Open Database Integration for Materials Design</rdfs:comment>
+        <rdfs:comment xml:lang="en">OPTIMADE is the Open Database Integration for Materials Design</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Materials Consortia</owl:annotatedSource>
         <owl:annotatedTarget>OPTIMADE</owl:annotatedTarget>
@@ -2137,7 +2137,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opara.zih.tu-dresden.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Research data repository and archive jointly operated by TU Dresden and TU Bergakademie Freiberg</rdfs:comment>
+        <rdfs:comment xml:lang="en">Research data repository and archive jointly operated by TU Dresden and TU Bergakademie Freiberg</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>TU Dresden</owl:annotatedSource>
         <owl:annotatedTarget>OpARA</owl:annotatedTarget>
@@ -2154,7 +2154,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#OEP_Community"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://openenergy-platform.org/ontology/</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Developed as part of the Open Energy Platform</rdfs:comment>
+        <rdfs:comment xml:lang="en">Developed as part of the Open Energy Platform</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>OEP Community</owl:annotatedSource>
         <owl:annotatedTarget>Open Energy Ontology</owl:annotatedTarget>
@@ -2172,7 +2172,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://openenergy-platform.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Collection of tools for and information about energy system research</rdfs:comment>
+        <rdfs:comment xml:lang="en">Collection of tools for and information about energy system research</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>OEP Community</owl:annotatedSource>
         <owl:annotatedTarget>Open Energy Platform</owl:annotatedTarget>
@@ -2201,7 +2201,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://openmaterialsdb.se</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Database of (computational) materials properties</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database of (computational) materials properties</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Linköping University</owl:annotatedSource>
         <owl:annotatedTarget>Open Materials Database</owl:annotatedTarget>
@@ -2219,7 +2219,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://open-reaction-database.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Chemical reaction database of single-step organic reactions, still in development (12/2021)</rdfs:comment>
+        <rdfs:comment xml:lang="en">Chemical reaction database of single-step organic reactions, still in development (12/2021)</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Open Reaction Databse Project</owl:annotatedSource>
         <owl:annotatedTarget>Open Reaction Database</owl:annotatedTarget>
@@ -2246,7 +2246,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Organic_Syntheses,_Inc."/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orgsyn.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Catalogue of reliable preparations of organic compounds</rdfs:comment>
+        <rdfs:comment xml:lang="en">Catalogue of reliable preparations of organic compounds</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Organic Syntheses, Inc.</owl:annotatedSource>
         <owl:annotatedTarget>Organic Syntheses</owl:annotatedTarget>
@@ -2263,7 +2263,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://oxford-robotics-institute.github.io/radar-robotcar-dataset/</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Radar extension to the Oxford RobotCar Dataset.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Radar extension to the Oxford RobotCar Dataset.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Oxford University</owl:annotatedSource>
         <owl:annotatedTarget>Oxford Radar RobotCar Dataset</owl:annotatedTarget>
@@ -2280,7 +2280,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://robotcar-dataset.robots.ox.ac.uk</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>The dataset contains over 100 repetitions of the same fixed route. A SDK is provided.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The dataset contains over 100 repetitions of the same fixed route. A SDK is provided.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Oxford University</owl:annotatedSource>
         <owl:annotatedTarget>Oxford RobotCar Dataset</owl:annotatedTarget>
@@ -2312,7 +2312,7 @@
         <hasPublicationCost>free, but a donation of 500€ is welcome</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pangaea.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Repository and archive for georeferenced data from earth system research</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository and archive for georeferenced data from earth system research</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>AWI</owl:annotatedSource>
         <owl:annotatedSource>MARUM</owl:annotatedSource>
@@ -2331,7 +2331,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#NIST"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pages.nist.gov/pfhub</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources</rdfs:comment>
+        <rdfs:comment xml:lang="en">Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>CHIMaD</owl:annotatedSource>
         <owl:annotatedSource>NIST</owl:annotatedSource>
@@ -2363,7 +2363,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pubchem.ncbi.nlm.nih.gov</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Database with information about chemical structures, physical and chemical properties, toxicity, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database with information about chemical structures, physical and chemical properties, toxicity, etc.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>NIH National Library of Medicine</owl:annotatedSource>
         <owl:annotatedTarget>PubChem</owl:annotatedTarget>
@@ -2396,7 +2396,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://radar4chem.radar-service.eu</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>API access only includes metadata</rdfs:comment>
+        <rdfs:comment xml:lang="en">API access only includes metadata</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FIZ Karlsruhe</owl:annotatedSource>
         <owl:annotatedTarget>RADAR4Chem</owl:annotatedTarget>
@@ -2498,7 +2498,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.scielo.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Database of open access journals from Latin America, the Iberian Peninsula and South Africa</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database of open access journals from Latin America, the Iberian Peninsula and South Africa</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>SciELO Scientific Electronic Library Online</owl:annotatedSource>
         <owl:annotatedTarget>SciELO</owl:annotatedTarget>
@@ -2517,7 +2517,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://data.scielo.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Repository for deposition of research data published on SciELO</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository for deposition of research data published on SciELO</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>SciELO Scientific Electronic Library Online</owl:annotatedSource>
         <owl:annotatedTarget>SciELO Data</owl:annotatedTarget>
@@ -2545,7 +2545,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://semantic-kitti.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Dataset based on the KITTI Vision Benchmark for semantic scene understanding.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Dataset based on the KITTI Vision Benchmark for semantic scene understanding.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Universität Bonn</owl:annotatedSource>
         <owl:annotatedTarget>SemanticKITTI</owl:annotatedTarget>
@@ -2672,7 +2672,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cityscapes-dataset.com</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>The dataset contains data from 50 different cities and focusses on semantic understanding of urban scenes. Download requires an account.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The dataset contains data from 50 different cities and focusses on semantic understanding of urban scenes. Download requires an account.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Max Planck Society for the Advancement of Science</owl:annotatedSource>
         <owl:annotatedTarget>The Cityscapes Dataset</owl:annotatedTarget>
@@ -2689,7 +2689,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cvlibs.net/datasets/kitti/</hasServiceURL>
         <isOpenAccess>no</isOpenAccess>
-        <rdfs:comment>Novel computer vision benchmarks. Access to the data requires an account</rdfs:comment>
+        <rdfs:comment xml:lang="en">Novel computer vision benchmarks. Access to the data requires an account</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Autonomous Vision Group, Department of Computer Science, University of Tübingen</owl:annotatedSource>
         <owl:annotatedTarget>The KITTI Vision Benchmark Suite</owl:annotatedTarget>
@@ -2717,7 +2717,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://oqmd.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Database of DFT-calculated thermodynamic and structural material properties</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database of DFT-calculated thermodynamic and structural material properties</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Northwestern University</owl:annotatedSource>
         <owl:annotatedTarget>The Open Quantum Materials Database</owl:annotatedTarget>
@@ -2734,7 +2734,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Eric_Meier"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wood-database.com</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Privately curated online database of various wood species and their characteristics, usage, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Privately curated online database of various wood species and their characteristics, usage, etc.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Eric Meier</owl:annotatedSource>
         <owl:annotatedTarget>The Wood Database</owl:annotatedTarget>
@@ -2950,7 +2950,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.woven-planet.global/en/data/perception-dataset</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>The dataset contains raw lidar and camera data. Download requires an account.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The dataset contains raw lidar and camera data. Download requires an account.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Woven Planet Holdings, Inc.</owl:annotatedSource>
         <owl:annotatedTarget>Level 5 Perception Dataset</owl:annotatedTarget>
@@ -2966,7 +2966,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.woven-planet.global/en/data/prediction-dataset</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Woven Planet Holdings, Inc</owl:annotatedSource>
         <owl:annotatedTarget>Level 5 Prediction Dataset</owl:annotatedTarget>
@@ -3009,7 +3009,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://dblp.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Bibliography focused on computer science journals and proceedings</rdfs:comment>
+        <rdfs:comment xml:lang="en">Bibliography focused on computer science journals and proceedings</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Schloss Dagstuhl – Leibniz-Zentrum für Informatik</owl:annotatedSource>
         <owl:annotatedTarget>dblp computer science bibliography</owl:annotatedTarget>
@@ -3027,7 +3027,7 @@
         <hasPublicationCost>free</hasPublicationCost>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://engrxiv.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Eprint server for engineering</rdfs:comment>
+        <rdfs:comment xml:lang="en">Eprint server for engineering</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Open Engineering</owl:annotatedSource>
         <owl:annotatedTarget>engrXiv</owl:annotatedTarget>
@@ -3044,7 +3044,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Mathematik"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fidmath.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Provides a central search interface to information sources of interest to mathematicians: library catalogues, preprint servers, journals, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Provides a central search interface to information sources of interest to mathematicians: library catalogues, preprint servers, journals, etc.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FID Mathematik</owl:annotatedSource>
         <owl:annotatedTarget>fidmath</owl:annotatedTarget>
@@ -3076,7 +3076,7 @@
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#TU_München"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://mediatum.ub.tum.de</hasServiceURL>
-        <rdfs:comment>Repository to publish, archive and research public records, documents, images as well as research data</rdfs:comment>
+        <rdfs:comment xml:lang="en">Repository to publish, archive and research public records, documents, images as well as research data</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>TU München</owl:annotatedSource>
         <owl:annotatedTarget>mediaTUM</owl:annotatedTarget>
@@ -3097,7 +3097,7 @@
         <isOpenAccess>yes</isOpenAccess>
         <rdfs:comment xml:lang="en">Repository of raw and processed NMR data</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
-        <owl:annotatedSource xml:lang="de">Universität Jena</owl:annotatedSource>
+        <owl:annotatedSource>Universität Jena</owl:annotatedSource>
         <owl:annotatedTarget>nmrXiv</owl:annotatedTarget>
     </owl:NamedIndividual>
     
@@ -3112,7 +3112,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nuscenes.org/nuimages</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>The datasets complements the nuScenes dataset by providing a manually curated set of 2D annotated images. Download requires an account.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The datasets complements the nuScenes dataset by providing a manually curated set of 2D annotated images. Download requires an account.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Motional</owl:annotatedSource>
         <owl:annotatedTarget>nuImages</owl:annotatedTarget>
@@ -3130,7 +3130,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://openkim.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Curated repository of interatomic potentials and framework to facilitate molecular simulation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Curated repository of interatomic potentials and framework to facilitate molecular simulation.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>KIM Project</owl:annotatedSource>
         <owl:annotatedTarget>openKIM</owl:annotatedTarget>
@@ -3147,7 +3147,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://swmath.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Database about mathematical software</rdfs:comment>
+        <rdfs:comment xml:lang="en">Database about mathematical software</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur</owl:annotatedSource>
         <owl:annotatedTarget>swMATH</owl:annotatedTarget>
@@ -3165,7 +3165,7 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://zbmath.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Abstracting and reviewing service in pure and applied mathematics, also covers applications in the natural sciences, computer science, economics and engineering</rdfs:comment>
+        <rdfs:comment xml:lang="en">Abstracting and reviewing service in pure and applied mathematics, also covers applications in the natural sciences, computer science, economics and engineering</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur</owl:annotatedSource>
         <owl:annotatedTarget>zbMATH Open</owl:annotatedTarget>
@@ -3182,7 +3182,7 @@
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#National_University_of_Singapore"/>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://2dmatpedia.org</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Collection of (computed) two dimensional materials</rdfs:comment>
+        <rdfs:comment xml:lang="en">Collection of (computed) two dimensional materials</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>National University of Singapore</owl:annotatedSource>
         <owl:annotatedTarget>2D Materials Encyclopedia</owl:annotatedTarget>
@@ -3199,7 +3199,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.a2d2.audi</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Labeled dataset from a car equipped with a multimodal sensor suite. The dataset features 2D image segmentation, 3D point clouds and bounding boxes as well as vehicle bus data.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Labeled dataset from a car equipped with a multimodal sensor suite. The dataset features 2D image segmentation, 3D point clouds and bounding boxes as well as vehicle bus data.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Audi AG</owl:annotatedSource>
         <owl:annotatedTarget>A2D2 – Audi Autonomous Driving Dataset</owl:annotatedTarget>
@@ -3276,7 +3276,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://advdataset2019.wixsite.com/urbanloco</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>Localization data in challenging urban environments</rdfs:comment>
+        <rdfs:comment xml:lang="en">Localization data in challenging urban environments</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Hong Kong Polytechnic University</owl:annotatedSource>
         <owl:annotatedSource>UC Berkeley</owl:annotatedSource>
@@ -3305,7 +3305,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nuscenes.org/nuscenes</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment>The dataset contains manually curated scenes from diverse driving situations. Download requires an account.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The dataset contains manually curated scenes from diverse driving situations. Download requires an account.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Motional</owl:annotatedSource>
         <owl:annotatedTarget>nuScenes – A multimodal dataset for autonomous driving</owl:annotatedTarget>
