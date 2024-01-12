@@ -4,4 +4,4 @@ This repository is the home for the "next generation" Data Collections Explorer.
 
 ## Acknowledgements
 
-This work has been supported by [NFDI4Ing](https://nfdi4ing.de) (DFG project numer 442146713).
+This work has been supported by [NFDI4Ing](https://nfdi4ing.de) (DFG project number 442146713).
