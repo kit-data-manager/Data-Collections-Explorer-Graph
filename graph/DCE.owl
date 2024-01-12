@@ -3097,7 +3097,7 @@
         <isOpenAccess>yes</isOpenAccess>
         <rdfs:comment xml:lang="en">Repository of raw and processed NMR data</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
-        <owl:annotatedSource xml:lang="de">Universität Jena</owl:annotatedSource>
+        <owl:annotatedSource>Universität Jena</owl:annotatedSource>
         <owl:annotatedTarget>nmrXiv</owl:annotatedTarget>
     </owl:NamedIndividual>
     
