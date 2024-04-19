@@ -1230,27 +1230,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#FID_BAU_Workbench -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_BAU_Workbench">
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
-        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture"/>
-        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
-        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
-        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_BAU"/>
-        <hasAPI>yes</hasAPI>
-        <hasPublicationCost>free</hasPublicationCost>
-        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://workbench.fid-bau.de</hasServiceURL>
-        <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment xml:lang="en">Repository for civil engineering, architecture and urbanism.</rdfs:comment>
-        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
-        <owl:annotatedSource>FID BAU</owl:annotatedSource>
-        <owl:annotatedTarget>FID BAU Workbench</owl:annotatedTarget>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#FID_GEO -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#FID_GEO">
@@ -1977,6 +1956,27 @@
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Metadata4Ing"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing_Terminology_Service"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nfdi4ing.de</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing_Ingest_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing_Ingest_Service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Repository"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing"/>
+        <hasAPI>yes</hasAPI>
+        <hasPublicationCost>free</hasPublicationCost>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ingest.nfdi4ing.de</hasServiceURL>
+        <isOpenAccess>yes</isOpenAccess>
+        <rdfs:comment xml:lang="en">Repository for civil engineering, architecture and urbanism.</rdfs:comment>
+        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
+        <owl:annotatedSource>NFDI4Ing</owl:annotatedSource>
+        <owl:annotatedTarget>NFDI4Ing Ingest Service</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
