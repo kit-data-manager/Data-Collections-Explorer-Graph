@@ -2946,7 +2946,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Perception_Dataset">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving"/>
-        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc."/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_by_Toyota,_Inc."/>
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.woven-planet.global/en/data/perception-dataset</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
@@ -3285,13 +3285,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc. -->
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_by_Toyota,_Inc. -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Holdings,_Inc.">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_by_Toyota,_Inc.">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Perception_Dataset"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_Planet_Prediction_Dataset"/>
-        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.woven-planet.global</hasHostURL>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://woven.toyota</hasHostURL>
     </owl:NamedIndividual>
     
 
