@@ -1033,7 +1033,7 @@
         <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
         <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#TU_Berlin"/>
         <hasAPI>yes</hasAPI>
-        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.depositonce.tu-berlin.de</hasServiceURL>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://depositonce.tu-berlin.de</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
     </owl:NamedIndividual>
     
