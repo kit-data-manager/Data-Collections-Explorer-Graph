@@ -1049,25 +1049,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Digitale_Bibliothek_Der_Publikationsserver_der_TU_Braunschweig -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Digitale_Bibliothek_Der_Publikationsserver_der_TU_Braunschweig">
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Institutional_Repository"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
-        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
-        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#TU_Braunschweig"/>
-        <hasAPI>yes</hasAPI>
-        <hasPublicationCost>free</hasPublicationCost>
-        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://publikationsserver.tu-braunschweig.de</hasServiceURL>
-        <isOpenAccess>partially</isOpenAccess>
-        <rdfs:comment xml:lang="en">Also publishes collections of special interest of TU Braunschweig and regional institutions</rdfs:comment>
-        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
-        <owl:annotatedSource>TU Braunschweig</owl:annotatedSource>
-        <owl:annotatedTarget>Digitale Bibliothek Der Publikationsserver der TU Braunschweig</owl:annotatedTarget>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Dryad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Dryad">
@@ -1732,6 +1713,25 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kit.edu</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#LeoPARD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#LeoPARD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Institutional_Repository"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Service"/>
+        <hasSubjectArea rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#TU_Braunschweig"/>
+        <hasAPI>yes</hasAPI>
+        <hasPublicationCost>free</hasPublicationCost>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://leopard.tu-braunschweig.de</hasServiceURL>
+        <isOpenAccess>partially</isOpenAccess>
+        <rdfs:comment xml:lang="en">Also publishes collections of special interest of TU Braunschweig and regional institutions</rdfs:comment>
+        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
+        <owl:annotatedSource>TU Braunschweig</owl:annotatedSource>
+        <owl:annotatedTarget>LeoPARD</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
@@ -2594,7 +2594,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#TU_Braunschweig">
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
-        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Digitale_Bibliothek_Der_Publikationsserver_der_TU_Braunschweig"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#LeoPARD"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.tu-braunschweig.de</hasHostURL>
     </owl:NamedIndividual>
     
