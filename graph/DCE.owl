@@ -613,6 +613,10 @@
         <hasAPI>yes</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.boreas.utias.utoronto.ca</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
+        <rdfs:comment xml:lang="en">Boreas is multi-season autonomous driving dataset. API access is via AWS S3.</rdfs:comment>
+        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
+        <owl:annotatedSource>University of Toronto</owl:annotatedSource>
+        <owl:annotatedTarget>Boreas Dataset</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
