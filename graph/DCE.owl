@@ -3168,6 +3168,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#nuPlan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#nuPlan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Motional"/>
+        <hasAPI>no</hasAPI>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nuscenes.org/nuplan</hasServiceURL>
+        <isOpenAccess>yes</isOpenAccess>
+        <rdfs:comment xml:lang="en">The dataset provides benchmark data for long-term motion prediction. Download requires an account.</rdfs:comment>
+        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
+        <owl:annotatedSource>Motional</owl:annotatedSource>
+        <owl:annotatedTarget>nuPlan</owl:annotatedTarget>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#openKIM -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#openKIM">
