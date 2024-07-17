@@ -483,6 +483,10 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://apolloscape.auto</hasServiceURL>
         <isOpenAccess>partially</isOpenAccess>
+        <rdfs:comment>Collection of datasets for autonomous driving.</rdfs:comment>
+        <owl:annotatedProperty>hostsService</owl:annotatedProperty>
+        <owl:annotatedSource>Baidu</owl:annotatedSource>
+        <owl:annotatedTarget>ApolloScape</owl:annotatedTarget>
     </owl:NamedIndividual>
     
 
