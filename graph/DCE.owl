@@ -3130,7 +3130,7 @@
         <hasAPI>no</hasAPI>
         <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nuscenes.org/nuimages</hasServiceURL>
         <isOpenAccess>yes</isOpenAccess>
-        <rdfs:comment xml:lang="en">The datasets complements the nuScenes dataset by providing a manually curated set of 2D annotated images. Download requires an account.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The dataset complements the nuScenes dataset by providing a manually curated set of 2D annotated images. Download requires an account.</rdfs:comment>
         <owl:annotatedProperty>hostsService</owl:annotatedProperty>
         <owl:annotatedSource>Motional</owl:annotatedSource>
         <owl:annotatedTarget>nuImages</owl:annotatedTarget>
