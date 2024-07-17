@@ -605,6 +605,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Boreas_Dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Boreas_Dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset"/>
+        <isHostedBy rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Toronto"/>
+        <hasAPI>yes</hasAPI>
+        <hasServiceURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.boreas.utias.utoronto.ca</hasServiceURL>
+        <isOpenAccess>yes</isOpenAccess>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#Bundesamt_für_Wasserbau -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#Bundesamt_für_Wasserbau">
@@ -2860,6 +2872,16 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
         <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#EU_Long-term_Dataset_with_Multiple_Sensors_for_Autonomous_Driving"/>
         <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.utbm.fr</hasHostURL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Toronto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Toronto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Host"/>
+        <hostsService rdf:resource="http://www.semanticweb.org/p.ost/ontologies/dceng#Boreas_Dataset"/>
+        <hasHostURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.utoronto.ca</hasHostURL>
     </owl:NamedIndividual>
     
 
