@@ -28,4 +28,5 @@ services:
     volumes:
       - ./logs:/fuseki/logs
       - ./databases:/fuseki/databases
+    restart: unless-stopped
 #volumes:
