@@ -20,3 +20,14 @@ $ tdb2.tdbloader --loc databases/DB2 ../graph/DCE.ttl
 ```
 $ sh startup.sh
 ```
+
+## License information
+
+The following files have been adapted from the official [Apache Jena Fuseki Docker Tools](https://github.com/apache/jena/tree/main/jena-fuseki2/jena-fuseki-docker) and are licensed under the Apache 2.0 License:
+- Dockerfile
+- assembly-docker.xml
+- docker-compose.yaml
+- download.sh
+- entrypoint.sh
+- log4j2.properties
+- pom.xml
