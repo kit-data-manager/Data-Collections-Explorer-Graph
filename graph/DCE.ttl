@@ -1,0 +1,2573 @@
+@prefix : <http://www.semanticweb.org/p.ost/ontologies/dceng#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dceng: <http://www.semanticweb.org/p.ost/ontologies/dceng#> .
+@base <http://www.semanticweb.org/p.ost/ontologies/dceng#> .
+
+<http://www.semanticweb.org/p.ost/ontologies/dceng> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#annotatedProperty
+owl:annotatedProperty rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#annotatedSource
+owl:annotatedSource rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#annotatedTarget
+owl:annotatedTarget rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#hasSubjectArea
+dceng:hasSubjectArea rdf:type owl:ObjectProperty ,
+                              owl:AsymmetricProperty ,
+                              owl:IrreflexiveProperty ;
+                     rdfs:domain dceng:Service ;
+                     rdfs:range dceng:SubjectArea ;
+                     owl:propertyDisjointWith dceng:hostsService ,
+                                              dceng:isHostedBy .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#hostsService
+dceng:hostsService rdf:type owl:ObjectProperty ;
+                   owl:inverseOf dceng:isHostedBy ;
+                   rdf:type owl:AsymmetricProperty ,
+                            owl:IrreflexiveProperty ;
+                   rdfs:domain dceng:Host ;
+                   rdfs:range dceng:Service ;
+                   owl:propertyDisjointWith dceng:isHostedBy .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#isHostedBy
+dceng:isHostedBy rdf:type owl:ObjectProperty ,
+                          owl:AsymmetricProperty ,
+                          owl:IrreflexiveProperty ;
+                 rdfs:domain dceng:Service ;
+                 rdfs:range dceng:Host .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#hasAPI
+dceng:hasAPI rdf:type owl:DatatypeProperty ;
+             rdfs:domain dceng:Service ;
+             rdfs:range xsd:string ;
+             owl:propertyDisjointWith dceng:hasDatasetSizeLimit ,
+                                      dceng:hasHostURL ,
+                                      dceng:hasPublicationCost ,
+                                      dceng:hasServiceURL .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#hasDatasetSizeLimit
+dceng:hasDatasetSizeLimit rdf:type owl:DatatypeProperty ;
+                          rdfs:domain dceng:Service ;
+                          rdfs:range [ rdf:type rdfs:Datatype ;
+                                       owl:onDatatype xsd:decimal ;
+                                       owl:withRestrictions ( [ xsd:minInclusive 0
+                                                              ]
+                                                            )
+                                     ] ;
+                          owl:propertyDisjointWith dceng:hasHostURL ,
+                                                   dceng:hasPublicationCost ,
+                                                   dceng:hasServiceURL ,
+                                                   dceng:isOpenAccess .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#hasHostURL
+dceng:hasHostURL rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain dceng:Host ;
+                 rdfs:range xsd:anyURI ;
+                 owl:propertyDisjointWith dceng:hasPublicationCost ,
+                                          dceng:hasServiceURL ,
+                                          dceng:isOpenAccess .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#hasPublicationCost
+dceng:hasPublicationCost rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain dceng:Service ;
+                         rdfs:range xsd:string ;
+                         owl:propertyDisjointWith dceng:hasServiceURL ,
+                                                  dceng:isOpenAccess .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#hasServiceURL
+dceng:hasServiceURL rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain dceng:Service ;
+                    rdfs:range xsd:anyURI ;
+                    owl:propertyDisjointWith dceng:isOpenAccess .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#isOpenAccess
+dceng:isOpenAccess rdf:type owl:DatatypeProperty ;
+                   rdfs:domain dceng:Service ;
+                   rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Archive
+dceng:Archive rdf:type owl:Class ;
+              rdfs:subClassOf dceng:Collection ;
+              owl:disjointWith dceng:Bibliography ,
+                               dceng:Catalogue ,
+                               dceng:Database ,
+                               dceng:Digital_Library ,
+                               dceng:Ontology ,
+                               dceng:Terminology_Service .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Bibliography
+dceng:Bibliography rdf:type owl:Class ;
+                   rdfs:subClassOf dceng:Collection ;
+                   owl:disjointWith dceng:Catalogue ,
+                                    dceng:Database ,
+                                    dceng:Encyclopedia ,
+                                    dceng:Ontology ,
+                                    dceng:Terminology_Service .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Catalogue
+dceng:Catalogue rdf:type owl:Class ;
+                rdfs:subClassOf dceng:Collection ;
+                owl:disjointWith dceng:Database ,
+                                 dceng:Digital_Library ,
+                                 dceng:Encyclopedia ,
+                                 dceng:Ontology ,
+                                 dceng:Repository ,
+                                 dceng:Terminology_Service .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Collection
+dceng:Collection rdf:type owl:Class ;
+                 rdfs:subClassOf dceng:ServiceType ;
+                 owl:disjointWith dceng:Discrete ,
+                                  dceng:Terminology .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Community_Repository
+dceng:Community_Repository rdf:type owl:Class ;
+                           rdfs:subClassOf dceng:Repository ;
+                           owl:disjointWith dceng:Institutional_Repository .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Database
+dceng:Database rdf:type owl:Class ;
+               rdfs:subClassOf dceng:Collection ;
+               owl:disjointWith dceng:Digital_Library ,
+                                dceng:Encyclopedia ,
+                                dceng:Ontology ,
+                                dceng:Repository ,
+                                dceng:Terminology_Service .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Dataset
+dceng:Dataset rdf:type owl:Class ;
+              rdfs:subClassOf dceng:Discrete .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Digital_Library
+dceng:Digital_Library rdf:type owl:Class ;
+                      rdfs:subClassOf dceng:Collection ;
+                      owl:disjointWith dceng:Encyclopedia ,
+                                       dceng:Ontology ,
+                                       dceng:Repository ,
+                                       dceng:Terminology_Service .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Discrete
+dceng:Discrete rdf:type owl:Class ;
+               rdfs:subClassOf dceng:ServiceType ;
+               owl:disjointWith dceng:Terminology .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Encyclopedia
+dceng:Encyclopedia rdf:type owl:Class ;
+                   rdfs:subClassOf dceng:Collection ;
+                   owl:disjointWith dceng:Ontology ,
+                                    dceng:Terminology_Service .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Host
+dceng:Host rdf:type owl:Class ;
+           owl:disjointWith dceng:Service ,
+                            dceng:ServiceType ,
+                            dceng:SubjectArea .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Institutional_Repository
+dceng:Institutional_Repository rdf:type owl:Class ;
+                               rdfs:subClassOf dceng:Repository .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Ontology
+dceng:Ontology rdf:type owl:Class ;
+               rdfs:subClassOf dceng:Terminology ;
+               owl:disjointWith dceng:Repository ,
+                                dceng:Terminology_Service .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Repository
+dceng:Repository rdf:type owl:Class ;
+                 rdfs:subClassOf dceng:Collection ;
+                 owl:disjointWith dceng:Terminology_Service .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Service
+dceng:Service rdf:type owl:Class ;
+              owl:disjointWith dceng:SubjectArea .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#ServiceType
+dceng:ServiceType rdf:type owl:Class ;
+                  owl:disjointWith dceng:SubjectArea .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#SubjectArea
+dceng:SubjectArea rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology
+dceng:Terminology rdf:type owl:Class ;
+                  rdfs:subClassOf dceng:ServiceType .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Terminology_Service
+dceng:Terminology_Service rdf:type owl:Class ;
+                          rdfs:subClassOf dceng:Terminology .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#ACDC_Dataset
+dceng:ACDC_Dataset rdf:type owl:NamedIndividual ,
+                            dceng:Dataset ;
+                   dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                   dceng:isHostedBy dceng:ETH_Zürich ;
+                   dceng:hasAPI "no" ;
+                   dceng:hasServiceURL "https://acdc.vision.ee.ethz.ch"^^xsd:anyURI ;
+                   dceng:isOpenAccess "partially" ;
+                   rdfs:comment "ACDC is the Adverse Conditions Dataset with Correspondences and supports both standard and uncertainty-aware semantic segmentation"@en ;
+                   owl:annotatedProperty "hostsService" ;
+                   owl:annotatedSource "ETH Zürich" ;
+                   owl:annotatedTarget "ACDC Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#AERADE_Reports_Archive
+dceng:AERADE_Reports_Archive rdf:type owl:NamedIndividual ,
+                                      dceng:Archive ,
+                                      dceng:Service ;
+                             dceng:hasSubjectArea dceng:Aeronautics ;
+                             dceng:isHostedBy dceng:Cranfield_University ;
+                             dceng:hasServiceURL "https://reports.aerade.cranfield.ac.uk"^^xsd:anyURI ;
+                             dceng:isOpenAccess "yes" ;
+                             rdfs:comment "Archive of historically significant reports from the Aeronautical Research Council and the National Advisory Commitee for Aeronautics"@en ;
+                             owl:annotatedProperty "hostsService" ;
+                             owl:annotatedSource "Cranfield University" ;
+                             owl:annotatedTarget "AERADE Reports Archive" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#AWI
+dceng:AWI rdf:type owl:NamedIndividual ,
+                   dceng:Host ;
+          owl:sameAs dceng:Alfred-Wegener-Institut ;
+          dceng:hostsService dceng:PANGAEA ;
+          dceng:hasHostURL "https://www.awi.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Alfred-Wegener-Institut
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Aeronautics
+dceng:Aeronautics rdf:type owl:NamedIndividual ,
+                           dceng:SubjectArea ;
+                  owl:differentFrom dceng:Architecture ,
+                                    dceng:Autonomous_Driving ,
+                                    dceng:Cartography ,
+                                    dceng:Chemistry ,
+                                    dceng:Civil_Engineering ,
+                                    dceng:Computer_Science ,
+                                    dceng:Computer_Vision ,
+                                    dceng:Crystallography ,
+                                    dceng:Earth_Science ,
+                                    dceng:Energy ,
+                                    dceng:Environmental_Science ,
+                                    dceng:Hydraulic_Engineering ,
+                                    dceng:Materials_Science ,
+                                    dceng:Mathematics ,
+                                    dceng:Mining ,
+                                    dceng:Software ,
+                                    dceng:Transportation ,
+                                    dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Alfred-Wegener-Institut
+dceng:Alfred-Wegener-Institut rdf:type owl:NamedIndividual ,
+                                       dceng:Host ;
+                              dceng:hasHostURL "https://www.awi.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#ApolloScape
+dceng:ApolloScape rdf:type owl:NamedIndividual ,
+                           dceng:Dataset ;
+                  dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                  dceng:isHostedBy dceng:Baidu ;
+                  dceng:hasAPI "no" ;
+                  dceng:hasServiceURL "https://apolloscape.auto"^^xsd:anyURI ;
+                  dceng:isOpenAccess "partially" ;
+                  rdfs:comment "Collection of datasets for autonomous driving." ;
+                  owl:annotatedProperty "hostsService" ;
+                  owl:annotatedSource "Baidu" ;
+                  owl:annotatedTarget "ApolloScape" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Architecture
+dceng:Architecture rdf:type owl:NamedIndividual ,
+                            dceng:SubjectArea ;
+                   owl:differentFrom dceng:Autonomous_Driving ,
+                                     dceng:Cartography ,
+                                     dceng:Chemistry ,
+                                     dceng:Civil_Engineering ,
+                                     dceng:Computer_Science ,
+                                     dceng:Computer_Vision ,
+                                     dceng:Crystallography ,
+                                     dceng:Earth_Science ,
+                                     dceng:Energy ,
+                                     dceng:Environmental_Science ,
+                                     dceng:Hydraulic_Engineering ,
+                                     dceng:Materials_Science ,
+                                     dceng:Mathematics ,
+                                     dceng:Mining ,
+                                     dceng:Software ,
+                                     dceng:Transportation ,
+                                     dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Audi_AG
+dceng:Audi_AG rdf:type owl:NamedIndividual ,
+                       dceng:Host ;
+              dceng:hostsService <http://www.semanticweb.org/p.ost/ontologies/dceng#A2D2_–_Audi_Autonomous_Driving_Dataset> ;
+              dceng:hasHostURL "https://www.audi.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Driving
+dceng:Autonomous_Driving rdf:type owl:NamedIndividual ,
+                                  dceng:SubjectArea ;
+                         owl:differentFrom dceng:Cartography ,
+                                           dceng:Chemistry ,
+                                           dceng:Civil_Engineering ,
+                                           dceng:Computer_Science ,
+                                           dceng:Computer_Vision ,
+                                           dceng:Crystallography ,
+                                           dceng:Earth_Science ,
+                                           dceng:Energy ,
+                                           dceng:Environmental_Science ,
+                                           dceng:Hydraulic_Engineering ,
+                                           dceng:Materials_Science ,
+                                           dceng:Mathematics ,
+                                           dceng:Mining ,
+                                           dceng:Software ,
+                                           dceng:Transportation ,
+                                           dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#BAM
+dceng:BAM rdf:type owl:NamedIndividual ,
+                   dceng:Host ;
+          owl:sameAs dceng:Bundesanstalt_für_Materialforschung_und_-prüfung ;
+          dceng:hostsService dceng:BAM-Publica ;
+          dceng:hasHostURL "https://www.bam.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Bundesanstalt_für_Materialforschung_und_-prüfung
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#BAM-Publica
+dceng:BAM-Publica rdf:type owl:NamedIndividual ,
+                           dceng:Bibliography ,
+                           dceng:Institutional_Repository ,
+                           dceng:Service ;
+                  dceng:hasSubjectArea dceng:Interdisciplinary ;
+                  dceng:isHostedBy dceng:BAM ;
+                  dceng:hasServiceURL "https://opus4.kobv.de/opus4-bam/home"^^xsd:anyURI ;
+                  dceng:isOpenAccess "partially" ;
+                  rdfs:comment "Bibliography and institutional repository for publications by BAM scientists"@en ;
+                  owl:annotatedProperty "hostsService" ;
+                  owl:annotatedSource "BAM" ;
+                  owl:annotatedTarget "BAM-Publica" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Baidu
+dceng:Baidu rdf:type owl:NamedIndividual ,
+                     dceng:Host ;
+            dceng:hostsService dceng:ApolloScape ;
+            dceng:hasHostURL "https://www.apollo.auto"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#BioPortal
+dceng:BioPortal rdf:type owl:NamedIndividual ,
+                         dceng:Host ;
+                dceng:hostsService dceng:MatPortal ;
+                dceng:hasHostURL "https://www.bioontology.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Boreas_Dataset
+dceng:Boreas_Dataset rdf:type owl:NamedIndividual ,
+                              dceng:Dataset ;
+                     dceng:isHostedBy dceng:University_of_Toronto ;
+                     dceng:hasAPI "yes" ;
+                     dceng:hasServiceURL "https://www.boreas.utias.utoronto.ca"^^xsd:anyURI ;
+                     dceng:isOpenAccess "yes" ;
+                     rdfs:comment "Boreas is multi-season autonomous driving dataset. API access is via AWS S3."@en ;
+                     owl:annotatedProperty "hostsService" ;
+                     owl:annotatedSource "University of Toronto" ;
+                     owl:annotatedTarget "Boreas Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Bundesamt_für_Wasserbau
+dceng:Bundesamt_für_Wasserbau rdf:type owl:NamedIndividual ,
+                                       dceng:Host ;
+                              dceng:hostsService dceng:HENRY_Hydraulic_Engineering_Repository ;
+                              dceng:hasHostURL "https://www.baw.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Bundesanstalt_für_Materialforschung_und_-prüfung
+dceng:Bundesanstalt_für_Materialforschung_und_-prüfung rdf:type owl:NamedIndividual ,
+                                                                dceng:Host ;
+                                                       dceng:hasHostURL "https://www.bam.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#CERN
+dceng:CERN rdf:type owl:NamedIndividual ,
+                    dceng:Host ;
+           dceng:hostsService dceng:CERN_Document_Server ,
+                              dceng:Zenodo ;
+           dceng:hasHostURL "https://home.cern"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#CERN_Document_Server
+dceng:CERN_Document_Server rdf:type owl:NamedIndividual ,
+                                    dceng:Bibliography ,
+                                    dceng:Service ;
+                           dceng:hasSubjectArea dceng:Interdisciplinary ;
+                           dceng:isHostedBy dceng:CERN ;
+                           dceng:hasServiceURL "https://cds.cern.ch"^^xsd:anyURI ;
+                           dceng:isOpenAccess "partially" ;
+                           rdfs:comment "CERN and HEP articles, reports, etc."@en ;
+                           owl:annotatedProperty "hostsService" ;
+                           owl:annotatedSource "CERN" ;
+                           owl:annotatedTarget "CERN Document Server" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#CHIMaD
+dceng:CHIMaD rdf:type owl:NamedIndividual ,
+                      dceng:Host ;
+             owl:sameAs dceng:Center_for_Hierarchical_Materials_Design ;
+             dceng:hostsService dceng:PFHub ;
+             dceng:hasHostURL "https://chimad.northwestern.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Center_for_Hierarchical_Materials_Design
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Cartography
+dceng:Cartography rdf:type owl:NamedIndividual ,
+                           dceng:SubjectArea ;
+                  owl:differentFrom dceng:Chemistry ,
+                                    dceng:Civil_Engineering ,
+                                    dceng:Computer_Science ,
+                                    dceng:Computer_Vision ,
+                                    dceng:Crystallography ,
+                                    dceng:Earth_Science ,
+                                    dceng:Energy ,
+                                    dceng:Engineering ,
+                                    dceng:Environmental_Science ,
+                                    dceng:Hydraulic_Engineering ,
+                                    dceng:Materials_Science ,
+                                    dceng:Mathematics ,
+                                    dceng:Mining ,
+                                    dceng:Software ,
+                                    dceng:Transportation ,
+                                    dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Center_for_Hierarchical_Materials_Design
+dceng:Center_for_Hierarchical_Materials_Design rdf:type owl:NamedIndividual ,
+                                                        dceng:Host ;
+                                               dceng:hasHostURL "https://chimad.northwestern.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Centre_pour_la_Communication_Scientifique_Directe
+dceng:Centre_pour_la_Communication_Scientifique_Directe rdf:type owl:NamedIndividual ,
+                                                                 dceng:Host ;
+                                                        dceng:hostsService dceng:HAL_science_ouverte ;
+                                                        dceng:hasHostURL "https://www.ccsd.cnrs.fr"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#ChemSpider
+dceng:ChemSpider rdf:type owl:NamedIndividual ,
+                          dceng:Repository ,
+                          dceng:Service ;
+                 dceng:hasSubjectArea dceng:Chemistry ;
+                 dceng:isHostedBy dceng:RSC ;
+                 dceng:hasAPI "yes" ;
+                 dceng:hasServiceURL "https://www.chemspider.com"^^xsd:anyURI ;
+                 dceng:isOpenAccess "yes" ;
+                 rdfs:comment "Chemical structure database, access by API requires an account with RSC"@en ;
+                 owl:annotatedProperty "hostsService" ;
+                 owl:annotatedSource "RSC" ;
+                 owl:annotatedTarget "ChemSpider" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Chemistry
+dceng:Chemistry rdf:type owl:NamedIndividual ,
+                         dceng:SubjectArea ;
+                owl:differentFrom dceng:Civil_Engineering ,
+                                  dceng:Computer_Science ,
+                                  dceng:Computer_Vision ,
+                                  dceng:Crystallography ,
+                                  dceng:Earth_Science ,
+                                  dceng:Energy ,
+                                  dceng:Environmental_Science ,
+                                  dceng:Hydraulic_Engineering ,
+                                  dceng:Mathematics ,
+                                  dceng:Mining ,
+                                  dceng:Software ,
+                                  dceng:Transportation ,
+                                  dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Chemotion_Repository
+dceng:Chemotion_Repository rdf:type owl:NamedIndividual ,
+                                    dceng:Repository ,
+                                    dceng:Service ;
+                           dceng:hasSubjectArea dceng:Chemistry ;
+                           dceng:isHostedBy dceng:KIT ;
+                           dceng:hasAPI "yes" ;
+                           dceng:hasServiceURL "https://www.chemotion-repository.net"^^xsd:anyURI ;
+                           dceng:isOpenAccess "yes" ;
+                           rdfs:comment "Chemotion Repository provides an archive for materials, as well as a research data repository for samples, reactions and analyses"@en ;
+                           owl:annotatedProperty "hostsService" ;
+                           owl:annotatedSource "KIT" ;
+                           owl:annotatedTarget "Chemotion Repository" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Civil_Engineering
+dceng:Civil_Engineering rdf:type owl:NamedIndividual ,
+                                 dceng:SubjectArea ;
+                        owl:differentFrom dceng:Computer_Science ,
+                                          dceng:Computer_Vision ,
+                                          dceng:Crystallography ,
+                                          dceng:Earth_Science ,
+                                          dceng:Energy ,
+                                          dceng:Environmental_Science ,
+                                          dceng:Hydraulic_Engineering ,
+                                          dceng:Materials_Science ,
+                                          dceng:Mathematics ,
+                                          dceng:Mining ,
+                                          dceng:Software ,
+                                          dceng:Transportation ,
+                                          dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Computational_Materials_Repository
+dceng:Computational_Materials_Repository rdf:type owl:NamedIndividual ,
+                                                  dceng:Repository ,
+                                                  dceng:Service ;
+                                         dceng:hasSubjectArea dceng:Materials_Science ;
+                                         dceng:isHostedBy dceng:Technical_University_of_Denmark ;
+                                         dceng:hasAPI "yes" ;
+                                         dceng:hasServiceURL "https://cmr.fysik.dtu.dk"^^xsd:anyURI ;
+                                         dceng:isOpenAccess "yes" ;
+                                         rdfs:comment "Repository containing various databases of different kinds of computational materials"@en ;
+                                         owl:annotatedProperty "hostsService" ;
+                                         owl:annotatedSource "Technical University of Denmark" ;
+                                         owl:annotatedTarget "Computational Materials Repository" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Science
+dceng:Computer_Science rdf:type owl:NamedIndividual ,
+                                dceng:SubjectArea ;
+                       owl:differentFrom dceng:Computer_Vision ,
+                                         dceng:Crystallography ,
+                                         dceng:Earth_Science ,
+                                         dceng:Energy ,
+                                         dceng:Environmental_Science ,
+                                         dceng:Hydraulic_Engineering ,
+                                         dceng:Materials_Science ,
+                                         dceng:Mathematics ,
+                                         dceng:Mining ,
+                                         dceng:Software ,
+                                         dceng:Transportation ,
+                                         dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Computer_Vision
+dceng:Computer_Vision rdf:type owl:NamedIndividual ,
+                               dceng:SubjectArea ;
+                      owl:differentFrom dceng:Crystallography ,
+                                        dceng:Earth_Science ,
+                                        dceng:Energy ,
+                                        dceng:Environmental_Science ,
+                                        dceng:Hydraulic_Engineering ,
+                                        dceng:Materials_Science ,
+                                        dceng:Mathematics ,
+                                        dceng:Mining ,
+                                        dceng:Software ,
+                                        dceng:Transportation ,
+                                        dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Cranfield_University
+dceng:Cranfield_University rdf:type owl:NamedIndividual ,
+                                    dceng:Host ;
+                           dceng:hostsService dceng:AERADE_Reports_Archive ;
+                           dceng:hasHostURL "https://www.cranfield.ac.uk"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Crystallography
+dceng:Crystallography rdf:type owl:NamedIndividual ,
+                               dceng:SubjectArea ;
+                      owl:differentFrom dceng:Earth_Science ,
+                                        dceng:Energy ,
+                                        dceng:Engineering ,
+                                        dceng:Environmental_Science ,
+                                        dceng:Hydraulic_Engineering ,
+                                        dceng:Materials_Science ,
+                                        dceng:Mathematics ,
+                                        dceng:Mining ,
+                                        dceng:Software ,
+                                        dceng:Transportation ,
+                                        dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Crystallography_Open_Database
+dceng:Crystallography_Open_Database rdf:type owl:NamedIndividual ,
+                                             dceng:Repository ,
+                                             dceng:Service ;
+                                    dceng:hasSubjectArea dceng:Crystallography ;
+                                    dceng:isHostedBy dceng:Vilnius_University ;
+                                    dceng:hasAPI "yes" ;
+                                    dceng:hasServiceURL "https://www.crystallography.net/cod"^^xsd:anyURI ;
+                                    dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DENSE_datasets
+dceng:DENSE_datasets rdf:type owl:NamedIndividual ,
+                              dceng:Dataset ;
+                     dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                     dceng:isHostedBy dceng:Universität_Ulm ;
+                     dceng:hasAPI "no" ;
+                     dceng:hasServiceURL "https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets/"^^xsd:anyURI ;
+                     dceng:isOpenAccess "yes" ;
+                     rdfs:comment "The datasets contains scenes in adverse and challenging weather conditions"@en ;
+                     owl:annotatedProperty "hostsService" ;
+                     owl:annotatedSource "Universität Ulm" ;
+                     owl:annotatedTarget "DENSE datasets" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DLR-TS
+dceng:DLR-TS rdf:type owl:NamedIndividual ,
+                      dceng:Host ;
+             owl:sameAs dceng:DLR_Institut_für_Verkehrssystemtechnik ;
+             dceng:hasHostURL "https://www.dlr.de/ts"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DLR_Institut_für_Verkehrssystemtechnik
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DLR_Digitaler_Atlas
+dceng:DLR_Digitaler_Atlas rdf:type owl:NamedIndividual ,
+                                   dceng:Catalogue ,
+                                   dceng:Service ;
+                          dceng:hasSubjectArea dceng:Interdisciplinary ;
+                          dceng:isHostedBy dceng:DLR-TS ;
+                          dceng:hasAPI "no" ;
+                          dceng:hasServiceURL "https://ts.dlr.de/geonetwork/srv/ger/catalog.search#/home"^^xsd:anyURI ;
+                          dceng:isOpenAccess "partially" ;
+                          rdfs:comment "Metadata catalogue (Geonetwork) for spatially referenced resources."@en ;
+                          owl:annotatedProperty "hostsService" ;
+                          owl:annotatedSource "DLR-TS" ;
+                          owl:annotatedTarget "DLR Digitaler Atlas" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DLR_Institut_für_Verkehrssystemtechnik
+dceng:DLR_Institut_für_Verkehrssystemtechnik rdf:type owl:NamedIndividual ,
+                                                      dceng:Host ;
+                                             dceng:hasHostURL "https://www.dlr.de/ts"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DOE_CODE
+dceng:DOE_CODE rdf:type owl:NamedIndividual ,
+                        dceng:Institutional_Repository ,
+                        dceng:Service ;
+               dceng:hasSubjectArea dceng:Software ;
+               dceng:isHostedBy dceng:U.S._Department_of_Energy_Office_of_Scientific_and_Technical_Information ;
+               dceng:hasAPI "yes" ;
+               dceng:hasServiceURL "https://www.osti.gov/doecode"^^xsd:anyURI ;
+               rdfs:comment "Repository and archive for DOE funded software (business and scientific)"@en ;
+               owl:annotatedProperty "hostsService" ;
+               owl:annotatedSource "U.S. Department of Energy Office of Scientific and Technical Information" ;
+               owl:annotatedTarget "DOE CODE" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DaKS
+dceng:DaKS rdf:type owl:NamedIndividual ,
+                    dceng:Institutional_Repository ,
+                    dceng:Service ;
+           owl:sameAs dceng:Datenrepository_der_Universität_Kassel ;
+           dceng:hasSubjectArea dceng:Interdisciplinary ;
+           dceng:isHostedBy dceng:Universität_Kassel ;
+           dceng:hasAPI "yes" ;
+           dceng:hasPublicationCost "free" ;
+           dceng:hasServiceURL "https://daks.uni-kassel.de"^^xsd:anyURI ;
+           dceng:isOpenAccess "partially" ;
+           rdfs:comment "Institutional repository of the Universität Kassel"@en ;
+           owl:annotatedProperty "hostsService" ;
+           owl:annotatedSource "Universität Kassel" ;
+           owl:annotatedTarget "DaKS" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Datenrepository_der_Universität_Kassel
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DaRUS
+dceng:DaRUS rdf:type owl:NamedIndividual ,
+                     dceng:Institutional_Repository ,
+                     dceng:Service ;
+            dceng:hasSubjectArea dceng:Interdisciplinary ;
+            dceng:isHostedBy dceng:Universität_Stuttgart ;
+            dceng:hasAPI "yes" ;
+            dceng:hasServiceURL "https://darus.uni-stuttgart.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Database_of_Novel_and_Emerging_Adsorbent_Materials
+dceng:Database_of_Novel_and_Emerging_Adsorbent_Materials rdf:type owl:NamedIndividual ,
+                                                                  dceng:Catalogue ,
+                                                                  dceng:Service ;
+                                                         dceng:hasSubjectArea dceng:Materials_Science ;
+                                                         dceng:isHostedBy dceng:NIST ;
+                                                         dceng:hasAPI "yes" ;
+                                                         dceng:hasServiceURL "https://adsorption.nist.gov/isodb/index.php"^^xsd:anyURI ;
+                                                         rdfs:comment "Database of adsorption characteristics of novel and emerging materials, includes isotherm visualisation"@en ;
+                                                         owl:annotatedProperty "hostsService" ;
+                                                         owl:annotatedSource "NIST" ;
+                                                         owl:annotatedTarget "Database of Novel and Emerging Adsorbent Materials" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Datenrepository_der_Universität_Kassel
+dceng:Datenrepository_der_Universität_Kassel rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#DepositOnce
+dceng:DepositOnce rdf:type owl:NamedIndividual ,
+                           dceng:Institutional_Repository ,
+                           dceng:Service ;
+                  dceng:hasSubjectArea dceng:Interdisciplinary ;
+                  dceng:isHostedBy dceng:TU_Berlin ;
+                  dceng:hasAPI "yes" ;
+                  dceng:hasServiceURL "https://depositonce.tu-berlin.de"^^xsd:anyURI ;
+                  dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Digital_Science
+dceng:Digital_Science rdf:type owl:NamedIndividual ,
+                               dceng:Host ;
+                      dceng:hostsService dceng:figshare ;
+                      dceng:hasHostURL "https://www.digital-science.com"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Dryad
+dceng:Dryad rdf:type owl:NamedIndividual ,
+                     dceng:Host ;
+            dceng:hostsService dceng:Dryad_Digital_Repository ;
+            dceng:hasHostURL "https://datadryad.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Dryad_Digital_Repository
+dceng:Dryad_Digital_Repository rdf:type owl:NamedIndividual ,
+                                        dceng:Repository ,
+                                        dceng:Service ;
+                               dceng:hasSubjectArea dceng:Interdisciplinary ;
+                               dceng:isHostedBy dceng:Dryad ;
+                               dceng:hasAPI "yes" ;
+                               dceng:hasDatasetSizeLimit 300 ;
+                               dceng:hasPublicationCost "120$" ;
+                               dceng:hasServiceURL "https://datadryad.org"^^xsd:anyURI ;
+                               dceng:isOpenAccess "yes" ;
+                               rdfs:comment "Curated general-purpose repository, software submissions are published on Zenodo"@en ;
+                               owl:annotatedProperty "hostsService" ;
+                               owl:annotatedSource "Dryad" ;
+                               owl:annotatedTarget "Dryad Digital Repository" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#ELN_Finder
+dceng:ELN_Finder rdf:type owl:NamedIndividual ,
+                          dceng:Catalogue ,
+                          dceng:Service ;
+                 dceng:hasSubjectArea dceng:Interdisciplinary ;
+                 dceng:isHostedBy dceng:ULB_Darmstadt ;
+                 dceng:hasAPI "no" ;
+                 dceng:hasServiceURL "https://eln-finder.ulb.tu-darmstadt.de"^^xsd:anyURI ;
+                 dceng:isOpenAccess "yes" ;
+                 rdfs:comment "Overview of currently available ELN software solutions. Still in development."@en ;
+                 owl:annotatedProperty "hostsService" ;
+                 owl:annotatedSource "ULB Darmstadt" ;
+                 owl:annotatedTarget "ELN Finder" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#ETH_Zürich
+dceng:ETH_Zürich rdf:type owl:NamedIndividual ,
+                          dceng:Host ;
+                 dceng:hostsService dceng:ACDC_Dataset ;
+                 dceng:hasHostURL "https://ethz.ch"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#EU_Long-term_Dataset_with_Multiple_Sensors_for_Autonomous_Driving
+dceng:EU_Long-term_Dataset_with_Multiple_Sensors_for_Autonomous_Driving rdf:type owl:NamedIndividual ,
+                                                                                 dceng:Dataset ;
+                                                                        dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                                                                        dceng:isHostedBy dceng:University_of_Technology_of_Belfort-Montbéliard ;
+                                                                        dceng:hasAPI "no" ;
+                                                                        dceng:hasServiceURL "https://epan-utbm.github.io/utbm_robocar_dataset/"^^xsd:anyURI ;
+                                                                        dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Earth_Science
+dceng:Earth_Science rdf:type owl:NamedIndividual ,
+                             dceng:SubjectArea ;
+                    owl:differentFrom dceng:Energy ,
+                                      dceng:Engineering ,
+                                      dceng:Environmental_Science ,
+                                      dceng:Hydraulic_Engineering ,
+                                      dceng:Materials_Science ,
+                                      dceng:Mathematics ,
+                                      dceng:Mining ,
+                                      dceng:Software ,
+                                      dceng:Transportation ,
+                                      dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Energy
+dceng:Energy rdf:type owl:NamedIndividual ,
+                      dceng:SubjectArea ;
+             owl:differentFrom dceng:Environmental_Science ,
+                               dceng:Hydraulic_Engineering ,
+                               dceng:Materials_Science ,
+                               dceng:Mathematics ,
+                               dceng:Mining ,
+                               dceng:Software ,
+                               dceng:Transportation ,
+                               dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Engineering
+dceng:Engineering rdf:type owl:NamedIndividual ,
+                           dceng:SubjectArea ;
+                  owl:differentFrom dceng:Environmental_Science ,
+                                    dceng:Mathematics ,
+                                    dceng:Software ,
+                                    dceng:Transportation .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Environmental_Science
+dceng:Environmental_Science rdf:type owl:NamedIndividual ,
+                                     dceng:SubjectArea ;
+                            owl:differentFrom dceng:Hydraulic_Engineering ,
+                                              dceng:Materials_Science ,
+                                              dceng:Mathematics ,
+                                              dceng:Mining ,
+                                              dceng:Software ,
+                                              dceng:Transportation ,
+                                              dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Eric_Meier
+dceng:Eric_Meier rdf:type owl:NamedIndividual ,
+                          dceng:Host ;
+                 dceng:hostsService dceng:The_Wood_Database ;
+                 dceng:hasHostURL "https://www.wood-database.com"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FAIR_DI_e.V.
+<http://www.semanticweb.org/p.ost/ontologies/dceng#FAIR_DI_e.V.> rdf:type owl:NamedIndividual ,
+                                                                          dceng:Host ;
+                                                                 dceng:hostsService dceng:NOMAD_Novel_Materials_Discovery ;
+                                                                 dceng:hasHostURL "https://www.fair-di.eu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FID_BAU
+dceng:FID_BAU rdf:type owl:NamedIndividual ,
+                       dceng:Host ;
+              dceng:hostsService dceng:Fachinformationsdienst_BAUdigital ;
+              dceng:hasHostURL "https://www.fid-bau.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FID_GEO
+dceng:FID_GEO rdf:type owl:NamedIndividual ,
+                       dceng:Host ;
+              dceng:hostsService dceng:GEO-LEO_e-docs ;
+              dceng:hasHostURL "https://www.fidgeo.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Karten
+dceng:FID_Karten rdf:type owl:NamedIndividual ,
+                          dceng:Host ;
+                 dceng:hostsService dceng:Fachinformationsdienst_Kartographie_und_Geobasisdaten ;
+                 dceng:hasHostURL "https://kartographie.staatsbibliothek-berlin.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Material_Science
+dceng:FID_Material_Science rdf:type owl:NamedIndividual ,
+                                    dceng:Host ;
+                           dceng:hostsService dceng:Fachinformationsdienst_Materialwissenschaft_und_Werkstofftechnik ;
+                           dceng:hasHostURL "https://www.materials-science.info"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Mathematik
+dceng:FID_Mathematik rdf:type owl:NamedIndividual ,
+                              dceng:Host ;
+                     dceng:hostsService dceng:fidmath ;
+                     dceng:hasHostURL "https://fidmath.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Move
+dceng:FID_Move rdf:type owl:NamedIndividual ,
+                        dceng:Host ;
+               dceng:hostsService dceng:FID_Move_Repositorium ,
+                                  dceng:Fachinformationsdienst_Mobilitäts-_und_Verkehrsforschung ;
+               dceng:hasHostURL "https://fid-move.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Move_Repositorium
+dceng:FID_Move_Repositorium rdf:type owl:NamedIndividual ,
+                                     dceng:Repository ,
+                                     dceng:Service ;
+                            dceng:hasSubjectArea dceng:Transportation ;
+                            dceng:isHostedBy dceng:FID_Move ;
+                            dceng:hasAPI "yes" ;
+                            dceng:hasServiceURL "https://data.fid-move.de"^^xsd:anyURI ;
+                            dceng:isOpenAccess "yes" ;
+                            rdfs:comment "Research data repository for the field of mobility and transport research"@en ;
+                            owl:annotatedProperty "hostsService" ;
+                            owl:annotatedSource "FID Move" ;
+                            owl:annotatedTarget "FID Move Repositorium" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe
+dceng:FIZ_Karlsruhe rdf:type owl:NamedIndividual ,
+                             dceng:Host ;
+                    owl:sameAs <http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
+                    dceng:hostsService dceng:Inorganic_Crystal_Structure_Database ,
+                                       dceng:RADAR4Chem .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Fachinformationsdienst_BAUdigital
+dceng:Fachinformationsdienst_BAUdigital rdf:type owl:NamedIndividual ,
+                                                 dceng:Bibliography ,
+                                                 dceng:Repository ,
+                                                 dceng:Service ;
+                                        dceng:hasSubjectArea dceng:Architecture ,
+                                                             dceng:Civil_Engineering ,
+                                                             dceng:Urbanism ;
+                                        dceng:isHostedBy dceng:FID_BAU ;
+                                        dceng:hasServiceURL "https://www.fid-bau.de"^^xsd:anyURI ;
+                                        rdfs:comment "In active development, first services are available as beta versions"@en ;
+                                        owl:annotatedProperty "hostsService" ;
+                                        owl:annotatedSource "FID BAU" ;
+                                        owl:annotatedTarget "Fachinformationsdienst BAUdigital" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Fachinformationsdienst_Kartographie_und_Geobasisdaten
+dceng:Fachinformationsdienst_Kartographie_und_Geobasisdaten rdf:type owl:NamedIndividual ,
+                                                                     dceng:Bibliography ,
+                                                                     dceng:Repository ,
+                                                                     dceng:Service ;
+                                                            dceng:hasSubjectArea dceng:Cartography ;
+                                                            dceng:isHostedBy dceng:FID_Karten ;
+                                                            dceng:hasServiceURL "https://kartographie.staatsbibliothek-berlin.de"^^xsd:anyURI ;
+                                                            dceng:isOpenAccess "partially" ;
+                                                            rdfs:comment "Provides resources for research of special cartographic literature, some services require registration"@en ;
+                                                            owl:annotatedProperty "hostsService" ;
+                                                            owl:annotatedSource "FID Karten" ;
+                                                            owl:annotatedTarget "Fachinformationsdienst Kartographie und Geobasisdaten" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Fachinformationsdienst_Materialwissenschaft_und_Werkstofftechnik
+dceng:Fachinformationsdienst_Materialwissenschaft_und_Werkstofftechnik rdf:type owl:NamedIndividual ,
+                                                                                dceng:Catalogue ,
+                                                                                dceng:Service ;
+                                                                       dceng:hasSubjectArea dceng:Materials_Science ;
+                                                                       dceng:isHostedBy dceng:FID_Material_Science ;
+                                                                       dceng:hasServiceURL "https://www.materials-science.info"^^xsd:anyURI ;
+                                                                       rdfs:comment "Integrated interface to MaterialHub and TIB search portal, service is currently being set up"@en ;
+                                                                       owl:annotatedProperty "hostsService" ;
+                                                                       owl:annotatedSource "FID Material Science" ;
+                                                                       owl:annotatedTarget "Fachinformationsdienst Materialwissenschaft und Werkstofftechnik" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Fachinformationsdienst_Mobilitäts-_und_Verkehrsforschung
+dceng:Fachinformationsdienst_Mobilitäts-_und_Verkehrsforschung rdf:type owl:NamedIndividual ,
+                                                                        dceng:Bibliography ,
+                                                                        dceng:Repository ,
+                                                                        dceng:Service ;
+                                                               dceng:hasSubjectArea dceng:Transportation ;
+                                                               dceng:isHostedBy dceng:FID_Move ;
+                                                               dceng:hasServiceURL "https://fid-move.de"^^xsd:anyURI ;
+                                                               rdfs:comment "Repository and search interface to various sources relevant to the field of mobility and transport research"@en ;
+                                                               owl:annotatedProperty "hostsService" ;
+                                                               owl:annotatedSource "FID Move" ;
+                                                               owl:annotatedTarget "Fachinformationsdienst Mobilitäts- und Verkehrsforschung" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Autonomous_Vehicle_Dataset
+dceng:Ford_Autonomous_Vehicle_Dataset rdf:type owl:NamedIndividual ,
+                                               dceng:Dataset ;
+                                      dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                                      dceng:isHostedBy dceng:Ford_Motor_Company ;
+                                      dceng:hasAPI "no" ;
+                                      dceng:hasServiceURL "https://avdata.ford.com"^^xsd:anyURI ;
+                                      dceng:isOpenAccess "yes" ;
+                                      rdfs:comment "The dataset contains data from multiple vehicles in a variety of driving and weather conditions"@en ;
+                                      owl:annotatedProperty "hostsService" ;
+                                      owl:annotatedSource "Ford Motor Company" ;
+                                      owl:annotatedTarget "Ford Autonomous Vehicle Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Ford_Motor_Company
+dceng:Ford_Motor_Company rdf:type owl:NamedIndividual ,
+                                  dceng:Host ;
+                         dceng:hostsService dceng:Ford_Autonomous_Vehicle_Dataset ;
+                         dceng:hasHostURL "https://www.ford.com"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Fordatis
+dceng:Fordatis rdf:type owl:NamedIndividual ,
+                        dceng:Institutional_Repository ,
+                        dceng:Service ;
+               dceng:hasSubjectArea dceng:Interdisciplinary ;
+               dceng:isHostedBy dceng:Fraunhofer-Gesellschaft ;
+               dceng:hasAPI "yes" ;
+               dceng:hasDatasetSizeLimit 5 ;
+               dceng:hasPublicationCost "free" ;
+               dceng:hasServiceURL "https://fordatis.fraunhofer.de"^^xsd:anyURI ;
+               dceng:isOpenAccess "partially" ;
+               rdfs:comment "Research data repository of the Fraunhofer association. Upload possible for Fraunhofer employees and their project partners."@en ;
+               owl:annotatedProperty "hostsService" ;
+               owl:annotatedSource "Fraunhofer-Gesellschaft" ;
+               owl:annotatedTarget "Fordatis" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Forschungsdatenrepositorium
+dceng:Forschungsdatenrepositorium rdf:type owl:NamedIndividual ,
+                                           dceng:Institutional_Repository ,
+                                           dceng:Service ;
+                                  dceng:hasSubjectArea dceng:Interdisciplinary ;
+                                  dceng:isHostedBy dceng:Universität_Hannover ;
+                                  dceng:hasAPI "yes" ;
+                                  dceng:hasPublicationCost "free" ;
+                                  dceng:hasServiceURL "https://data.uni-hannover.de"^^xsd:anyURI ;
+                                  dceng:isOpenAccess "yes" ;
+                                  rdfs:comment "Research data repository for researchers at Leibniz Universität Hannover (LUH)"@en ;
+                                  owl:annotatedProperty "hostsService" ;
+                                  owl:annotatedSource "Universität Hannover" ;
+                                  owl:annotatedTarget "Forschungsdatenrepositorium" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Fraunhofer-Gesellschaft
+dceng:Fraunhofer-Gesellschaft rdf:type owl:NamedIndividual ,
+                                       dceng:Host ;
+                              dceng:hostsService dceng:Fordatis ;
+                              dceng:hasHostURL "https://www.fraunhofer.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#GEO-LEO_e-docs
+dceng:GEO-LEO_e-docs rdf:type owl:NamedIndividual ,
+                              dceng:Repository ,
+                              dceng:Service ;
+                     dceng:hasSubjectArea dceng:Earth_Science ;
+                     dceng:isHostedBy dceng:FID_GEO ;
+                     dceng:hasServiceURL "https://e-docs.geo-leo.de"^^xsd:anyURI ;
+                     dceng:isOpenAccess "yes" ;
+                     rdfs:comment "Repository and archive of scientific publications from the earth sciences (including grey literature and maps, amongst others)"@en ;
+                     owl:annotatedProperty "hostsService" ;
+                     owl:annotatedSource "FID GEO" ;
+                     owl:annotatedTarget "GEO-LEO e-docs" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#GFZ_Data_Services
+dceng:GFZ_Data_Services rdf:type owl:NamedIndividual ,
+                                 dceng:Repository ,
+                                 dceng:Service ;
+                        dceng:hasSubjectArea dceng:Earth_Science ,
+                                             dceng:Environmental_Science ;
+                        dceng:isHostedBy dceng:Geoforschungszentrum_Potsdam ;
+                        dceng:hasServiceURL "https://dataservices.gfz-potsdam.de"^^xsd:anyURI ;
+                        dceng:isOpenAccess "yes" ;
+                        rdfs:comment "Research data repository for the earth and environmental sciences, accepts research data as well as scientific software"@en ;
+                        owl:annotatedProperty "hostsService" ;
+                        owl:annotatedSource "Geoforschungszentrum Potsdam" ;
+                        owl:annotatedTarget "GFZ Data Services" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#GFZpublic
+dceng:GFZpublic rdf:type owl:NamedIndividual ,
+                         dceng:Bibliography ,
+                         dceng:Institutional_Repository ,
+                         dceng:Service ;
+                dceng:hasSubjectArea dceng:Earth_Science ;
+                dceng:isHostedBy dceng:Geoforschungszentrum_Potsdam ;
+                dceng:hasAPI "yes" ;
+                dceng:hasServiceURL "https://gfzpublic.gfz-potsdam.de"^^xsd:anyURI ;
+                dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Geoforschungszentrum_Potsdam
+dceng:Geoforschungszentrum_Potsdam rdf:type owl:NamedIndividual ,
+                                            dceng:Host ;
+                                   dceng:hostsService dceng:GFZ_Data_Services ,
+                                                      dceng:GFZpublic ;
+                                   dceng:hasHostURL "https://www.gfz-potsdam.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#HAL_science_ouverte
+dceng:HAL_science_ouverte rdf:type owl:NamedIndividual ,
+                                   dceng:Repository ,
+                                   dceng:Service ;
+                          dceng:hasSubjectArea dceng:Interdisciplinary ;
+                          dceng:isHostedBy dceng:Centre_pour_la_Communication_Scientifique_Directe ;
+                          dceng:hasAPI "yes" ;
+                          dceng:hasDatasetSizeLimit 0.2 ;
+                          dceng:hasServiceURL "https://hal.archives-ouvertes.fr"^^xsd:anyURI ;
+                          dceng:isOpenAccess "yes" ;
+                          rdfs:comment "Also provides access to other repositories of french universities and research centers"@en ;
+                          owl:annotatedProperty "hostsService" ;
+                          owl:annotatedSource "Centre pour la Communication Scientifique Directe" ;
+                          owl:annotatedTarget "HAL science ouverte" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#HENRY_Hydraulic_Engineering_Repository
+dceng:HENRY_Hydraulic_Engineering_Repository rdf:type owl:NamedIndividual ,
+                                                      dceng:Repository ,
+                                                      dceng:Service ;
+                                             dceng:hasSubjectArea dceng:Hydraulic_Engineering ;
+                                             dceng:isHostedBy dceng:Bundesamt_für_Wasserbau ;
+                                             dceng:hasPublicationCost "free" ;
+                                             dceng:hasServiceURL "https://henry.baw.de"^^xsd:anyURI ;
+                                             dceng:isOpenAccess "yes" ;
+                                             rdfs:comment "Also provides an archive for reports and scientific publications from BAW and WSV"@en ;
+                                             owl:annotatedProperty "hostsService" ;
+                                             owl:annotatedSource "Bundesamt für Wasserbau" ;
+                                             owl:annotatedTarget "HENRY Hydraulic Engineering Repository" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Heusler_Database
+dceng:Heusler_Database rdf:type owl:NamedIndividual ,
+                                dceng:Database ,
+                                dceng:Service ;
+                       dceng:hasSubjectArea dceng:Materials_Science ;
+                       dceng:isHostedBy dceng:University_of_Alabama ;
+                       dceng:hasAPI "no" ;
+                       dceng:hasServiceURL "http://heusleralloys.mint.ua.edu"^^xsd:anyURI ;
+                       dceng:isOpenAccess "yes" ;
+                       rdfs:comment "Database of (calculated) properties of Heusler alloys"@en ;
+                       owl:annotatedProperty "hostsService" ;
+                       owl:annotatedSource "University of Alabama" ;
+                       owl:annotatedTarget "Heusler Database" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Hong_Kong_Polytechnic_University
+dceng:Hong_Kong_Polytechnic_University rdf:type owl:NamedIndividual ,
+                                                dceng:Host ;
+                                       dceng:hostsService <http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes> ;
+                                       dceng:hasHostURL "https://www.polyu.edu.hk"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Hydraulic_Engineering
+dceng:Hydraulic_Engineering rdf:type owl:NamedIndividual ,
+                                     dceng:SubjectArea ;
+                            owl:differentFrom dceng:Materials_Science ,
+                                              dceng:Mathematics ,
+                                              dceng:Mining ,
+                                              dceng:Software ,
+                                              dceng:Transportation ,
+                                              dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Inorganic_Crystal_Structure_Database
+dceng:Inorganic_Crystal_Structure_Database rdf:type owl:NamedIndividual ,
+                                                    dceng:Database ,
+                                                    dceng:Service ;
+                                           dceng:hasSubjectArea dceng:Materials_Science ;
+                                           dceng:isHostedBy dceng:FIZ_Karlsruhe ;
+                                           dceng:hasAPI "yes" ;
+                                           dceng:hasServiceURL "https://icsd.products.fiz-karlsruhe.de"^^xsd:anyURI ;
+                                           dceng:isOpenAccess "no" ;
+                                           rdfs:comment "Database for completely identified inorganic crystal structures. Access requires a license."@en ;
+                                           owl:annotatedProperty "hostsService" ;
+                                           owl:annotatedSource "FIZ Karlsruhe" ;
+                                           owl:annotatedTarget "Inorganic Crystal Structure Database" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Institutionelles_Repositorium_der_Leibniz_Universität_Hannover
+dceng:Institutionelles_Repositorium_der_Leibniz_Universität_Hannover rdf:type owl:NamedIndividual ,
+                                                                              dceng:Institutional_Repository ,
+                                                                              dceng:Service ;
+                                                                     dceng:hasSubjectArea dceng:Interdisciplinary ;
+                                                                     dceng:isHostedBy dceng:Universität_Hannover ;
+                                                                     dceng:hasPublicationCost "free" ;
+                                                                     dceng:hasServiceURL "https://www.repo.uni-hannover.de"^^xsd:anyURI ;
+                                                                     dceng:isOpenAccess "yes" ;
+                                                                     rdfs:comment "Institutional repository open to members and alumni of LUH"@en ;
+                                                                     owl:annotatedProperty "hostsService" ;
+                                                                     owl:annotatedSource "Universität Hannover" ;
+                                                                     owl:annotatedTarget "Institutionelles Repositorium der Leibniz Universität Hannover" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Interdisciplinary
+dceng:Interdisciplinary rdf:type owl:NamedIndividual ,
+                                 dceng:SubjectArea .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#J-STAGE
+dceng:J-STAGE rdf:type owl:NamedIndividual ,
+                       dceng:Bibliography ,
+                       dceng:Digital_Library ,
+                       dceng:Service ;
+              dceng:hasSubjectArea dceng:Interdisciplinary ;
+              dceng:isHostedBy dceng:Japan_Science_and_Technology_Agency ;
+              dceng:hasAPI "no" ;
+              dceng:hasServiceURL "https://www.jstage.jst.go.jp/browse/-char/en"^^xsd:anyURI ;
+              dceng:isOpenAccess "partially" ;
+              rdfs:comment "Electronic publishing platform for academic institutions from Japan"@en ;
+              owl:annotatedProperty "hostsService" ;
+              owl:annotatedSource "Japan Science and Technology Agency" ;
+              owl:annotatedTarget "J-STAGE" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Japan_Science_and_Technology_Agency
+dceng:Japan_Science_and_Technology_Agency rdf:type owl:NamedIndividual ,
+                                                   dceng:Host ;
+                                          dceng:hostsService dceng:J-STAGE ;
+                                          dceng:hasHostURL "https://www.jst.go.jp/EN/"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#KIM_Project
+dceng:KIM_Project rdf:type owl:NamedIndividual ,
+                           dceng:Host ;
+                  dceng:hostsService dceng:openKIM ;
+                  dceng:hasHostURL "https://openkim.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#KIT
+dceng:KIT rdf:type owl:NamedIndividual ,
+                   dceng:Host ;
+          owl:sameAs dceng:Karlsruhe_Institute_of_Technology ,
+                     dceng:Karlsruher_Institut_für_Technologie ;
+          dceng:hostsService dceng:Chemotion_Repository ,
+                             dceng:NFDI-MatWerk_Repository ,
+                             dceng:RADAR4KIT ;
+          dceng:hasHostURL "https://www.kit.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruhe_Institute_of_Technology
+dceng:Karlsruhe_Institute_of_Technology rdf:type owl:NamedIndividual ,
+                                                 dceng:Host ;
+                                        owl:sameAs dceng:Karlsruher_Institut_für_Technologie ;
+                                        dceng:hasHostURL "https://www.kit.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Karlsruher_Institut_für_Technologie
+dceng:Karlsruher_Institut_für_Technologie rdf:type owl:NamedIndividual ,
+                                                   dceng:Host ;
+                                          dceng:hasHostURL "https://www.kit.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#LeoPARD
+dceng:LeoPARD rdf:type owl:NamedIndividual ,
+                       dceng:Institutional_Repository ,
+                       dceng:Service ;
+              dceng:hasSubjectArea dceng:Interdisciplinary ;
+              dceng:isHostedBy dceng:TU_Braunschweig ;
+              dceng:hasAPI "yes" ;
+              dceng:hasPublicationCost "free" ;
+              dceng:hasServiceURL "https://leopard.tu-braunschweig.de"^^xsd:anyURI ;
+              dceng:isOpenAccess "partially" ;
+              rdfs:comment "Also publishes collections of special interest of TU Braunschweig and regional institutions"@en ;
+              owl:annotatedProperty "hostsService" ;
+              owl:annotatedSource "TU Braunschweig" ;
+              owl:annotatedTarget "LeoPARD" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Linköping_University
+dceng:Linköping_University rdf:type owl:NamedIndividual ,
+                                    dceng:Host ;
+                           dceng:hostsService dceng:Open_Materials_Database ;
+                           dceng:hasHostURL "https://liu.se"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#MARUM
+dceng:MARUM rdf:type owl:NamedIndividual ,
+                     dceng:Host ;
+            owl:sameAs dceng:Zentrum_für_Marine_Umweltwissenschaften ;
+            dceng:hostsService dceng:PANGAEA ;
+            dceng:hasHostURL "https://www.marum.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Zentrum_für_Marine_Umweltwissenschaften
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#MatPortal
+dceng:MatPortal rdf:type owl:NamedIndividual ,
+                         dceng:Service ,
+                         dceng:Terminology_Service ;
+                dceng:hasSubjectArea dceng:Materials_Science ;
+                dceng:isHostedBy dceng:BioPortal ;
+                dceng:hasAPI "yes" ;
+                dceng:hasServiceURL "https://matportal.org"^^xsd:anyURI ;
+                rdfs:comment "Ontology repository for the material sciences"@en ;
+                owl:annotatedProperty "hostsService" ;
+                owl:annotatedSource "BioPortal" ;
+                owl:annotatedTarget "MatPortal" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Material_Hub
+dceng:Material_Hub rdf:type owl:NamedIndividual ,
+                            dceng:Repository ,
+                            dceng:Service ;
+                   dceng:hasSubjectArea dceng:Materials_Science ;
+                   dceng:isHostedBy dceng:SLUB ;
+                   dceng:hasPublicationCost "free" ;
+                   dceng:hasServiceURL "https://www.materialhub.de"^^xsd:anyURI ;
+                   dceng:isOpenAccess "yes" ;
+                   rdfs:comment "Materials research repository with partners from science and industry"@en ;
+                   owl:annotatedProperty "hostsService" ;
+                   owl:annotatedSource "SLUB" ;
+                   owl:annotatedTarget "Material Hub" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Materials_Consortia
+dceng:Materials_Consortia rdf:type owl:NamedIndividual ,
+                                   dceng:Host ;
+                          dceng:hostsService dceng:OPTIMADE ;
+                          dceng:hasHostURL "https://github.com/Materials-Consortia"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Materials_Project
+dceng:Materials_Project rdf:type owl:NamedIndividual ,
+                                 dceng:Database ,
+                                 dceng:Service ;
+                        dceng:hasSubjectArea dceng:Materials_Science ;
+                        dceng:isHostedBy dceng:The_Materials_Project ;
+                        dceng:hasAPI "yes" ;
+                        dceng:hasServiceURL "https://materialsproject.org"^^xsd:anyURI ;
+                        dceng:isOpenAccess "yes" ;
+                        rdfs:comment "Database of computed information about materials, both known and predicted."@en ;
+                        owl:annotatedProperty "hostsService" ;
+                        owl:annotatedSource "The Materials Project" ;
+                        owl:annotatedTarget "Materials Project" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Materials_Science
+dceng:Materials_Science rdf:type owl:NamedIndividual ,
+                                 dceng:SubjectArea ;
+                        owl:differentFrom dceng:Mathematics ,
+                                          dceng:Mining ,
+                                          dceng:Software ,
+                                          dceng:Transportation ,
+                                          dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Materialsweb
+dceng:Materialsweb rdf:type owl:NamedIndividual ,
+                            dceng:Database ,
+                            dceng:Service ;
+                   dceng:hasSubjectArea dceng:Materials_Science ;
+                   dceng:isHostedBy dceng:University_of_Florida ;
+                   dceng:hasAPI "yes" ;
+                   dceng:hasServiceURL "https://materialsweb.org"^^xsd:anyURI ;
+                   dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Mathematics
+dceng:Mathematics rdf:type owl:NamedIndividual ,
+                           dceng:SubjectArea ;
+                  owl:differentFrom dceng:Mining ,
+                                    dceng:Software ,
+                                    dceng:Transportation ,
+                                    dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Max_Planck_Society_for_the_Advancement_of_Science
+dceng:Max_Planck_Society_for_the_Advancement_of_Science rdf:type owl:NamedIndividual ,
+                                                                 dceng:Host ;
+                                                        dceng:hostsService dceng:The_Cityscapes_Dataset ;
+                                                        dceng:hasHostURL "https://www.mpi-inf.mpg.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Metadata4Ing
+dceng:Metadata4Ing rdf:type owl:NamedIndividual ,
+                            dceng:Ontology ,
+                            dceng:Service ;
+                   dceng:hasSubjectArea dceng:Engineering ;
+                   dceng:isHostedBy dceng:NFDI4Ing ;
+                   dceng:hasServiceURL "https://w3id.org/nfdi4ing/metadata4ing"^^xsd:anyURI ;
+                   dceng:isOpenAccess "yes" ;
+                   rdfs:comment "Ontology focused on the semantic description of research data in the engineering sciences"@en ;
+                   owl:annotatedProperty "hostsService" ;
+                   owl:annotatedSource "NFDI4Ing" ;
+                   owl:annotatedTarget "Metadata4Ing" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Mining
+dceng:Mining rdf:type owl:NamedIndividual ,
+                      dceng:SubjectArea ;
+             owl:differentFrom dceng:Software ,
+                               dceng:Transportation ,
+                               dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Montanportal
+dceng:Montanportal rdf:type owl:NamedIndividual ,
+                            dceng:Bibliography ,
+                            dceng:Service ;
+                   dceng:hasSubjectArea dceng:Mining ;
+                   dceng:isHostedBy <http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Montan,_Bergbau,_Hüttenwesen> ;
+                   dceng:hasServiceURL "https://montanportal.com"^^xsd:anyURI ;
+                   rdfs:comment "Information portal concerning everything about mining, raw materials, metallurgy, etc., cooperation with FiD GEO"@en ;
+                   owl:annotatedProperty "hostsService" ;
+                   owl:annotatedSource "FID Montan, Bergbau, Hüttenwesen" ;
+                   owl:annotatedTarget "Montanportal" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Motional
+dceng:Motional rdf:type owl:NamedIndividual ,
+                        dceng:Host ;
+               dceng:hostsService dceng:nuImages ,
+                                  <http://www.semanticweb.org/p.ost/ontologies/dceng#nuScenes_–_A_multimodal_dataset_for_autonomous_driving> ;
+               dceng:hasHostURL "https://motional.com"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI-MatWerk_Repository
+dceng:NFDI-MatWerk_Repository rdf:type owl:NamedIndividual ,
+                                       dceng:Repository ,
+                                       dceng:Service ;
+                              dceng:hasSubjectArea dceng:Materials_Science ;
+                              dceng:isHostedBy dceng:KIT ;
+                              dceng:hasAPI "yes" ;
+                              dceng:hasPublicationCost "free" ;
+                              dceng:hasServiceURL "https://matwerk.datamanager.kit.edu"^^xsd:anyURI ;
+                              dceng:isOpenAccess "yes" ;
+                              rdfs:comment "Data and metadata repository for NFDI-MatWerk. File size limit for the metadata repository is 10MB."@en ;
+                              owl:annotatedProperty "hostsService" ;
+                              owl:annotatedSource "KIT" ;
+                              owl:annotatedTarget "NFDI-MatWerk Repository" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing
+dceng:NFDI4Ing rdf:type owl:NamedIndividual ,
+                        dceng:Host ;
+               dceng:hostsService dceng:Metadata4Ing ,
+                                  dceng:NFDI4Ing_Terminology_Service ;
+               dceng:hasHostURL "https://nfdi4ing.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing_Ingest_Service
+dceng:NFDI4Ing_Ingest_Service rdf:type owl:NamedIndividual ,
+                                       dceng:Repository ,
+                                       dceng:Service ;
+                              dceng:hasSubjectArea dceng:Architecture ,
+                                                   dceng:Civil_Engineering ,
+                                                   dceng:Urbanism ;
+                              dceng:isHostedBy dceng:NFDI4Ing ;
+                              dceng:hasAPI "yes" ;
+                              dceng:hasPublicationCost "free" ;
+                              dceng:hasServiceURL "https://ingest.nfdi4ing.de"^^xsd:anyURI ;
+                              dceng:isOpenAccess "yes" ;
+                              rdfs:comment "Repository for civil engineering, architecture and urbanism."@en ;
+                              owl:annotatedProperty "hostsService" ;
+                              owl:annotatedSource "NFDI4Ing" ;
+                              owl:annotatedTarget "NFDI4Ing Ingest Service" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#NFDI4Ing_Terminology_Service
+dceng:NFDI4Ing_Terminology_Service rdf:type owl:NamedIndividual ,
+                                            dceng:Service ,
+                                            dceng:Terminology_Service ;
+                                   dceng:hasSubjectArea dceng:Interdisciplinary ;
+                                   dceng:isHostedBy dceng:NFDI4Ing ,
+                                                    dceng:TIB ;
+                                   dceng:hasAPI "yes" ;
+                                   dceng:hasServiceURL "https://terminology.nfdi4ing.de"^^xsd:anyURI ;
+                                   rdfs:comment "Repository for engineering ontologies"@en ;
+                                   owl:annotatedProperty "hostsService" ;
+                                   owl:annotatedSource "NFDI4Ing" ,
+                                                       "TIB" ;
+                                   owl:annotatedTarget "NFDI4Ing Terminology Service" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#NIH_National_Library_of_Medicine
+dceng:NIH_National_Library_of_Medicine rdf:type owl:NamedIndividual ,
+                                                dceng:Host ;
+                                       dceng:hostsService dceng:PubChem ;
+                                       dceng:hasHostURL "https://www.nlm.nih.gov"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#NIST
+dceng:NIST rdf:type owl:NamedIndividual ,
+                    dceng:Host ;
+           owl:sameAs dceng:National_Institute_of_Standards_and_Technology ;
+           dceng:hostsService dceng:Database_of_Novel_and_Emerging_Adsorbent_Materials ,
+                              dceng:PFHub ;
+           dceng:hasHostURL "https://www.nist.gov"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#National_Institute_of_Standards_and_Technology
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#NMRShiftDB
+dceng:NMRShiftDB rdf:type owl:NamedIndividual ,
+                          dceng:Database ,
+                          dceng:Service ;
+                 dceng:hasSubjectArea dceng:Chemistry ;
+                 dceng:isHostedBy dceng:Universität_zu_Köln ;
+                 dceng:hasAPI "yes" ;
+                 dceng:hasServiceURL "http://www.nmrshiftdb.org"^^xsd:anyURI ;
+                 dceng:isOpenAccess "yes" ;
+                 rdfs:comment "NMR database for organic structures"@en ;
+                 owl:annotatedProperty "hostsService" ;
+                 owl:annotatedSource "Universität zu Köln" ;
+                 owl:annotatedTarget "NMRShiftDB" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#NOMAD_Novel_Materials_Discovery
+dceng:NOMAD_Novel_Materials_Discovery rdf:type owl:NamedIndividual ,
+                                               dceng:Archive ,
+                                               dceng:Encyclopedia ,
+                                               dceng:Repository ,
+                                               dceng:Service ;
+                                      dceng:hasSubjectArea dceng:Materials_Science ;
+                                      dceng:isHostedBy <http://www.semanticweb.org/p.ost/ontologies/dceng#FAIR_DI_e.V.> ;
+                                      dceng:hasAPI "yes" ;
+                                      dceng:hasDatasetSizeLimit 32 ;
+                                      dceng:hasPublicationCost "free" ;
+                                      dceng:hasServiceURL "https://nomad-lab.eu"^^xsd:anyURI ;
+                                      dceng:isOpenAccess "yes" ;
+                                      rdfs:comment "Repository, archive and encyclopedia of novel materials, also provides an AI toolkit to facilitate research on novel materials"@en ;
+                                      owl:annotatedProperty "hostsService" ;
+                                      owl:annotatedSource "FAIR DI e.V." ;
+                                      owl:annotatedTarget "NOMAD Novel Materials Discovery" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#National_Institute_of_Standards_and_Technology
+dceng:National_Institute_of_Standards_and_Technology rdf:type owl:NamedIndividual ,
+                                                              dceng:Host ;
+                                                     dceng:hasHostURL "https://www.nist.gov"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#National_University_of_Singapore
+dceng:National_University_of_Singapore rdf:type owl:NamedIndividual ,
+                                                dceng:Host ;
+                                       dceng:hostsService <http://www.semanticweb.org/p.ost/ontologies/dceng#2D_Materials_Encyclopedia> ;
+                                       dceng:hasHostURL "https://nus.edu.sg"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Northwestern_University
+dceng:Northwestern_University rdf:type owl:NamedIndividual ,
+                                       dceng:Host ;
+                              dceng:hostsService dceng:The_Open_Quantum_Materials_Database ;
+                              dceng:hasHostURL "https://www.northwestern.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#OEP_Community
+dceng:OEP_Community rdf:type owl:NamedIndividual ,
+                             dceng:Host ;
+                    dceng:hostsService dceng:Open_Energy_Ontology ,
+                                       dceng:Open_Energy_Platform ;
+                    dceng:hasHostURL "https://openenergy-platform.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#OPTIMADE
+dceng:OPTIMADE rdf:type owl:NamedIndividual ,
+                        dceng:Database ,
+                        dceng:Service ;
+               dceng:hasSubjectArea dceng:Materials_Science ;
+               dceng:isHostedBy dceng:Materials_Consortia ;
+               dceng:hasAPI "yes" ;
+               dceng:hasServiceURL "https://www.optimade.org"^^xsd:anyURI ;
+               dceng:isOpenAccess "yes" ;
+               rdfs:comment "OPTIMADE is the Open Database Integration for Materials Design"@en ;
+               owl:annotatedProperty "hostsService" ;
+               owl:annotatedSource "Materials Consortia" ;
+               owl:annotatedTarget "OPTIMADE" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#OpARA
+dceng:OpARA rdf:type owl:NamedIndividual ,
+                     dceng:Institutional_Repository ,
+                     dceng:Service ;
+            dceng:hasSubjectArea dceng:Interdisciplinary ;
+            dceng:isHostedBy dceng:TU_Dresden ;
+            dceng:hasAPI "yes" ;
+            dceng:hasPublicationCost "free" ;
+            dceng:hasServiceURL "https://opara.zih.tu-dresden.de"^^xsd:anyURI ;
+            dceng:isOpenAccess "yes" ;
+            rdfs:comment "Research data repository and archive jointly operated by TU Dresden and TU Bergakademie Freiberg"@en ;
+            owl:annotatedProperty "hostsService" ;
+            owl:annotatedSource "TU Dresden" ;
+            owl:annotatedTarget "OpARA" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Open_Energy_Ontology
+dceng:Open_Energy_Ontology rdf:type owl:NamedIndividual ,
+                                    dceng:Ontology ,
+                                    dceng:Service ;
+                           dceng:hasSubjectArea dceng:Energy ;
+                           dceng:isHostedBy dceng:OEP_Community ;
+                           dceng:hasServiceURL "https://openenergy-platform.org/ontology/"^^xsd:anyURI ;
+                           dceng:isOpenAccess "yes" ;
+                           rdfs:comment "Developed as part of the Open Energy Platform"@en ;
+                           owl:annotatedProperty "hostsService" ;
+                           owl:annotatedSource "OEP Community" ;
+                           owl:annotatedTarget "Open Energy Ontology" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Open_Energy_Platform
+dceng:Open_Energy_Platform rdf:type owl:NamedIndividual ,
+                                    dceng:Database ,
+                                    dceng:Service ;
+                           dceng:hasSubjectArea dceng:Energy ;
+                           dceng:isHostedBy dceng:OEP_Community ;
+                           dceng:hasAPI "yes" ;
+                           dceng:hasServiceURL "https://openenergy-platform.org"^^xsd:anyURI ;
+                           dceng:isOpenAccess "yes" ;
+                           rdfs:comment "Collection of tools for and information about energy system research"@en ;
+                           owl:annotatedProperty "hostsService" ;
+                           owl:annotatedSource "OEP Community" ;
+                           owl:annotatedTarget "Open Energy Platform" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Open_Engineering
+dceng:Open_Engineering rdf:type owl:NamedIndividual ,
+                                dceng:Host ;
+                       dceng:hostsService dceng:engrXiv ;
+                       dceng:hasHostURL "https://www.openengr.com"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Open_Materials_Database
+dceng:Open_Materials_Database rdf:type owl:NamedIndividual ,
+                                       dceng:Database ,
+                                       dceng:Service ;
+                              dceng:hasSubjectArea dceng:Materials_Science ;
+                              dceng:isHostedBy dceng:Linköping_University ;
+                              dceng:hasAPI "yes" ;
+                              dceng:hasPublicationCost "free" ;
+                              dceng:hasServiceURL "https://openmaterialsdb.se"^^xsd:anyURI ;
+                              dceng:isOpenAccess "yes" ;
+                              rdfs:comment "Database of (computational) materials properties"@en ;
+                              owl:annotatedProperty "hostsService" ;
+                              owl:annotatedSource "Linköping University" ;
+                              owl:annotatedTarget "Open Materials Database" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Open_Reaction_Database
+dceng:Open_Reaction_Database rdf:type owl:NamedIndividual ,
+                                      dceng:Community_Repository ,
+                                      dceng:Service ;
+                             dceng:hasSubjectArea dceng:Chemistry ;
+                             dceng:isHostedBy dceng:Open_Reaction_Databse_Project ;
+                             dceng:hasPublicationCost "free" ;
+                             dceng:hasServiceURL "https://open-reaction-database.org"^^xsd:anyURI ;
+                             dceng:isOpenAccess "yes" ;
+                             rdfs:comment "Chemical reaction database of single-step organic reactions, still in development (12/2021)"@en ;
+                             owl:annotatedProperty "hostsService" ;
+                             owl:annotatedSource "Open Reaction Databse Project" ;
+                             owl:annotatedTarget "Open Reaction Database" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Open_Reaction_Databse_Project
+dceng:Open_Reaction_Databse_Project rdf:type owl:NamedIndividual ,
+                                             dceng:Host ;
+                                    dceng:hostsService dceng:Open_Reaction_Database ;
+                                    dceng:hasHostURL "https://open-reaction-database.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Organic_Syntheses
+dceng:Organic_Syntheses rdf:type owl:NamedIndividual ,
+                                 dceng:Catalogue ,
+                                 dceng:Service ;
+                        dceng:hasSubjectArea dceng:Chemistry ;
+                        dceng:isHostedBy <http://www.semanticweb.org/p.ost/ontologies/dceng#Organic_Syntheses,_Inc.> ;
+                        dceng:hasServiceURL "http://www.orgsyn.org"^^xsd:anyURI ;
+                        dceng:isOpenAccess "yes" ;
+                        rdfs:comment "Catalogue of reliable preparations of organic compounds"@en ;
+                        owl:annotatedProperty "hostsService" ;
+                        owl:annotatedSource "Organic Syntheses, Inc." ;
+                        owl:annotatedTarget "Organic Syntheses" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_Radar_RobotCar_Dataset
+dceng:Oxford_Radar_RobotCar_Dataset rdf:type owl:NamedIndividual ,
+                                             dceng:Dataset ;
+                                    dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                                    dceng:isHostedBy dceng:Oxford_University ;
+                                    dceng:hasAPI "no" ;
+                                    dceng:hasServiceURL "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/"^^xsd:anyURI ;
+                                    dceng:isOpenAccess "yes" ;
+                                    rdfs:comment "Radar extension to the Oxford RobotCar Dataset."@en ;
+                                    owl:annotatedProperty "hostsService" ;
+                                    owl:annotatedSource "Oxford University" ;
+                                    owl:annotatedTarget "Oxford Radar RobotCar Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_RobotCar_Dataset
+dceng:Oxford_RobotCar_Dataset rdf:type owl:NamedIndividual ,
+                                       dceng:Dataset ;
+                              dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                              dceng:isHostedBy dceng:Oxford_University ;
+                              dceng:hasAPI "no" ;
+                              dceng:hasServiceURL "https://robotcar-dataset.robots.ox.ac.uk"^^xsd:anyURI ;
+                              dceng:isOpenAccess "yes" ;
+                              rdfs:comment "The dataset contains over 100 repetitions of the same fixed route. A SDK is provided."@en ;
+                              owl:annotatedProperty "hostsService" ;
+                              owl:annotatedSource "Oxford University" ;
+                              owl:annotatedTarget "Oxford RobotCar Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Oxford_University
+dceng:Oxford_University rdf:type owl:NamedIndividual ,
+                                 dceng:Host ;
+                        dceng:hostsService dceng:Oxford_Radar_RobotCar_Dataset ,
+                                           dceng:Oxford_RobotCar_Dataset ;
+                        dceng:hasHostURL "https://ori.ox.ac.uk"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#PANGAEA
+dceng:PANGAEA rdf:type owl:NamedIndividual ,
+                       dceng:Repository ,
+                       dceng:Service ;
+              dceng:hasSubjectArea dceng:Earth_Science ,
+                                   dceng:Environmental_Science ;
+              dceng:isHostedBy dceng:AWI ,
+                               dceng:MARUM ;
+              dceng:hasAPI "yes" ;
+              dceng:hasPublicationCost "free, but a donation of 500€ is welcome" ;
+              dceng:hasServiceURL "https://www.pangaea.de"^^xsd:anyURI ;
+              dceng:isOpenAccess "yes" ;
+              rdfs:comment "Repository and archive for georeferenced data from earth system research"@en ;
+              owl:annotatedProperty "hostsService" ;
+              owl:annotatedSource "AWI" ,
+                                  "MARUM" ;
+              owl:annotatedTarget "PANGAEA" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#PFHub
+dceng:PFHub rdf:type owl:NamedIndividual ,
+                     dceng:Community_Repository ,
+                     dceng:Service ;
+            dceng:hasSubjectArea dceng:Materials_Science ;
+            dceng:isHostedBy dceng:CHIMaD ,
+                             dceng:NIST ;
+            dceng:hasServiceURL "https://pages.nist.gov/pfhub"^^xsd:anyURI ;
+            dceng:isOpenAccess "yes" ;
+            rdfs:comment "Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources"@en ;
+            owl:annotatedProperty "hostsService" ;
+            owl:annotatedSource "CHIMaD" ,
+                                "NIST" ;
+            owl:annotatedTarget "PFHub" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Polymer_Property_Predictor_and_Database
+dceng:Polymer_Property_Predictor_and_Database rdf:type owl:NamedIndividual ,
+                                                       dceng:Database ,
+                                                       dceng:Service ;
+                                              dceng:hasSubjectArea dceng:Materials_Science ;
+                                              dceng:isHostedBy dceng:University_of_Chicago ;
+                                              dceng:hasServiceURL "https://pppdb.uchicago.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#PubChem
+dceng:PubChem rdf:type owl:NamedIndividual ,
+                       dceng:Repository ,
+                       dceng:Service ;
+              dceng:hasSubjectArea dceng:Chemistry ;
+              dceng:isHostedBy dceng:NIH_National_Library_of_Medicine ;
+              dceng:hasAPI "yes" ;
+              dceng:hasPublicationCost "free" ;
+              dceng:hasServiceURL "https://pubchem.ncbi.nlm.nih.gov"^^xsd:anyURI ;
+              dceng:isOpenAccess "yes" ;
+              rdfs:comment "Database with information about chemical structures, physical and chemical properties, toxicity, etc."@en ;
+              owl:annotatedProperty "hostsService" ;
+              owl:annotatedSource "NIH National Library of Medicine" ;
+              owl:annotatedTarget "PubChem" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Qucosa
+dceng:Qucosa rdf:type owl:NamedIndividual ,
+                      dceng:Repository ,
+                      dceng:Service ;
+             dceng:hasSubjectArea dceng:Interdisciplinary ;
+             dceng:isHostedBy dceng:SLUB ;
+             dceng:hasAPI "yes" ;
+             dceng:hasPublicationCost "free" ;
+             dceng:hasServiceURL "https://slub.qucosa.de"^^xsd:anyURI ;
+             dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4Chem
+dceng:RADAR4Chem rdf:type owl:NamedIndividual ,
+                          dceng:Repository ,
+                          dceng:Service ;
+                 dceng:hasSubjectArea dceng:Chemistry ;
+                 dceng:isHostedBy dceng:FIZ_Karlsruhe ;
+                 dceng:hasAPI "yes" ;
+                 dceng:hasServiceURL "https://radar4chem.radar-service.eu"^^xsd:anyURI ;
+                 dceng:isOpenAccess "yes" ;
+                 rdfs:comment "API access only includes metadata"@en ;
+                 owl:annotatedProperty "hostsService" ;
+                 owl:annotatedSource "FIZ Karlsruhe" ;
+                 owl:annotatedTarget "RADAR4Chem" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#RADAR4KIT
+dceng:RADAR4KIT rdf:type owl:NamedIndividual ,
+                         dceng:Repository ,
+                         dceng:Service ;
+                dceng:hasSubjectArea dceng:Interdisciplinary ;
+                dceng:isHostedBy dceng:KIT ;
+                dceng:hasAPI "yes" ;
+                dceng:hasServiceURL "https://radar.kit.edu"^^xsd:anyURI ;
+                dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#RSC
+dceng:RSC rdf:type owl:NamedIndividual ,
+                   dceng:Host ;
+          owl:sameAs dceng:Royal_Society_of_Chemistry ;
+          dceng:hostsService dceng:ChemSpider ;
+          dceng:hasHostURL "https://www.rsc.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Royal_Society_of_Chemistry
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#RWTH_Aachen
+dceng:RWTH_Aachen rdf:type owl:NamedIndividual ,
+                           dceng:Host ;
+                  dceng:hostsService dceng:RWTH_Publications ;
+                  dceng:hasHostURL "https://www.rwth-aachen.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#RWTH_Publications
+dceng:RWTH_Publications rdf:type owl:NamedIndividual ,
+                                 dceng:Institutional_Repository ,
+                                 dceng:Service ;
+                        dceng:hasSubjectArea dceng:Interdisciplinary ;
+                        dceng:isHostedBy dceng:RWTH_Aachen ;
+                        dceng:hasAPI "yes" ;
+                        dceng:hasPublicationCost "free" ;
+                        dceng:hasServiceURL "https://publications.rwth-aachen.de"^^xsd:anyURI ;
+                        dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Royal_Society_of_Chemistry
+dceng:Royal_Society_of_Chemistry rdf:type owl:NamedIndividual ,
+                                          dceng:Host ;
+                                 dceng:hasHostURL "https://www.rsc.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#SLUB
+dceng:SLUB rdf:type owl:NamedIndividual ,
+                    dceng:Host ;
+           owl:sameAs <http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden> ;
+           dceng:hostsService dceng:Material_Hub ,
+                              dceng:Qucosa ;
+           dceng:hasHostURL "https://www.slub-dresden.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#SciELO
+dceng:SciELO rdf:type owl:NamedIndividual ,
+                      dceng:Bibliography ,
+                      dceng:Digital_Library ,
+                      dceng:Service ;
+             dceng:hasSubjectArea dceng:Interdisciplinary ;
+             dceng:isHostedBy dceng:SciELO_Scientific_Electronic_Library_Online ;
+             dceng:hasPublicationCost "free" ;
+             dceng:hasServiceURL "https://www.scielo.org"^^xsd:anyURI ;
+             dceng:isOpenAccess "yes" ;
+             rdfs:comment "Database of open access journals from Latin America, the Iberian Peninsula and South Africa"@en ;
+             owl:annotatedProperty "hostsService" ;
+             owl:annotatedSource "SciELO Scientific Electronic Library Online" ;
+             owl:annotatedTarget "SciELO" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#SciELO_Data
+dceng:SciELO_Data rdf:type owl:NamedIndividual ,
+                           dceng:Repository ,
+                           dceng:Service ;
+                  dceng:hasSubjectArea dceng:Interdisciplinary ;
+                  dceng:isHostedBy dceng:SciELO_Scientific_Electronic_Library_Online ;
+                  dceng:hasDatasetSizeLimit 2 ;
+                  dceng:hasPublicationCost "free" ;
+                  dceng:hasServiceURL "https://data.scielo.org"^^xsd:anyURI ;
+                  dceng:isOpenAccess "yes" ;
+                  rdfs:comment "Repository for deposition of research data published on SciELO"@en ;
+                  owl:annotatedProperty "hostsService" ;
+                  owl:annotatedSource "SciELO Scientific Electronic Library Online" ;
+                  owl:annotatedTarget "SciELO Data" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#SciELO_Scientific_Electronic_Library_Online
+dceng:SciELO_Scientific_Electronic_Library_Online rdf:type owl:NamedIndividual ,
+                                                           dceng:Host ;
+                                                  dceng:hostsService dceng:SciELO ,
+                                                                     dceng:SciELO_Data ;
+                                                  dceng:hasHostURL "https://scielo.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#SemanticKITTI
+dceng:SemanticKITTI rdf:type owl:NamedIndividual ,
+                             dceng:Dataset ;
+                    dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                    dceng:isHostedBy dceng:Universität_Bonn ;
+                    dceng:hasAPI "no" ;
+                    dceng:hasServiceURL "http://semantic-kitti.org"^^xsd:anyURI ;
+                    dceng:isOpenAccess "yes" ;
+                    rdfs:comment "Dataset based on the KITTI Vision Benchmark for semantic scene understanding."@en ;
+                    owl:annotatedProperty "hostsService" ;
+                    owl:annotatedSource "Universität Bonn" ;
+                    owl:annotatedTarget "SemanticKITTI" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Software
+dceng:Software rdf:type owl:NamedIndividual ,
+                        dceng:SubjectArea ;
+               owl:differentFrom dceng:Transportation ,
+                                 dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#TIB
+dceng:TIB rdf:type owl:NamedIndividual ,
+                   dceng:Host ;
+          owl:sameAs dceng:Technische_Informationsbibliothek ;
+          dceng:hostsService dceng:NFDI4Ing_Terminology_Service ;
+          dceng:hasHostURL "https://www.tib.eu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Technische_Informationsbibliothek
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#TU_Berlin
+dceng:TU_Berlin rdf:type owl:NamedIndividual ,
+                         dceng:Host ;
+                dceng:hostsService dceng:DepositOnce ;
+                dceng:hasHostURL "https://www.tu.berlin"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#TU_Braunschweig
+dceng:TU_Braunschweig rdf:type owl:NamedIndividual ,
+                               dceng:Host ;
+                      dceng:hostsService dceng:LeoPARD ;
+                      dceng:hasHostURL "https://www.tu-braunschweig.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#TU_Darmstadt
+dceng:TU_Darmstadt rdf:type owl:NamedIndividual ,
+                            dceng:Host ;
+                   dceng:hostsService dceng:TUdatalib ;
+                   dceng:hasHostURL "https://www.tu-darmstadt.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#TU_Dresden
+dceng:TU_Dresden rdf:type owl:NamedIndividual ,
+                          dceng:Host ;
+                 dceng:hostsService dceng:OpARA ;
+                 dceng:hasHostURL "https://tu-dresden.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#TU_München
+dceng:TU_München rdf:type owl:NamedIndividual ,
+                          dceng:Host ;
+                 dceng:hostsService dceng:mediaTUM ;
+                 dceng:hasHostURL "https://www.tum.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#TUdatalib
+dceng:TUdatalib rdf:type owl:NamedIndividual ,
+                         dceng:Institutional_Repository ,
+                         dceng:Service ;
+                dceng:hasSubjectArea dceng:Interdisciplinary ;
+                dceng:isHostedBy dceng:TU_Darmstadt ;
+                dceng:hasAPI "yes" ;
+                dceng:hasPublicationCost "free (up to 2TB/year)" ;
+                dceng:hasServiceURL "https://tudatalib.ulb.tu-darmstadt.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#TUstorage
+dceng:TUstorage rdf:type owl:NamedIndividual ,
+                         dceng:Repository ,
+                         dceng:Service ;
+                dceng:hasSubjectArea dceng:Engineering ;
+                dceng:isHostedBy dceng:TU_Darmstadt ;
+                dceng:hasAPI "no" ;
+                dceng:hasServiceURL "https://tustorage.ulb.tu-darmstadt.de"^^xsd:anyURI ;
+                dceng:isOpenAccess "yes" ;
+                rdfs:comment "Repository which provides access to research documents for use in text and data mining applications. Currently in pilot operation." ;
+                owl:annotatedProperty "hostsService" ;
+                owl:annotatedSource "TU Darmstadt" ;
+                owl:annotatedTarget "TUstorage" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Technical_University_of_Denmark
+dceng:Technical_University_of_Denmark rdf:type owl:NamedIndividual ,
+                                               dceng:Host ;
+                                      dceng:hostsService dceng:Computational_Materials_Repository ;
+                                      dceng:hasHostURL "https://www.dtu.dk"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Technische_Informationsbibliothek
+dceng:Technische_Informationsbibliothek rdf:type owl:NamedIndividual ,
+                                                 dceng:Host ;
+                                        dceng:hasHostURL "https://www.tib.eu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#The_Cityscapes_Dataset
+dceng:The_Cityscapes_Dataset rdf:type owl:NamedIndividual ,
+                                      dceng:Dataset ;
+                             dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                             dceng:isHostedBy dceng:Max_Planck_Society_for_the_Advancement_of_Science ;
+                             dceng:hasAPI "no" ;
+                             dceng:hasServiceURL "https://www.cityscapes-dataset.com"^^xsd:anyURI ;
+                             dceng:isOpenAccess "yes" ;
+                             rdfs:comment "The dataset contains data from 50 different cities and focusses on semantic understanding of urban scenes. Download requires an account."@en ;
+                             owl:annotatedProperty "hostsService" ;
+                             owl:annotatedSource "Max Planck Society for the Advancement of Science" ;
+                             owl:annotatedTarget "The Cityscapes Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#The_KITTI_Vision_Benchmark_Suite
+dceng:The_KITTI_Vision_Benchmark_Suite rdf:type owl:NamedIndividual ,
+                                                dceng:Dataset ;
+                                       dceng:hasSubjectArea dceng:Computer_Vision ;
+                                       dceng:isHostedBy <http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Vision_Group,_Department_of_Computer_Science,_University_of_Tübingen> ;
+                                       dceng:hasAPI "no" ;
+                                       dceng:hasServiceURL "https://www.cvlibs.net/datasets/kitti/"^^xsd:anyURI ;
+                                       dceng:isOpenAccess "no" ;
+                                       rdfs:comment "Novel computer vision benchmarks. Access to the data requires an account"@en ;
+                                       owl:annotatedProperty "hostsService" ;
+                                       owl:annotatedSource "Autonomous Vision Group, Department of Computer Science, University of Tübingen" ;
+                                       owl:annotatedTarget "The KITTI Vision Benchmark Suite" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#The_Materials_Project
+dceng:The_Materials_Project rdf:type owl:NamedIndividual ,
+                                     dceng:Host ;
+                            dceng:hostsService dceng:Materials_Project ;
+                            dceng:hasHostURL "https://materialsproject.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#The_Open_Quantum_Materials_Database
+dceng:The_Open_Quantum_Materials_Database rdf:type owl:NamedIndividual ,
+                                                   dceng:Database ,
+                                                   dceng:Service ;
+                                          dceng:hasSubjectArea dceng:Materials_Science ;
+                                          dceng:isHostedBy dceng:Northwestern_University ;
+                                          dceng:hasAPI "yes" ;
+                                          dceng:hasServiceURL "http://oqmd.org"^^xsd:anyURI ;
+                                          dceng:isOpenAccess "yes" ;
+                                          rdfs:comment "Database of DFT-calculated thermodynamic and structural material properties"@en ;
+                                          owl:annotatedProperty "hostsService" ;
+                                          owl:annotatedSource "Northwestern University" ;
+                                          owl:annotatedTarget "The Open Quantum Materials Database" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#The_Wood_Database
+dceng:The_Wood_Database rdf:type owl:NamedIndividual ,
+                                 dceng:Catalogue ,
+                                 dceng:Service ;
+                        dceng:hasSubjectArea dceng:Materials_Science ;
+                        dceng:isHostedBy dceng:Eric_Meier ;
+                        dceng:hasServiceURL "https://www.wood-database.com"^^xsd:anyURI ;
+                        dceng:isOpenAccess "yes" ;
+                        rdfs:comment "Privately curated online database of various wood species and their characteristics, usage, etc."@en ;
+                        owl:annotatedProperty "hostsService" ;
+                        owl:annotatedSource "Eric Meier" ;
+                        owl:annotatedTarget "The Wood Database" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Theoretical_Crystallography_Open_Database
+dceng:Theoretical_Crystallography_Open_Database rdf:type owl:NamedIndividual ,
+                                                         dceng:Repository ,
+                                                         dceng:Service ;
+                                                dceng:hasSubjectArea dceng:Crystallography ;
+                                                dceng:isHostedBy dceng:Vilnius_University ;
+                                                dceng:hasAPI "yes" ;
+                                                dceng:hasServiceURL "https://www.crystallography.net/tcod/"^^xsd:anyURI ;
+                                                dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Transportation
+dceng:Transportation rdf:type owl:NamedIndividual ,
+                              dceng:SubjectArea ;
+                     owl:differentFrom dceng:Urbanism .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#U.S._Department_of_Energy_Office_of_Scientific_and_Technical_Information
+dceng:U.S._Department_of_Energy_Office_of_Scientific_and_Technical_Information rdf:type owl:NamedIndividual ,
+                                                                                        dceng:Host ;
+                                                                               dceng:hostsService dceng:DOE_CODE ;
+                                                                               dceng:hasHostURL "https://www.osti.gov"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#UC_Berkeley
+dceng:UC_Berkeley rdf:type owl:NamedIndividual ,
+                           dceng:Host ;
+                  dceng:hostsService <http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes> ;
+                  dceng:hasHostURL "https://www.berkeley.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#ULB_Darmstadt
+dceng:ULB_Darmstadt rdf:type owl:NamedIndividual ,
+                             dceng:Host ;
+                    owl:sameAs dceng:Universitäts-_und_Landesbibliothek_Darmstadt ;
+                    dceng:hostsService dceng:ELN_Finder ;
+                    dceng:hasHostURL "https://www.ulb.tu-darmstadt.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Alabama
+dceng:University_of_Alabama rdf:type owl:NamedIndividual ,
+                                     dceng:Host ;
+                            dceng:hostsService dceng:Heusler_Database ;
+                            dceng:hasHostURL "https://www.ua.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Chicago
+dceng:University_of_Chicago rdf:type owl:NamedIndividual ,
+                                     dceng:Host ;
+                            dceng:hostsService dceng:Polymer_Property_Predictor_and_Database ;
+                            dceng:hasHostURL "https://www.uchicago.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Florida
+dceng:University_of_Florida rdf:type owl:NamedIndividual ,
+                                     dceng:Host ;
+                            dceng:hostsService dceng:Materialsweb ;
+                            dceng:hasHostURL "https://www.ufl.edu"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Technology_of_Belfort-Montbéliard
+dceng:University_of_Technology_of_Belfort-Montbéliard rdf:type owl:NamedIndividual ,
+                                                               dceng:Host ;
+                                                      dceng:hostsService dceng:EU_Long-term_Dataset_with_Multiple_Sensors_for_Autonomous_Driving ;
+                                                      dceng:hasHostURL "https://www.utbm.fr"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#University_of_Toronto
+dceng:University_of_Toronto rdf:type owl:NamedIndividual ,
+                                     dceng:Host ;
+                            dceng:hostsService dceng:Boreas_Dataset ;
+                            dceng:hasHostURL "https://www.utoronto.ca"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Bonn
+dceng:Universität_Bonn rdf:type owl:NamedIndividual ,
+                                dceng:Host ;
+                       dceng:hostsService dceng:SemanticKITTI ;
+                       dceng:hasHostURL "https://www.uni-bonn.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Hannover
+dceng:Universität_Hannover rdf:type owl:NamedIndividual ,
+                                    dceng:Host ;
+                           dceng:hostsService dceng:Forschungsdatenrepositorium ,
+                                              dceng:Institutionelles_Repositorium_der_Leibniz_Universität_Hannover ;
+                           dceng:hasHostURL "https://www.uni-hannover.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Jena
+dceng:Universität_Jena rdf:type owl:NamedIndividual ,
+                                dceng:Host ;
+                       dceng:hostsService dceng:nmrXiv ;
+                       dceng:hasHostURL "https://www.uni-jena.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Kassel
+dceng:Universität_Kassel rdf:type owl:NamedIndividual ,
+                                  dceng:Host ;
+                         dceng:hostsService dceng:DaKS ;
+                         dceng:hasHostURL "https://www.uni-kassel.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Stuttgart
+dceng:Universität_Stuttgart rdf:type owl:NamedIndividual ,
+                                     dceng:Host ;
+                            dceng:hostsService dceng:DaRUS ;
+                            dceng:hasHostURL "https://www.uni-stuttgart.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_Ulm
+dceng:Universität_Ulm rdf:type owl:NamedIndividual ,
+                               dceng:Host ;
+                      dceng:hostsService dceng:DENSE_datasets ;
+                      dceng:hasHostURL "https://www.uni-ulm.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universität_zu_Köln
+dceng:Universität_zu_Köln rdf:type owl:NamedIndividual ,
+                                   dceng:Host ;
+                          dceng:hostsService dceng:NMRShiftDB ;
+                          dceng:hasHostURL "https://www.uni-koeln.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Universitäts-_und_Landesbibliothek_Darmstadt
+dceng:Universitäts-_und_Landesbibliothek_Darmstadt rdf:type owl:NamedIndividual ,
+                                                            dceng:Host ;
+                                                   dceng:hasHostURL "https://www.ulb.tu-darmstadt.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Urbanism
+dceng:Urbanism rdf:type owl:NamedIndividual ,
+                        dceng:SubjectArea .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Vilnius_University
+dceng:Vilnius_University rdf:type owl:NamedIndividual ,
+                                  dceng:Host ;
+                         dceng:hostsService dceng:Crystallography_Open_Database ,
+                                            dceng:Theoretical_Crystallography_Open_Database ;
+                         dceng:hasHostURL "https://www.vu.lt"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_by_Toyota_Perception_Dataset
+dceng:Woven_by_Toyota_Perception_Dataset rdf:type owl:NamedIndividual ,
+                                                  dceng:Dataset ;
+                                         dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                                         dceng:isHostedBy <http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_by_Toyota,_Inc.> ;
+                                         dceng:hasAPI "no" ;
+                                         dceng:hasServiceURL "https://woven.toyota/en/perception-dataset"^^xsd:anyURI ;
+                                         dceng:isOpenAccess "yes" ;
+                                         rdfs:comment "The dataset contains raw lidar and camera data. Download requires an account."@en ;
+                                         owl:annotatedProperty "hostsService" ;
+                                         owl:annotatedSource "Woven Planet Holdings, Inc." ;
+                                         owl:annotatedTarget "Level 5 Perception Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_by_Toyota_Prediction_Dataset
+dceng:Woven_by_Toyota_Prediction_Dataset rdf:type owl:NamedIndividual ,
+                                                  dceng:Dataset ;
+                                         dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                                         dceng:hasAPI "no" ;
+                                         dceng:hasServiceURL "https://woven.toyota/en/prediction-dataset"^^xsd:anyURI ;
+                                         dceng:isOpenAccess "yes" ;
+                                         rdfs:comment "The dataset contains logs of other traffic agents and is aimed at training motion prediction models. Download requires an account."@en ;
+                                         owl:annotatedProperty "hostsService" ;
+                                         owl:annotatedSource "Woven Planet Holdings, Inc" ;
+                                         owl:annotatedTarget "Level 5 Prediction Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Zenodo
+dceng:Zenodo rdf:type owl:NamedIndividual ,
+                      dceng:Repository ,
+                      dceng:Service ;
+             dceng:hasSubjectArea dceng:Interdisciplinary ;
+             dceng:isHostedBy dceng:CERN ;
+             dceng:hasAPI "yes" ;
+             dceng:hasDatasetSizeLimit 50 ;
+             dceng:hasPublicationCost "donations encouraged" ;
+             dceng:hasServiceURL "https://zenodo.org"^^xsd:anyURI ;
+             dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Zentrum_für_Marine_Umweltwissenschaften
+dceng:Zentrum_für_Marine_Umweltwissenschaften rdf:type owl:NamedIndividual ,
+                                                       dceng:Host ;
+                                              dceng:hasHostURL "https://www.marum.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#dblp_computer_science_bibliography
+dceng:dblp_computer_science_bibliography rdf:type owl:NamedIndividual ,
+                                                  dceng:Bibliography ,
+                                                  dceng:Service ;
+                                         dceng:hasSubjectArea dceng:Computer_Science ;
+                                         dceng:isHostedBy <http://www.semanticweb.org/p.ost/ontologies/dceng#Schloss_Dagstuhl_–_Leibniz-Zentrum_für_Informatik> ;
+                                         dceng:hasAPI "yes" ;
+                                         dceng:hasServiceURL "https://dblp.org"^^xsd:anyURI ;
+                                         dceng:isOpenAccess "yes" ;
+                                         rdfs:comment "Bibliography focused on computer science journals and proceedings"@en ;
+                                         owl:annotatedProperty "hostsService" ;
+                                         owl:annotatedSource "Schloss Dagstuhl – Leibniz-Zentrum für Informatik" ;
+                                         owl:annotatedTarget "dblp computer science bibliography" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#engrXiv
+dceng:engrXiv rdf:type owl:NamedIndividual ,
+                       dceng:Repository ,
+                       dceng:Service ;
+              dceng:hasSubjectArea dceng:Engineering ;
+              dceng:isHostedBy dceng:Open_Engineering ;
+              dceng:hasPublicationCost "free" ;
+              dceng:hasServiceURL "https://engrxiv.org"^^xsd:anyURI ;
+              dceng:isOpenAccess "yes" ;
+              rdfs:comment "Eprint server for engineering"@en ;
+              owl:annotatedProperty "hostsService" ;
+              owl:annotatedSource "Open Engineering" ;
+              owl:annotatedTarget "engrXiv" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#fidmath
+dceng:fidmath rdf:type owl:NamedIndividual ,
+                       dceng:Bibliography ,
+                       dceng:Service ;
+              dceng:hasSubjectArea dceng:Mathematics ;
+              dceng:isHostedBy dceng:FID_Mathematik ;
+              dceng:hasServiceURL "https://fidmath.de"^^xsd:anyURI ;
+              dceng:isOpenAccess "yes" ;
+              rdfs:comment "Provides a central search interface to information sources of interest to mathematicians: library catalogues, preprint servers, journals, etc."@en ;
+              owl:annotatedProperty "hostsService" ;
+              owl:annotatedSource "FID Mathematik" ;
+              owl:annotatedTarget "fidmath" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#figshare
+dceng:figshare rdf:type owl:NamedIndividual ,
+                        dceng:Repository ,
+                        dceng:Service ;
+               dceng:hasSubjectArea dceng:Interdisciplinary ;
+               dceng:isHostedBy dceng:Digital_Science ;
+               dceng:hasAPI "yes" ;
+               dceng:hasDatasetSizeLimit 20 ;
+               dceng:hasPublicationCost "free" ;
+               dceng:hasServiceURL "https://figshare.com"^^xsd:anyURI ;
+               dceng:isOpenAccess "yes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#mediaTUM
+dceng:mediaTUM rdf:type owl:NamedIndividual ,
+                        dceng:Institutional_Repository ,
+                        dceng:Service ;
+               dceng:hasSubjectArea dceng:Interdisciplinary ;
+               dceng:isHostedBy dceng:TU_München ;
+               dceng:hasServiceURL "https://mediatum.ub.tum.de"^^xsd:anyURI ;
+               rdfs:comment "Repository to publish, archive and research public records, documents, images as well as research data"@en ;
+               owl:annotatedProperty "hostsService" ;
+               owl:annotatedSource "TU München" ;
+               owl:annotatedTarget "mediaTUM" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#nmrXiv
+dceng:nmrXiv rdf:type owl:NamedIndividual ,
+                      dceng:Repository ,
+                      dceng:Service ;
+             dceng:hasSubjectArea dceng:Chemistry ;
+             dceng:isHostedBy dceng:Universität_Jena ;
+             dceng:hasAPI "yes" ;
+             dceng:hasPublicationCost "no" ;
+             dceng:hasServiceURL "https://nmrxiv.org"^^xsd:anyURI ;
+             dceng:isOpenAccess "yes" ;
+             rdfs:comment "Repository of raw and processed NMR data"@en ;
+             owl:annotatedProperty "hostsService" ;
+             owl:annotatedSource "Universität Jena" ;
+             owl:annotatedTarget "nmrXiv" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#nuImages
+dceng:nuImages rdf:type owl:NamedIndividual ,
+                        dceng:Dataset ;
+               dceng:hasSubjectArea dceng:Autonomous_Driving ;
+               dceng:isHostedBy dceng:Motional ;
+               dceng:hasAPI "no" ;
+               dceng:hasServiceURL "https://www.nuscenes.org/nuimages"^^xsd:anyURI ;
+               dceng:isOpenAccess "yes" ;
+               rdfs:comment "The dataset complements the nuScenes dataset by providing a manually curated set of 2D annotated images. Download requires an account."@en ;
+               owl:annotatedProperty "hostsService" ;
+               owl:annotatedSource "Motional" ;
+               owl:annotatedTarget "nuImages" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#nuPlan
+dceng:nuPlan rdf:type owl:NamedIndividual ,
+                      dceng:Dataset ;
+             dceng:isHostedBy dceng:Motional ;
+             dceng:hasAPI "no" ;
+             dceng:hasServiceURL "https://www.nuscenes.org/nuplan"^^xsd:anyURI ;
+             dceng:isOpenAccess "yes" ;
+             rdfs:comment "The dataset provides benchmark data for long-term motion prediction. Download requires an account."@en ;
+             owl:annotatedProperty "hostsService" ;
+             owl:annotatedSource "Motional" ;
+             owl:annotatedTarget "nuPlan" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#openKIM
+dceng:openKIM rdf:type owl:NamedIndividual ,
+                       dceng:Repository ,
+                       dceng:Service ;
+              dceng:hasSubjectArea dceng:Materials_Science ;
+              dceng:isHostedBy dceng:KIM_Project ;
+              dceng:hasAPI "yes" ;
+              dceng:hasServiceURL "https://openkim.org"^^xsd:anyURI ;
+              dceng:isOpenAccess "yes" ;
+              rdfs:comment "Curated repository of interatomic potentials and framework to facilitate molecular simulation."@en ;
+              owl:annotatedProperty "hostsService" ;
+              owl:annotatedSource "KIM Project" ;
+              owl:annotatedTarget "openKIM" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#swMATH
+dceng:swMATH rdf:type owl:NamedIndividual ,
+                      dceng:Database ,
+                      dceng:Service ;
+             dceng:hasSubjectArea dceng:Mathematics ;
+             dceng:isHostedBy <http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
+             dceng:hasServiceURL "https://swmath.org"^^xsd:anyURI ;
+             dceng:isOpenAccess "yes" ;
+             rdfs:comment "Database about mathematical software"@en ;
+             owl:annotatedProperty "hostsService" ;
+             owl:annotatedSource "FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur" ;
+             owl:annotatedTarget "swMATH" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#zbMATH_Open
+dceng:zbMATH_Open rdf:type owl:NamedIndividual ,
+                           dceng:Bibliography ,
+                           dceng:Service ;
+                  dceng:hasSubjectArea dceng:Mathematics ;
+                  dceng:isHostedBy <http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
+                  dceng:hasAPI "yes" ;
+                  dceng:hasServiceURL "https://zbmath.org"^^xsd:anyURI ;
+                  dceng:isOpenAccess "yes" ;
+                  rdfs:comment "Abstracting and reviewing service in pure and applied mathematics, also covers applications in the natural sciences, computer science, economics and engineering"@en ;
+                  owl:annotatedProperty "hostsService" ;
+                  owl:annotatedSource "FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur" ;
+                  owl:annotatedTarget "zbMATH Open" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#2D_Materials_Encyclopedia
+<http://www.semanticweb.org/p.ost/ontologies/dceng#2D_Materials_Encyclopedia> rdf:type owl:NamedIndividual ,
+                                                                                       dceng:Database ,
+                                                                                       dceng:Service ;
+                                                                              dceng:hasSubjectArea dceng:Materials_Science ;
+                                                                              dceng:isHostedBy dceng:National_University_of_Singapore ;
+                                                                              dceng:hasServiceURL "http://2dmatpedia.org"^^xsd:anyURI ;
+                                                                              dceng:isOpenAccess "yes" ;
+                                                                              rdfs:comment "Collection of (computed) two dimensional materials"@en ;
+                                                                              owl:annotatedProperty "hostsService" ;
+                                                                              owl:annotatedSource "National University of Singapore" ;
+                                                                              owl:annotatedTarget "2D Materials Encyclopedia" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#A2D2_–_Audi_Autonomous_Driving_Dataset
+<http://www.semanticweb.org/p.ost/ontologies/dceng#A2D2_–_Audi_Autonomous_Driving_Dataset> rdf:type owl:NamedIndividual ,
+                                                                                                    dceng:Dataset ;
+                                                                                           dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                                                                                           dceng:isHostedBy dceng:Audi_AG ;
+                                                                                           dceng:hasAPI "no" ;
+                                                                                           dceng:hasServiceURL "https://www.a2d2.audi"^^xsd:anyURI ;
+                                                                                           dceng:isOpenAccess "yes" ;
+                                                                                           rdfs:comment "Labeled dataset from a car equipped with a multimodal sensor suite. The dataset features 2D image segmentation, 3D point clouds and bounding boxes as well as vehicle bus data."@en ;
+                                                                                           owl:annotatedProperty "hostsService" ;
+                                                                                           owl:annotatedSource "Audi AG" ;
+                                                                                           owl:annotatedTarget "A2D2 – Audi Autonomous Driving Dataset" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Vision_Group,_Department_of_Computer_Science,_University_of_Tübingen
+<http://www.semanticweb.org/p.ost/ontologies/dceng#Autonomous_Vision_Group,_Department_of_Computer_Science,_University_of_Tübingen> rdf:type owl:NamedIndividual ,
+                                                                                                                                             dceng:Host ;
+                                                                                                                                    dceng:hostsService dceng:The_KITTI_Vision_Benchmark_Suite ;
+                                                                                                                                    dceng:hasHostURL "https://www.cvlibs.net"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Montan,_Bergbau,_Hüttenwesen
+<http://www.semanticweb.org/p.ost/ontologies/dceng#FID_Montan,_Bergbau,_Hüttenwesen> rdf:type owl:NamedIndividual ,
+                                                                                              dceng:Host ;
+                                                                                     dceng:hostsService dceng:Montanportal .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur
+<http://www.semanticweb.org/p.ost/ontologies/dceng#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> rdf:type owl:NamedIndividual ,
+                                                                                                                            dceng:Host ;
+                                                                                                                   dceng:hostsService dceng:swMATH ,
+                                                                                                                                      dceng:zbMATH_Open ;
+                                                                                                                   dceng:hasHostURL "https://www.fiz-karlsruhe.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Organic_Syntheses,_Inc.
+<http://www.semanticweb.org/p.ost/ontologies/dceng#Organic_Syntheses,_Inc.> rdf:type owl:NamedIndividual ,
+                                                                                     dceng:Host ;
+                                                                            dceng:hostsService dceng:Organic_Syntheses ;
+                                                                            dceng:hasHostURL "https://www.orgsyn.org"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Schloss_Dagstuhl_–_Leibniz-Zentrum_für_Informatik
+<http://www.semanticweb.org/p.ost/ontologies/dceng#Schloss_Dagstuhl_–_Leibniz-Zentrum_für_Informatik> rdf:type owl:NamedIndividual ,
+                                                                                                               dceng:Host ;
+                                                                                                      dceng:hostsService dceng:dblp_computer_science_bibliography ;
+                                                                                                      dceng:hasHostURL "https://www.dagstuhl.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden
+<http://www.semanticweb.org/p.ost/ontologies/dceng#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden> rdf:type owl:NamedIndividual ,
+                                                                                                                                      dceng:Host ;
+                                                                                                                             dceng:hasHostURL "https://www.slub-dresden.de"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes
+<http://www.semanticweb.org/p.ost/ontologies/dceng#UrbanLoco_–_A_Full_Sensor_Suite_Dataset_for_Mapping_and_Localization_in_Urban_Scenes> rdf:type owl:NamedIndividual ,
+                                                                                                                                                  dceng:Dataset ;
+                                                                                                                                         dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                                                                                                                                         dceng:isHostedBy dceng:Hong_Kong_Polytechnic_University ,
+                                                                                                                                                          dceng:UC_Berkeley ;
+                                                                                                                                         dceng:hasAPI "no" ;
+                                                                                                                                         dceng:hasServiceURL "https://advdataset2019.wixsite.com/urbanloco"^^xsd:anyURI ;
+                                                                                                                                         dceng:isOpenAccess "yes" ;
+                                                                                                                                         rdfs:comment "Localization data in challenging urban environments"@en ;
+                                                                                                                                         owl:annotatedProperty "hostsService" ;
+                                                                                                                                         owl:annotatedSource "Hong Kong Polytechnic University" ,
+                                                                                                                                                             "UC Berkeley" ;
+                                                                                                                                         owl:annotatedTarget "UrbanLoco – A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes" .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_by_Toyota,_Inc.
+<http://www.semanticweb.org/p.ost/ontologies/dceng#Woven_by_Toyota,_Inc.> rdf:type owl:NamedIndividual ,
+                                                                                   dceng:Host ;
+                                                                          dceng:hostsService dceng:Woven_by_Toyota_Perception_Dataset ,
+                                                                                             dceng:Woven_by_Toyota_Prediction_Dataset ;
+                                                                          dceng:hasHostURL "https://woven.toyota"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/p.ost/ontologies/dceng#nuScenes_–_A_multimodal_dataset_for_autonomous_driving
+<http://www.semanticweb.org/p.ost/ontologies/dceng#nuScenes_–_A_multimodal_dataset_for_autonomous_driving> rdf:type owl:NamedIndividual ,
+                                                                                                                    dceng:Dataset ;
+                                                                                                           dceng:hasSubjectArea dceng:Autonomous_Driving ;
+                                                                                                           dceng:isHostedBy dceng:Motional ;
+                                                                                                           dceng:hasAPI "no" ;
+                                                                                                           dceng:hasServiceURL "https://www.nuscenes.org/nuscenes"^^xsd:anyURI ;
+                                                                                                           dceng:isOpenAccess "yes" ;
+                                                                                                           rdfs:comment "The dataset contains manually curated scenes from diverse driving situations. Download requires an account."@en ;
+                                                                                                           owl:annotatedProperty "hostsService" ;
+                                                                                                           owl:annotatedSource "Motional" ;
+                                                                                                           owl:annotatedTarget "nuScenes – A multimodal dataset for autonomous driving" .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
