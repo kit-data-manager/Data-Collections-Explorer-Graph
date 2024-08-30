@@ -2,9 +2,10 @@
 
 # Licensed under the terms of the MIT License.
 
-docker run -it -p 3030:3030 \
+docker run -d -it -p 3030:3030 \
 	--name DCENG \
+	--restart unless-stopped \
 	--mount type=bind,source="$(pwd)"/databases,target=/fuseki/databases \
 	--mount type=bind,source="$(pwd)"/logs,target=/fuseki/logs \
-	--restart unless-stopped \
-	dceng:v1
+	-t dceng:v1 \
+	--tdb2 --loc databases/DB2 /graph
