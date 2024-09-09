@@ -20,6 +20,7 @@ $ tdb2.tdbloader --loc databases/DB2 ../graph/DCE.ttl
 ```
 $ sh startup.sh
 ```
+The SPARQL endpoint is accessible at `localhost:3030/graph`.
 
 ## License information
 
