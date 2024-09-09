@@ -50,6 +50,34 @@ SELECT ?service ?subject ?host WHERE {
 }
 ```
 
+- Show whether services are Open Access or not
+```
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dceng: <http://www.semanticweb.org/p.ost/ontologies/dceng#>
+
+SELECT ?access ?service ?host WHERE {
+  ?service dceng:isHostedBy ?host .
+  ?service dceng:isOpenAccess ?access .
+}
+```
+
+- Show which services have upload size restrictions and what the limit is
+```
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dceng: <http://www.semanticweb.org/p.ost/ontologies/dceng#>
+
+SELECT ?limit ?service ?host WHERE {
+  ?service dceng:isHostedBy ?host .
+  ?service dceng:hasDatasetSizeLimit ?limit .
+}
+```
+
 ## License information
 
 The following files have been adapted from the official [Apache Jena Fuseki Docker Tools](https://github.com/apache/jena/tree/main/jena-fuseki2/jena-fuseki-docker) and are licensed under the Apache 2.0 License:
