@@ -22,6 +22,34 @@ $ sh startup.sh
 ```
 The SPARQL endpoint is accessible at `localhost:3030/graph`.
 
+## Queries
+
+The SPARQL endpoint can be queried using tools such as [curl](https://curl.se),
+i.e., use the following command to send queries:
+```
+curl -H "Accept: application/sparql-results+json" -G "localhost:3030/graph" --data-urlencode 'query@query.sprq'
+```
+where 'query.sprq' is a file containing the actual query. Results will be returned
+in JSON format; XML is possible as well, in this case remove the '+json' in the
+above command.
+
+### Example queries
+
+- List all datasets
+```
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dceng: <http://www.semanticweb.org/p.ost/ontologies/dceng#>
+
+SELECT ?service ?subject ?host WHERE {
+  ?host dceng:hostsService ?service .
+  ?service a dceng:Dataset .
+  ?service dceng:hasSubjectArea ?subject .
+}
+```
+
 ## License information
 
 The following files have been adapted from the official [Apache Jena Fuseki Docker Tools](https://github.com/apache/jena/tree/main/jena-fuseki2/jena-fuseki-docker) and are licensed under the Apache 2.0 License:
