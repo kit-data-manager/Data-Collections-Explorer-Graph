@@ -35,6 +35,9 @@ above command.
 
 ### Example queries
 
+The documentation of the class hierarchy, individuals and properties can be
+found [here](../graph/README.md). Some sample queries are listed below.
+
 - List all datasets
 ```
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
