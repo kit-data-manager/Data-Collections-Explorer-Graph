@@ -19,7 +19,7 @@
 
 ARG JAVA_VERSION=21
 
-ARG ALPINE_VERSION=3.17.1
+ARG ALPINE_VERSION=3.20.3
 ARG JENA_VERSION="5.1.0"
 
 # Internal, passed between stages.
