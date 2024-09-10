@@ -16,6 +16,9 @@ $ mkdir logs
 $ mkdir -p databases/DB2
 $ tdb2.tdbloader --loc databases/DB2 ../graph/DCE.ttl
 ```
+`tdb2.tdbloader` is part of the [Apache Jena Command Line Tools](https://jena.apache.org/documentation//tdb2/tdb2_cmds.html),
+available as part of the [Apache Jena Commands](https://jena.apache.org/download/index.cgi)
+distribution.
 - Start the container
 ```
 $ sh startup.sh
