@@ -33,7 +33,7 @@ i.e., use the following command to send queries:
 curl -H "Accept: application/sparql-results+json" -G "localhost:3030/graph" --data-urlencode 'query@query.sprq'
 ```
 Here, `query.sprq` is a file containing the actual query. Results will be returned
-in JSON format; XML is possible as well, in this case remove the `+json` in the
+in JSON format; XML output is possible as well, in this case remove the `+json` in the
 above command.
 
 ### Example queries
