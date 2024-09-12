@@ -8,7 +8,7 @@ To build and run the container, follow these steps:
 
 - Build the container
 ```
-$ docker build --force-rm -t dceng:v1 .
+$ docker build --force-rm -t dceng .
 ```
 - Create required directories and set up the database
 ```
