@@ -4,7 +4,7 @@ This repository is the home for the "next generation" Data Collections Explorer.
 
 ## Graph
 
-The basic structure of the graph is documented [here](graph/README.md). You can
+The basic structure of the graph is outlined [here](graph/README.md). You can
 serve your own instance or query the graph, as described [here](docker/README.md).
 
 ## Licensing
