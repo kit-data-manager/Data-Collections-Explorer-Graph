@@ -8,7 +8,7 @@ To build and run the container, follow these steps:
 
 - Build the container
 ```
-$ docker build --force-rm -t dceng .
+$ docker build --force-rm -t dce .
 ```
 - Create required directories and set up the database
 ```
@@ -30,7 +30,7 @@ The SPARQL endpoint is accessible at `localhost:3030/graph`.
 The SPARQL endpoint can be queried using tools such as [curl](https://curl.se),
 i.e., use the following command to send queries:
 ```
-curl -H "Accept: application/sparql-results+json" -G "localhost:3030/graph" --data-urlencode 'query@query.sprq'
+curl -H "Accept: application/sparql-results+json" -G "localhost:3030/dce" --data-urlencode 'query@query.sprq'
 ```
 Here, `query.sprq` is a file containing the actual query. Results will be returned
 in JSON format; XML output is possible as well, in this case remove the `+json` in the
@@ -47,12 +47,12 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX dceng: <https://data-collections.nfdi4ing.de/graph#>
+PREFIX dce: <https://data-collections.nfdi4ing.de/dce#>
 
 SELECT ?service ?subject ?host WHERE {
-  ?host dceng:hostsService ?service .
-  ?service a dceng:Dataset .
-  ?service dceng:hasSubjectArea ?subject .
+  ?host dce:hostsService ?service .
+  ?service a dce:Dataset .
+  ?service dce:hasSubjectArea ?subject .
 }
 ```
 
@@ -62,11 +62,11 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX dceng: <https://data-collections.nfdi4ing.de/graph#>
+PREFIX dce: <https://data-collections.nfdi4ing.de/dce#>
 
 SELECT ?access ?service ?host WHERE {
-  ?service dceng:isHostedBy ?host .
-  ?service dceng:isOpenAccess ?access .
+  ?service dce:isHostedBy ?host .
+  ?service dce:isOpenAccess ?access .
 }
 ```
 
@@ -76,11 +76,11 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX dceng: <https://data-collections.nfdi4ing.de/graph#>
+PREFIX dce: <https://data-collections.nfdi4ing.de/dce#>
 
 SELECT ?limit ?service ?host WHERE {
-  ?service dceng:isHostedBy ?host .
-  ?service dceng:hasDatasetSizeLimit ?limit .
+  ?service dce:isHostedBy ?host .
+  ?service dce:hasDatasetSizeLimit ?limit .
 }
 ```
 
