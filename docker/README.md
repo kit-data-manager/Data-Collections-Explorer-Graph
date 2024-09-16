@@ -47,7 +47,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX dceng: <http://www.semanticweb.org/p.ost/ontologies/dceng#>
+PREFIX dceng: <https://data-collections.nfdi4ing.de/graph#>
 
 SELECT ?service ?subject ?host WHERE {
   ?host dceng:hostsService ?service .
@@ -62,7 +62,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX dceng: <http://www.semanticweb.org/p.ost/ontologies/dceng#>
+PREFIX dceng: <https://data-collections.nfdi4ing.de/graph#>
 
 SELECT ?access ?service ?host WHERE {
   ?service dceng:isHostedBy ?host .
@@ -76,7 +76,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX dceng: <http://www.semanticweb.org/p.ost/ontologies/dceng#>
+PREFIX dceng: <https://data-collections.nfdi4ing.de/graph#>
 
 SELECT ?limit ?service ?host WHERE {
   ?service dceng:isHostedBy ?host .

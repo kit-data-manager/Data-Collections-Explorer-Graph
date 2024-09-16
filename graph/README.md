@@ -107,7 +107,7 @@ The current version of the Data Collections Explorer has a comment field. This i
 
 ## How to access it
 
-Assuming you have a local instance of Apache Fuseki running, load `DCE.owl`. The ontology IRI is `http://www.semanticweb.org/p.ost/ontologies/dceng`.
+Assuming you have a local instance of Apache Fuseki running, load `DCE.owl`. The ontology IRI is `https://data-collections.nfdi4ing.de/graph`.
 
 ## To Do
 
