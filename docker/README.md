@@ -28,9 +28,13 @@ The SPARQL endpoint is accessible at `localhost:3030/graph`.
 ## Queries
 
 The SPARQL endpoint can be queried using tools such as [curl](https://curl.se),
-i.e., use the following command to send queries:
+i.e., use the following command to send queries to a local instance:
 ```
 curl -H "Accept: application/sparql-results+json" -G "localhost:3030/dce" --data-urlencode 'query@query.sprq'
+```
+or the following command to query the endpoint at ```data-collections.nfdi4ing.de```:
+```
+curl -H "Accept: application/sparql-results+json" -G "data-collections.nfdi4ing.de:3030/dce" --data-urlencode 'query@query.sprq'
 ```
 Here, `query.sprq` is a file containing the actual query. Results will be returned
 in JSON format; XML output is possible as well, in this case remove the `+json` in the
