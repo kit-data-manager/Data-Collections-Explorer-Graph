@@ -66,7 +66,7 @@ SELECT ?access ?service ?host WHERE {
 }
 ```
 
-- Show which services have upload size restrictions and what the limit is
+- Show which services have upload size restrictions, what the limit is, and order results in descending order
 ```
 PREFIX dce: <https://data-collections.nfdi4ing.de/dce#>
 
@@ -74,6 +74,7 @@ SELECT ?limit ?service ?host WHERE {
   ?service dce:isHostedBy ?host .
   ?service dce:hasDatasetSizeLimit ?limit .
 }
+ORDER BY DESC(?limit)
 ```
 
 ## License information
