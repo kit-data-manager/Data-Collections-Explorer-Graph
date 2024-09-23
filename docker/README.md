@@ -47,10 +47,6 @@ found [here](../graph/README.md). Some sample queries are listed below.
 
 - List all datasets
 ```
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dce: <https://data-collections.nfdi4ing.de/dce#>
 
 SELECT ?service ?subject ?host WHERE {
@@ -62,10 +58,6 @@ SELECT ?service ?subject ?host WHERE {
 
 - Show whether services are Open Access or not
 ```
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dce: <https://data-collections.nfdi4ing.de/dce#>
 
 SELECT ?access ?service ?host WHERE {
@@ -76,10 +68,6 @@ SELECT ?access ?service ?host WHERE {
 
 - Show which services have upload size restrictions and what the limit is
 ```
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dce: <https://data-collections.nfdi4ing.de/dce#>
 
 SELECT ?limit ?service ?host WHERE {
