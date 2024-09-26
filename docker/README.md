@@ -23,7 +23,8 @@ distribution.
 ```
 $ sh startup.sh
 ```
-The SPARQL endpoint is accessible at `localhost:3030/dce`.
+The SPARQL endpoint is accessible at `localhost:3030/dce`. Queries are
+logged to `logs/fuseki.log`.
 
 ## Queries
 
