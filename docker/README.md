@@ -33,7 +33,7 @@ i.e., use the following command to send queries to a local instance:
 ```
 curl -H "Accept: application/sparql-results+json" -G "localhost:3030/dce" --data-urlencode 'query@query.sprq'
 ```
-or the following command to query the endpoint at ```data-collections.nfdi4ing.de```:
+or the following command to query the endpoint at ```data-collections.nfdi4ing.de/dce```:
 ```
 curl -H "Accept: application/sparql-results+json" -G "https://data-collections.nfdi4ing.de/dce" --data-urlencode 'query@query.sprq'
 ```
