@@ -1,0 +1,37 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Engineering",
+    "codeRepository": "https://github.com/kit-data-manager/Data-Collections-Explorer-Graph.git",
+    "dateCreated": "2022-12-23",
+    "datePublished": "2024-09-20",
+    "description": "Graph-based version of the Data Collections Explorer, an information system for the engineering sciences.",
+    "funder": {
+        "type": "Organization",
+        "name": "NFDI4Ing"
+    },
+    "isPartOf": "https://data-collections.nfdi4ing.de",
+    "keywords": [
+        "FAIR",
+        "NFDI",
+        "NFDI4Ing"
+    ],
+    "license": "https://spdx.org/licenses/MIT",
+    "name": "Data Collections Explorer Graph",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "macOS"
+    ],
+    "relatedLink": "https://data-collections.nfdi4ing.de/dce",
+    "runtimePlatform": "JVM",
+    "softwareRequirements": [
+        "Java",
+        "Apache Jena Fuseki (incl. Command Line Tools)",
+        "Docker"
+    ],
+    "developmentStatus": "active",
+    "funding": "DFG project number 442146713",
+    "issueTracker": "https://github.com/kit-data-manager/Data-Collections-Explorer-Graph/issues",
+    "referencePublication": "https://doi.org/10.52825/cordi.v1i.405"
+}
