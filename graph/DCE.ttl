@@ -1821,6 +1821,20 @@ dce:PFHub rdf:type owl:NamedIndividual ,
           owl:annotatedTarget "PFHub" .
 
 
+###  https://data-collections.nfdi4ing.de/dce#PTB
+dce:PTB rdf:type owl:NamedIndividual ,
+                 dce:Host ;
+        owl:sameAs dce:Physikalisch-Technische_Bundesanstalt .
+
+
+###  https://data-collections.nfdi4ing.de/dce#Physikalisch-Technische_Bundesanstalt
+
+###  https://data-collections.nfdi4ing.de/dce#Physikalisch-Technische_Bundesanstalt
+dce:Physikalisch-Technische_Bundesanstalt rdf:type owl:NamedIndividual ,
+                                                   dce:Host ;
+                                          dce:hasHostURL "https://www.ptb.de"^^xsd:anyURI .
+
+
 ###  https://data-collections.nfdi4ing.de/dce#Polymer_Property_Predictor_and_Database
 dce:Polymer_Property_Predictor_and_Database rdf:type owl:NamedIndividual ,
                                                      dce:Database ,
