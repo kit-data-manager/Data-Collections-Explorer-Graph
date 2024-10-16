@@ -1846,6 +1846,7 @@ dce:PTB-OAR rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Physikalisch-Technische_Bundesanstalt
 dce:Physikalisch-Technische_Bundesanstalt rdf:type owl:NamedIndividual ,
                                                    dce:Host ;
+                                          dce:hostsService dce:PTB-OAR ;
                                           dce:hasHostURL "https://www.ptb.de"^^xsd:anyURI .
 
 
