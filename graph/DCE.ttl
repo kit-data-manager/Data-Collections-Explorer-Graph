@@ -1829,6 +1829,20 @@ dce:PTB rdf:type owl:NamedIndividual ,
 
 ###  https://data-collections.nfdi4ing.de/dce#Physikalisch-Technische_Bundesanstalt
 
+###  https://data-collections.nfdi4ing.de/dce#PTB-OAR
+dce:PTB-OAR rdf:type owl:NamedIndividual ,
+                     dce:Institutional_Repository ,
+                     dce:Service ;
+            dce:isHostedBy dce:Physikalisch-Technische_Bundesanstalt ;
+            dce:hasAPI "yes" ;
+            dce:hasServiceURL "https://oar.ptb.de"^^xsd:anyURI ;
+            dce:isOpenAccess "yes" ;
+            rdfs:comment "Open Access repository of the German Physikalisch-Technische Bundesanstalt" ;
+            owl:annotatedProperty "hostsService" ;
+            owl:annotatedSource "Physikalisch-Technische Bundesanstalt" ;
+            owl:annotatedTarget "PTB-OAR" .
+
+
 ###  https://data-collections.nfdi4ing.de/dce#Physikalisch-Technische_Bundesanstalt
 dce:Physikalisch-Technische_Bundesanstalt rdf:type owl:NamedIndividual ,
                                                    dce:Host ;
