@@ -313,6 +313,7 @@ dce:Aeronautics rdf:type owl:NamedIndividual ,
                                   dce:Hydraulic_Engineering ,
                                   dce:Materials_Science ,
                                   dce:Mathematics ,
+                                  dce:Metrology ,
                                   dce:Mining ,
                                   dce:Software ,
                                   dce:Transportation ,
@@ -355,6 +356,7 @@ dce:Architecture rdf:type owl:NamedIndividual ,
                                    dce:Hydraulic_Engineering ,
                                    dce:Materials_Science ,
                                    dce:Mathematics ,
+                                   dce:Metrology ,
                                    dce:Mining ,
                                    dce:Software ,
                                    dce:Transportation ,
@@ -383,6 +385,7 @@ dce:Autonomous_Driving rdf:type owl:NamedIndividual ,
                                          dce:Hydraulic_Engineering ,
                                          dce:Materials_Science ,
                                          dce:Mathematics ,
+                                         dce:Metrology ,
                                          dce:Mining ,
                                          dce:Software ,
                                          dce:Transportation ,
@@ -501,6 +504,7 @@ dce:Cartography rdf:type owl:NamedIndividual ,
                                   dce:Hydraulic_Engineering ,
                                   dce:Materials_Science ,
                                   dce:Mathematics ,
+                                  dce:Metrology ,
                                   dce:Mining ,
                                   dce:Software ,
                                   dce:Transportation ,
@@ -547,6 +551,7 @@ dce:Chemistry rdf:type owl:NamedIndividual ,
                                 dce:Environmental_Science ,
                                 dce:Hydraulic_Engineering ,
                                 dce:Mathematics ,
+                                dce:Metrology ,
                                 dce:Mining ,
                                 dce:Software ,
                                 dce:Transportation ,
@@ -580,6 +585,7 @@ dce:Civil_Engineering rdf:type owl:NamedIndividual ,
                                         dce:Hydraulic_Engineering ,
                                         dce:Materials_Science ,
                                         dce:Mathematics ,
+                                        dce:Metrology ,
                                         dce:Mining ,
                                         dce:Software ,
                                         dce:Transportation ,
@@ -612,6 +618,7 @@ dce:Computer_Science rdf:type owl:NamedIndividual ,
                                        dce:Hydraulic_Engineering ,
                                        dce:Materials_Science ,
                                        dce:Mathematics ,
+                                       dce:Metrology ,
                                        dce:Mining ,
                                        dce:Software ,
                                        dce:Transportation ,
@@ -628,6 +635,7 @@ dce:Computer_Vision rdf:type owl:NamedIndividual ,
                                       dce:Hydraulic_Engineering ,
                                       dce:Materials_Science ,
                                       dce:Mathematics ,
+                                      dce:Metrology ,
                                       dce:Mining ,
                                       dce:Software ,
                                       dce:Transportation ,
@@ -651,6 +659,7 @@ dce:Crystallography rdf:type owl:NamedIndividual ,
                                       dce:Hydraulic_Engineering ,
                                       dce:Materials_Science ,
                                       dce:Mathematics ,
+                                      dce:Metrology ,
                                       dce:Mining ,
                                       dce:Software ,
                                       dce:Transportation ,
@@ -856,6 +865,7 @@ dce:Earth_Science rdf:type owl:NamedIndividual ,
                                     dce:Hydraulic_Engineering ,
                                     dce:Materials_Science ,
                                     dce:Mathematics ,
+                                    dce:Metrology ,
                                     dce:Mining ,
                                     dce:Software ,
                                     dce:Transportation ,
@@ -869,6 +879,7 @@ dce:Energy rdf:type owl:NamedIndividual ,
                              dce:Hydraulic_Engineering ,
                              dce:Materials_Science ,
                              dce:Mathematics ,
+                             dce:Metrology ,
                              dce:Mining ,
                              dce:Software ,
                              dce:Transportation ,
@@ -880,6 +891,7 @@ dce:Engineering rdf:type owl:NamedIndividual ,
                          dce:SubjectArea ;
                 owl:differentFrom dce:Environmental_Science ,
                                   dce:Mathematics ,
+                                  dce:Metrology ,
                                   dce:Software ,
                                   dce:Transportation .
 
@@ -1204,6 +1216,7 @@ dce:Hydraulic_Engineering rdf:type owl:NamedIndividual ,
                                    dce:SubjectArea ;
                           owl:differentFrom dce:Materials_Science ,
                                             dce:Mathematics ,
+                                            dce:Metrology ,
                                             dce:Mining ,
                                             dce:Software ,
                                             dce:Transportation ,
@@ -1393,6 +1406,7 @@ dce:Materials_Project rdf:type owl:NamedIndividual ,
 dce:Materials_Science rdf:type owl:NamedIndividual ,
                                dce:SubjectArea ;
                       owl:differentFrom dce:Mathematics ,
+                                        dce:Metrology ,
                                         dce:Mining ,
                                         dce:Software ,
                                         dce:Transportation ,
@@ -1413,7 +1427,8 @@ dce:Materialsweb rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Mathematics
 dce:Mathematics rdf:type owl:NamedIndividual ,
                          dce:SubjectArea ;
-                owl:differentFrom dce:Mining ,
+                owl:differentFrom dce:Metrology ,
+                                  dce:Mining ,
                                   dce:Software ,
                                   dce:Transportation ,
                                   dce:Urbanism .
@@ -1438,6 +1453,15 @@ dce:Metadata4Ing rdf:type owl:NamedIndividual ,
                  owl:annotatedProperty "hostsService" ;
                  owl:annotatedSource "NFDI4Ing" ;
                  owl:annotatedTarget "Metadata4Ing" .
+
+
+###  https://data-collections.nfdi4ing.de/dce#Metrology
+dce:Metrology rdf:type owl:NamedIndividual ,
+                       dce:SubjectArea ;
+              owl:differentFrom dce:Mining ,
+                                dce:Software ,
+                                dce:Transportation ,
+                                dce:Urbanism .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#Mining
@@ -1795,6 +1819,35 @@ dce:PFHub rdf:type owl:NamedIndividual ,
           owl:annotatedSource "CHIMaD" ,
                               "NIST" ;
           owl:annotatedTarget "PFHub" .
+
+
+###  https://data-collections.nfdi4ing.de/dce#PTB
+dce:PTB rdf:type owl:NamedIndividual ,
+                 dce:Host ;
+        owl:sameAs dce:Physikalisch-Technische_Bundesanstalt .
+
+
+###  https://data-collections.nfdi4ing.de/dce#Physikalisch-Technische_Bundesanstalt
+
+###  https://data-collections.nfdi4ing.de/dce#PTB-OAR
+dce:PTB-OAR rdf:type owl:NamedIndividual ,
+                     dce:Institutional_Repository ,
+                     dce:Service ;
+            dce:isHostedBy dce:Physikalisch-Technische_Bundesanstalt ;
+            dce:hasAPI "yes" ;
+            dce:hasServiceURL "https://oar.ptb.de"^^xsd:anyURI ;
+            dce:isOpenAccess "yes" ;
+            rdfs:comment "Open Access repository of the German Physikalisch-Technische Bundesanstalt" ;
+            owl:annotatedProperty "hostsService" ;
+            owl:annotatedSource "Physikalisch-Technische Bundesanstalt" ;
+            owl:annotatedTarget "PTB-OAR" .
+
+
+###  https://data-collections.nfdi4ing.de/dce#Physikalisch-Technische_Bundesanstalt
+dce:Physikalisch-Technische_Bundesanstalt rdf:type owl:NamedIndividual ,
+                                                   dce:Host ;
+                                          dce:hostsService dce:PTB-OAR ;
+                                          dce:hasHostURL "https://www.ptb.de"^^xsd:anyURI .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#Polymer_Property_Predictor_and_Database
