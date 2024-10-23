@@ -1413,17 +1413,6 @@ dce:Materials_Science rdf:type owl:NamedIndividual ,
                                         dce:Urbanism .
 
 
-###  https://data-collections.nfdi4ing.de/dce#Materialsweb
-dce:Materialsweb rdf:type owl:NamedIndividual ,
-                          dce:Database ,
-                          dce:Service ;
-                 dce:hasSubjectArea dce:Materials_Science ;
-                 dce:isHostedBy dce:University_of_Florida ;
-                 dce:hasAPI "yes" ;
-                 dce:hasServiceURL "https://materialsweb.org"^^xsd:anyURI ;
-                 dce:isOpenAccess "yes" .
-
-
 ###  https://data-collections.nfdi4ing.de/dce#Mathematics
 dce:Mathematics rdf:type owl:NamedIndividual ,
                          dce:SubjectArea ;
@@ -2221,13 +2210,6 @@ dce:University_of_Chicago rdf:type owl:NamedIndividual ,
                                    dce:Host ;
                           dce:hostsService dce:Polymer_Property_Predictor_and_Database ;
                           dce:hasHostURL "https://www.uchicago.edu"^^xsd:anyURI .
-
-
-###  https://data-collections.nfdi4ing.de/dce#University_of_Florida
-dce:University_of_Florida rdf:type owl:NamedIndividual ,
-                                   dce:Host ;
-                          dce:hostsService dce:Materialsweb ;
-                          dce:hasHostURL "https://www.ufl.edu"^^xsd:anyURI .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#University_of_Technology_of_Belfort-Montbéliard
