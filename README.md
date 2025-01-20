@@ -21,4 +21,4 @@ directory.
 
 ## Acknowledgements
 
-This work is supported by [NFDI4Ing](https://nfdi4ing.de) (DFG project number 442146713).
+This work is supported by [NFDI4ING](https://nfdi4ing.de) (DFG project number 442146713).
