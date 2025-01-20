@@ -1435,7 +1435,7 @@ dce:Metadata4Ing rdf:type owl:NamedIndividual ,
                           dce:Ontology ,
                           dce:Service ;
                  dce:hasSubjectArea dce:Engineering ;
-                 dce:isHostedBy dce:NFDI4Ing ;
+                 dce:isHostedBy dce:NFDI4ING ;
                  dce:hasServiceURL "https://w3id.org/nfdi4ing/metadata4ing"^^xsd:anyURI ;
                  dce:isOpenAccess "yes" ;
                  rdfs:comment "Ontology focused on the semantic description of research data in the engineering sciences"@en ;
@@ -1498,22 +1498,22 @@ dce:NFDI-MatWerk_Repository rdf:type owl:NamedIndividual ,
                             owl:annotatedTarget "NFDI-MatWerk Repository" .
 
 
-###  https://data-collections.nfdi4ing.de/dce#NFDI4Ing
-dce:NFDI4Ing rdf:type owl:NamedIndividual ,
+###  https://data-collections.nfdi4ing.de/dce#NFDI4ING
+dce:NFDI4ING rdf:type owl:NamedIndividual ,
                       dce:Host ;
              dce:hostsService dce:Metadata4Ing ,
-                              dce:NFDI4Ing_Terminology_Service ;
+                              dce:NFDI4ING_Terminology_Service ;
              dce:hasHostURL "https://nfdi4ing.de"^^xsd:anyURI .
 
 
-###  https://data-collections.nfdi4ing.de/dce#NFDI4Ing_Ingest_Service
-dce:NFDI4Ing_Ingest_Service rdf:type owl:NamedIndividual ,
+###  https://data-collections.nfdi4ing.de/dce#NFDI4ING_Ingest_Service
+dce:NFDI4ING_Ingest_Service rdf:type owl:NamedIndividual ,
                                      dce:Repository ,
                                      dce:Service ;
                             dce:hasSubjectArea dce:Architecture ,
                                                dce:Civil_Engineering ,
                                                dce:Urbanism ;
-                            dce:isHostedBy dce:NFDI4Ing ;
+                            dce:isHostedBy dce:NFDI4ING ;
                             dce:hasAPI "yes" ;
                             dce:hasPublicationCost "free" ;
                             dce:hasServiceURL "https://ingest.nfdi4ing.de"^^xsd:anyURI ;
@@ -1524,12 +1524,12 @@ dce:NFDI4Ing_Ingest_Service rdf:type owl:NamedIndividual ,
                             owl:annotatedTarget "NFDI4Ing Ingest Service" .
 
 
-###  https://data-collections.nfdi4ing.de/dce#NFDI4Ing_Terminology_Service
-dce:NFDI4Ing_Terminology_Service rdf:type owl:NamedIndividual ,
+###  https://data-collections.nfdi4ing.de/dce#NFDI4ING_Terminology_Service
+dce:NFDI4ING_Terminology_Service rdf:type owl:NamedIndividual ,
                                           dce:Service ,
                                           dce:Terminology_Service ;
                                  dce:hasSubjectArea dce:Interdisciplinary ;
-                                 dce:isHostedBy dce:NFDI4Ing ,
+                                 dce:isHostedBy dce:NFDI4ING ,
                                                 dce:TIB ;
                                  dce:hasAPI "yes" ;
                                  dce:hasServiceURL "https://terminology.nfdi4ing.de"^^xsd:anyURI ;
@@ -2013,7 +2013,7 @@ dce:Software rdf:type owl:NamedIndividual ,
 dce:TIB rdf:type owl:NamedIndividual ,
                  dce:Host ;
         owl:sameAs dce:Technische_Informationsbibliothek ;
-        dce:hostsService dce:NFDI4Ing_Terminology_Service ;
+        dce:hostsService dce:NFDI4ING_Terminology_Service ;
         dce:hasHostURL "https://www.tib.eu"^^xsd:anyURI .
 
 
