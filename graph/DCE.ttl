@@ -1440,7 +1440,7 @@ dce:Metadata4Ing rdf:type owl:NamedIndividual ,
                  dce:isOpenAccess "yes" ;
                  rdfs:comment "Ontology focused on the semantic description of research data in the engineering sciences"@en ;
                  owl:annotatedProperty "hostsService" ;
-                 owl:annotatedSource "NFDI4Ing" ;
+                 owl:annotatedSource "NFDI4ING" ;
                  owl:annotatedTarget "Metadata4Ing" .
 
 
@@ -1520,8 +1520,8 @@ dce:NFDI4ING_Ingest_Service rdf:type owl:NamedIndividual ,
                             dce:isOpenAccess "yes" ;
                             rdfs:comment "Repository for civil engineering, architecture and urbanism."@en ;
                             owl:annotatedProperty "hostsService" ;
-                            owl:annotatedSource "NFDI4Ing" ;
-                            owl:annotatedTarget "NFDI4Ing Ingest Service" .
+                            owl:annotatedSource "NFDI4ING" ;
+                            owl:annotatedTarget "NFDI4ING Ingest Service" .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#NFDI4ING_Terminology_Service
@@ -1535,9 +1535,9 @@ dce:NFDI4ING_Terminology_Service rdf:type owl:NamedIndividual ,
                                  dce:hasServiceURL "https://terminology.nfdi4ing.de"^^xsd:anyURI ;
                                  rdfs:comment "Repository for engineering ontologies"@en ;
                                  owl:annotatedProperty "hostsService" ;
-                                 owl:annotatedSource "NFDI4Ing" ,
+                                 owl:annotatedSource "NFDI4ING" ,
                                                      "TIB" ;
-                                 owl:annotatedTarget "NFDI4Ing Terminology Service" .
+                                 owl:annotatedTarget "NFDI4ING Terminology Service" .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#NIH_National_Library_of_Medicine
