@@ -420,6 +420,27 @@ dce:BAM-Publica rdf:type owl:NamedIndividual ,
                 owl:annotatedTarget "BAM-Publica" .
 
 
+###  https://data-collections.nfdi4ing.de/dce#BLASTNet_Community
+dce:BLASTNet_Community rdf:type owl:NamedIndividual ,
+                                dce:Host ;
+                       dce:hostsService dce:BLASTNet_Simulation_Dataset ;
+                       dce:hasHostURL "https://blastnet.github.io"^^xsd:anyURI .
+
+
+###  https://data-collections.nfdi4ing.de/dce#BLASTNet_Simulation_Dataset
+dce:BLASTNet_Simulation_Dataset rdf:type owl:NamedIndividual ,
+                                         dce:Dataset ;
+                                dce:isHostedBy dce:BLASTNet_Community ;
+                                dce:hasAPI "yes" ;
+                                dce:hasPublicationCost "no" ;
+                                dce:hasServiceURL "https://blastnet.github.io"^^xsd:anyURI ;
+                                dce:isOpenAccess "yes" ;
+                                rdfs:comment "Collection of datasets for machine learning in combustion modeling. API acces is via Kaggle."@en ;
+                                owl:annotatedProperty "hostsService" ;
+                                owl:annotatedSource "BLASTNet Community" ;
+                                owl:annotatedTarget "BLASTNet Simulation Dataset" .
+
+
 ###  https://data-collections.nfdi4ing.de/dce#Baidu
 dce:Baidu rdf:type owl:NamedIndividual ,
                    dce:Host ;
