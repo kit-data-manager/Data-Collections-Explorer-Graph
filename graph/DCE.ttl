@@ -316,6 +316,7 @@ dce:Aeronautics rdf:type owl:NamedIndividual ,
                                   dce:Metrology ,
                                   dce:Mining ,
                                   dce:Software ,
+                                  dce:Thermal_Engineering ,
                                   dce:Transportation ,
                                   dce:Urbanism .
 
@@ -359,6 +360,7 @@ dce:Architecture rdf:type owl:NamedIndividual ,
                                    dce:Metrology ,
                                    dce:Mining ,
                                    dce:Software ,
+                                   dce:Thermal_Engineering ,
                                    dce:Transportation ,
                                    dce:Urbanism .
 
@@ -388,6 +390,7 @@ dce:Autonomous_Driving rdf:type owl:NamedIndividual ,
                                          dce:Metrology ,
                                          dce:Mining ,
                                          dce:Software ,
+                                         dce:Thermal_Engineering ,
                                          dce:Transportation ,
                                          dce:Urbanism .
 
@@ -415,6 +418,27 @@ dce:BAM-Publica rdf:type owl:NamedIndividual ,
                 owl:annotatedProperty "hostsService" ;
                 owl:annotatedSource "BAM" ;
                 owl:annotatedTarget "BAM-Publica" .
+
+
+###  https://data-collections.nfdi4ing.de/dce#BLASTNet_Community
+dce:BLASTNet_Community rdf:type owl:NamedIndividual ,
+                                dce:Host ;
+                       dce:hostsService dce:BLASTNet_Simulation_Dataset ;
+                       dce:hasHostURL "https://blastnet.github.io"^^xsd:anyURI .
+
+
+###  https://data-collections.nfdi4ing.de/dce#BLASTNet_Simulation_Dataset
+dce:BLASTNet_Simulation_Dataset rdf:type owl:NamedIndividual ,
+                                         dce:Dataset ;
+                                dce:isHostedBy dce:BLASTNet_Community ;
+                                dce:hasAPI "yes" ;
+                                dce:hasPublicationCost "no" ;
+                                dce:hasServiceURL "https://blastnet.github.io"^^xsd:anyURI ;
+                                dce:isOpenAccess "yes" ;
+                                rdfs:comment "Collection of datasets for machine learning in combustion modeling. API acces is via Kaggle."@en ;
+                                owl:annotatedProperty "hostsService" ;
+                                owl:annotatedSource "BLASTNet Community" ;
+                                owl:annotatedTarget "BLASTNet Simulation Dataset" .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#Baidu
@@ -507,6 +531,7 @@ dce:Cartography rdf:type owl:NamedIndividual ,
                                   dce:Metrology ,
                                   dce:Mining ,
                                   dce:Software ,
+                                  dce:Thermal_Engineering ,
                                   dce:Transportation ,
                                   dce:Urbanism .
 
@@ -554,6 +579,7 @@ dce:Chemistry rdf:type owl:NamedIndividual ,
                                 dce:Metrology ,
                                 dce:Mining ,
                                 dce:Software ,
+                                dce:Thermal_Engineering ,
                                 dce:Transportation ,
                                 dce:Urbanism .
 
@@ -588,6 +614,7 @@ dce:Civil_Engineering rdf:type owl:NamedIndividual ,
                                         dce:Metrology ,
                                         dce:Mining ,
                                         dce:Software ,
+                                        dce:Thermal_Engineering ,
                                         dce:Transportation ,
                                         dce:Urbanism .
 
@@ -621,6 +648,7 @@ dce:Computer_Science rdf:type owl:NamedIndividual ,
                                        dce:Metrology ,
                                        dce:Mining ,
                                        dce:Software ,
+                                       dce:Thermal_Engineering ,
                                        dce:Transportation ,
                                        dce:Urbanism .
 
@@ -638,6 +666,7 @@ dce:Computer_Vision rdf:type owl:NamedIndividual ,
                                       dce:Metrology ,
                                       dce:Mining ,
                                       dce:Software ,
+                                      dce:Thermal_Engineering ,
                                       dce:Transportation ,
                                       dce:Urbanism .
 
@@ -662,6 +691,7 @@ dce:Crystallography rdf:type owl:NamedIndividual ,
                                       dce:Metrology ,
                                       dce:Mining ,
                                       dce:Software ,
+                                      dce:Thermal_Engineering ,
                                       dce:Transportation ,
                                       dce:Urbanism .
 
@@ -868,6 +898,7 @@ dce:Earth_Science rdf:type owl:NamedIndividual ,
                                     dce:Metrology ,
                                     dce:Mining ,
                                     dce:Software ,
+                                    dce:Thermal_Engineering ,
                                     dce:Transportation ,
                                     dce:Urbanism .
 
@@ -882,6 +913,7 @@ dce:Energy rdf:type owl:NamedIndividual ,
                              dce:Metrology ,
                              dce:Mining ,
                              dce:Software ,
+                             dce:Thermal_Engineering ,
                              dce:Transportation ,
                              dce:Urbanism .
 
@@ -904,6 +936,7 @@ dce:Environmental_Science rdf:type owl:NamedIndividual ,
                                             dce:Mathematics ,
                                             dce:Mining ,
                                             dce:Software ,
+                                            dce:Thermal_Engineering ,
                                             dce:Transportation ,
                                             dce:Urbanism .
 
@@ -1219,6 +1252,7 @@ dce:Hydraulic_Engineering rdf:type owl:NamedIndividual ,
                                             dce:Metrology ,
                                             dce:Mining ,
                                             dce:Software ,
+                                            dce:Thermal_Engineering ,
                                             dce:Transportation ,
                                             dce:Urbanism .
 
@@ -1409,6 +1443,7 @@ dce:Materials_Science rdf:type owl:NamedIndividual ,
                                         dce:Metrology ,
                                         dce:Mining ,
                                         dce:Software ,
+                                        dce:Thermal_Engineering ,
                                         dce:Transportation ,
                                         dce:Urbanism .
 
@@ -1419,6 +1454,7 @@ dce:Mathematics rdf:type owl:NamedIndividual ,
                 owl:differentFrom dce:Metrology ,
                                   dce:Mining ,
                                   dce:Software ,
+                                  dce:Thermal_Engineering ,
                                   dce:Transportation ,
                                   dce:Urbanism .
 
@@ -1449,6 +1485,7 @@ dce:Metrology rdf:type owl:NamedIndividual ,
                        dce:SubjectArea ;
               owl:differentFrom dce:Mining ,
                                 dce:Software ,
+                                dce:Thermal_Engineering ,
                                 dce:Transportation ,
                                 dce:Urbanism .
 
@@ -1457,6 +1494,7 @@ dce:Metrology rdf:type owl:NamedIndividual ,
 dce:Mining rdf:type owl:NamedIndividual ,
                     dce:SubjectArea ;
            owl:differentFrom dce:Software ,
+                             dce:Thermal_Engineering ,
                              dce:Transportation ,
                              dce:Urbanism .
 
@@ -2005,7 +2043,8 @@ dce:SemanticKITTI rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Software
 dce:Software rdf:type owl:NamedIndividual ,
                       dce:SubjectArea ;
-             owl:differentFrom dce:Transportation ,
+             owl:differentFrom dce:Thermal_Engineering ,
+                               dce:Transportation ,
                                dce:Urbanism .
 
 
@@ -2166,6 +2205,13 @@ dce:Theoretical_Crystallography_Open_Database rdf:type owl:NamedIndividual ,
                                               dce:hasAPI "yes" ;
                                               dce:hasServiceURL "https://www.crystallography.net/tcod/"^^xsd:anyURI ;
                                               dce:isOpenAccess "yes" .
+
+
+###  https://data-collections.nfdi4ing.de/dce#Thermal_Engineering
+dce:Thermal_Engineering rdf:type owl:NamedIndividual ,
+                                 dce:SubjectArea ;
+                        owl:differentFrom dce:Transportation ,
+                                          dce:Urbanism .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#Transportation
