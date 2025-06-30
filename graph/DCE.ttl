@@ -430,6 +430,7 @@ dce:BLASTNet_Community rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#BLASTNet_Simulation_Dataset
 dce:BLASTNet_Simulation_Dataset rdf:type owl:NamedIndividual ,
                                          dce:Dataset ;
+                                dce:hasSubjectArea dce:Thermal_Engineering ;
                                 dce:isHostedBy dce:BLASTNet_Community ;
                                 dce:hasAPI "yes" ;
                                 dce:hasPublicationCost "no" ;
@@ -458,6 +459,7 @@ dce:BioPortal rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Boreas_Dataset
 dce:Boreas_Dataset rdf:type owl:NamedIndividual ,
                             dce:Dataset ;
+                   dce:hasSubjectArea dce:Autonomous_Driving ;
                    dce:isHostedBy dce:University_of_Toronto ;
                    dce:hasAPI "yes" ;
                    dce:hasServiceURL "https://www.boreas.utias.utoronto.ca"^^xsd:anyURI ;
@@ -2359,6 +2361,7 @@ dce:Woven_by_Toyota_Perception_Dataset rdf:type owl:NamedIndividual ,
 dce:Woven_by_Toyota_Prediction_Dataset rdf:type owl:NamedIndividual ,
                                                 dce:Dataset ;
                                        dce:hasSubjectArea dce:Autonomous_Driving ;
+                                       dce:isHostedBy <https://data-collections.nfdi4ing.de/dce#Woven_by_Toyota,_Inc.> ;
                                        dce:hasAPI "no" ;
                                        dce:hasServiceURL "https://woven.toyota/en/prediction-dataset"^^xsd:anyURI ;
                                        dce:isOpenAccess "yes" ;
@@ -2490,6 +2493,7 @@ dce:nuImages rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#nuPlan
 dce:nuPlan rdf:type owl:NamedIndividual ,
                     dce:Dataset ;
+           dce:hasSubjectArea dce:Autonomous_Driving ;
            dce:isHostedBy dce:Motional ;
            dce:hasAPI "no" ;
            dce:hasServiceURL "https://www.nuscenes.org/nuplan"^^xsd:anyURI ;
