@@ -459,6 +459,7 @@ dce:BioPortal rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Boreas_Dataset
 dce:Boreas_Dataset rdf:type owl:NamedIndividual ,
                             dce:Dataset ;
+                   dce:hasSubjectArea dce:Autonomous_Driving ;
                    dce:isHostedBy dce:University_of_Toronto ;
                    dce:hasAPI "yes" ;
                    dce:hasServiceURL "https://www.boreas.utias.utoronto.ca"^^xsd:anyURI ;
