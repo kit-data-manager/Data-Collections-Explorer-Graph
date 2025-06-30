@@ -430,6 +430,7 @@ dce:BLASTNet_Community rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#BLASTNet_Simulation_Dataset
 dce:BLASTNet_Simulation_Dataset rdf:type owl:NamedIndividual ,
                                          dce:Dataset ;
+                                dce:hasSubjectArea dce:Thermal_Engineering ;
                                 dce:isHostedBy dce:BLASTNet_Community ;
                                 dce:hasAPI "yes" ;
                                 dce:hasPublicationCost "no" ;
