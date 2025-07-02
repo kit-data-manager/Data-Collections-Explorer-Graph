@@ -1036,7 +1036,9 @@ dce:FIZ_Karlsruhe rdf:type owl:NamedIndividual ,
                            dce:Host ;
                   owl:sameAs <https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
                   dce:hostsService dce:Inorganic_Crystal_Structure_Database ,
-                                   dce:RADAR4Chem .
+                                   dce:RADAR4Chem ,
+                                   dce:swMATH ,
+                                   dce:zbMATH_Open .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur
@@ -1280,7 +1282,8 @@ dce:Inorganic_Crystal_Structure_Database rdf:type owl:NamedIndividual ,
                                                   dce:Database ,
                                                   dce:Service ;
                                          dce:hasSubjectArea dce:Materials_Science ;
-                                         dce:isHostedBy dce:FIZ_Karlsruhe ;
+                                         dce:isHostedBy dce:FIZ_Karlsruhe ,
+                                                        <https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
                                          dce:hasAPI "yes" ;
                                          dce:hasServiceURL "https://icsd.products.fiz-karlsruhe.de"^^xsd:anyURI ;
                                          dce:isOpenAccess "no" ;
@@ -1949,7 +1952,8 @@ dce:RADAR4Chem rdf:type owl:NamedIndividual ,
                         dce:Repository ,
                         dce:Service ;
                dce:hasSubjectArea dce:Chemistry ;
-               dce:isHostedBy dce:FIZ_Karlsruhe ;
+               dce:isHostedBy dce:FIZ_Karlsruhe ,
+                              <https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
                dce:hasAPI "yes" ;
                dce:hasServiceURL "https://radar4chem.radar-service.eu"^^xsd:anyURI ;
                dce:isOpenAccess "yes" ;
@@ -2555,7 +2559,8 @@ dce:swMATH rdf:type owl:NamedIndividual ,
                     dce:Database ,
                     dce:Service ;
            dce:hasSubjectArea dce:Mathematics ;
-           dce:isHostedBy <https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
+           dce:isHostedBy dce:FIZ_Karlsruhe ,
+                          <https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
            dce:hasServiceURL "https://swmath.org"^^xsd:anyURI ;
            dce:isOpenAccess "yes" ;
            rdfs:comment "Database about mathematical software"@en ;
@@ -2569,7 +2574,8 @@ dce:zbMATH_Open rdf:type owl:NamedIndividual ,
                          dce:Bibliography ,
                          dce:Service ;
                 dce:hasSubjectArea dce:Mathematics ;
-                dce:isHostedBy <https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
+                dce:isHostedBy dce:FIZ_Karlsruhe ,
+                               <https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> ;
                 dce:hasAPI "yes" ;
                 dce:hasServiceURL "https://zbmath.org"^^xsd:anyURI ;
                 dce:isOpenAccess "yes" ;
@@ -2624,7 +2630,9 @@ dce:zbMATH_Open rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur
 <https://data-collections.nfdi4ing.de/dce#FIZ_Karlsruhe_–_Leibniz-Institut_für_Informationsinfrastruktur> rdf:type owl:NamedIndividual ,
                                                                                                                    dce:Host ;
-                                                                                                          dce:hostsService dce:swMATH ,
+                                                                                                          dce:hostsService dce:Inorganic_Crystal_Structure_Database ,
+                                                                                                                           dce:RADAR4Chem ,
+                                                                                                                           dce:swMATH ,
                                                                                                                            dce:zbMATH_Open ;
                                                                                                           dce:hasHostURL "https://www.fiz-karlsruhe.de"^^xsd:anyURI .
 
