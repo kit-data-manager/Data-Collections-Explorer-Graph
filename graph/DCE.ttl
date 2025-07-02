@@ -560,7 +560,8 @@ dce:ChemSpider rdf:type owl:NamedIndividual ,
                         dce:Repository ,
                         dce:Service ;
                dce:hasSubjectArea dce:Chemistry ;
-               dce:isHostedBy dce:RSC ;
+               dce:isHostedBy dce:RSC ,
+                              dce:Royal_Society_of_Chemistry ;
                dce:hasAPI "yes" ;
                dce:hasServiceURL "https://www.chemspider.com"^^xsd:anyURI ;
                dce:isOpenAccess "yes" ;
@@ -1988,6 +1989,7 @@ dce:RWTH_Publications rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Royal_Society_of_Chemistry
 dce:Royal_Society_of_Chemistry rdf:type owl:NamedIndividual ,
                                         dce:Host ;
+                               dce:hostsService dce:ChemSpider ;
                                dce:hasHostURL "https://www.rsc.org"^^xsd:anyURI .
 
 
