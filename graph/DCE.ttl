@@ -808,7 +808,8 @@ dce:Database_of_Novel_and_Emerging_Adsorbent_Materials rdf:type owl:NamedIndivid
                                                                 dce:Catalogue ,
                                                                 dce:Service ;
                                                        dce:hasSubjectArea dce:Materials_Science ;
-                                                       dce:isHostedBy dce:NIST ;
+                                                       dce:isHostedBy dce:NIST ,
+                                                                      dce:National_Institute_of_Standards_and_Technology ;
                                                        dce:hasAPI "yes" ;
                                                        dce:hasServiceURL "https://adsorption.nist.gov/isodb/index.php"^^xsd:anyURI ;
                                                        rdfs:comment "Database of adsorption characteristics of novel and emerging materials, includes isotherm visualisation"@en ;
@@ -1648,6 +1649,8 @@ dce:NOMAD_Novel_Materials_Discovery rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#National_Institute_of_Standards_and_Technology
 dce:National_Institute_of_Standards_and_Technology rdf:type owl:NamedIndividual ,
                                                             dce:Host ;
+                                                   dce:hostsService dce:Database_of_Novel_and_Emerging_Adsorbent_Materials ,
+                                                                    dce:PFHub ;
                                                    dce:hasHostURL "https://www.nist.gov"^^xsd:anyURI .
 
 
