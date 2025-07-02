@@ -876,7 +876,8 @@ dce:ELN_Finder rdf:type owl:NamedIndividual ,
                         dce:Catalogue ,
                         dce:Service ;
                dce:hasSubjectArea dce:Interdisciplinary ;
-               dce:isHostedBy dce:ULB_Darmstadt ;
+               dce:isHostedBy dce:ULB_Darmstadt ,
+                              dce:Universitäts-_und_Landesbibliothek_Darmstadt ;
                dce:hasAPI "no" ;
                dce:hasServiceURL "https://eln-finder.ulb.tu-darmstadt.de"^^xsd:anyURI ;
                dce:isOpenAccess "yes" ;
@@ -2356,6 +2357,7 @@ dce:Universität_zu_Köln rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Universitäts-_und_Landesbibliothek_Darmstadt
 dce:Universitäts-_und_Landesbibliothek_Darmstadt rdf:type owl:NamedIndividual ,
                                                           dce:Host ;
+                                                 dce:hostsService dce:ELN_Finder ;
                                                  dce:hasHostURL "https://www.ulb.tu-darmstadt.de"^^xsd:anyURI .
 
 
