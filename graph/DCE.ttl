@@ -324,6 +324,7 @@ dce:Aeronautics rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Alfred-Wegener-Institut
 dce:Alfred-Wegener-Institut rdf:type owl:NamedIndividual ,
                                      dce:Host ;
+                            dce:hostsService dce:PANGAEA ;
                             dce:hasHostURL "https://www.awi.de"^^xsd:anyURI .
 
 
