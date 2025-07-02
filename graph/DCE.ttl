@@ -2121,7 +2121,8 @@ dce:TU_Braunschweig rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#TU_Darmstadt
 dce:TU_Darmstadt rdf:type owl:NamedIndividual ,
                           dce:Host ;
-                 dce:hostsService dce:TUdatalib ;
+                 dce:hostsService dce:TUdatalib ,
+                                  dce:TUstorage ;
                  dce:hasHostURL "https://www.tu-darmstadt.de"^^xsd:anyURI .
 
 
