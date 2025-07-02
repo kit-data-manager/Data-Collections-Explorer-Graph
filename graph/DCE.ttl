@@ -819,7 +819,11 @@ dce:Database_of_Novel_and_Emerging_Adsorbent_Materials rdf:type owl:NamedIndivid
 
 
 ###  https://data-collections.nfdi4ing.de/dce#Datenrepository_der_Universität_Kassel
-dce:Datenrepository_der_Universität_Kassel rdf:type owl:NamedIndividual .
+dce:Datenrepository_der_Universität_Kassel rdf:type owl:NamedIndividual ,
+                                                    dce:Institutional_Repository ,
+                                                    dce:Service ;
+                                           dce:hasSubjectArea dce:Interdisciplinary ;
+                                           dce:isHostedBy dce:Universität_Kassel .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#DepositOnce
@@ -2320,7 +2324,8 @@ dce:Universität_Jena rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Universität_Kassel
 dce:Universität_Kassel rdf:type owl:NamedIndividual ,
                                 dce:Host ;
-                       dce:hostsService dce:DaKS ;
+                       dce:hostsService dce:DaKS ,
+                                        dce:Datenrepository_der_Universität_Kassel ;
                        dce:hasHostURL "https://www.uni-kassel.de"^^xsd:anyURI .
 
 
