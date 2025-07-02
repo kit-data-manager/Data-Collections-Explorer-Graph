@@ -544,6 +544,7 @@ dce:Cartography rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Center_for_Hierarchical_Materials_Design
 dce:Center_for_Hierarchical_Materials_Design rdf:type owl:NamedIndividual ,
                                                       dce:Host ;
+                                             dce:hostsService dce:PFHub ;
                                              dce:hasHostURL "https://chimad.northwestern.edu"^^xsd:anyURI .
 
 
@@ -1843,7 +1844,9 @@ dce:PFHub rdf:type owl:NamedIndividual ,
                    dce:Service ;
           dce:hasSubjectArea dce:Materials_Science ;
           dce:isHostedBy dce:CHIMaD ,
-                         dce:NIST ;
+                         dce:Center_for_Hierarchical_Materials_Design ,
+                         dce:NIST ,
+                         dce:National_Institute_of_Standards_and_Technology ;
           dce:hasServiceURL "https://pages.nist.gov/pfhub"^^xsd:anyURI ;
           dce:isOpenAccess "yes" ;
           rdfs:comment "Includes benchmarks for testing, validation and verification of results, a list of codes, as well as basic learning resources"@en ;
