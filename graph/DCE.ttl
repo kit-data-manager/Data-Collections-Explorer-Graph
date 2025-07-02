@@ -1571,6 +1571,7 @@ dce:NFDI-MatWerk_Repository rdf:type owl:NamedIndividual ,
 dce:NFDI4ING rdf:type owl:NamedIndividual ,
                       dce:Host ;
              dce:hostsService dce:Metadata4Ing ,
+                              dce:NFDI4ING_Ingest_Service ,
                               dce:NFDI4ING_Terminology_Service ;
              dce:hasHostURL "https://nfdi4ing.de"^^xsd:anyURI .
 
