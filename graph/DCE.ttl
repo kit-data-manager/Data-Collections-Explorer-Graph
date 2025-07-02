@@ -1890,7 +1890,8 @@ dce:PFHub rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#PTB
 dce:PTB rdf:type owl:NamedIndividual ,
                  dce:Host ;
-        owl:sameAs dce:Physikalisch-Technische_Bundesanstalt .
+        owl:sameAs dce:Physikalisch-Technische_Bundesanstalt ;
+        dce:hostsService dce:PTB-OAR .
 
 
 ###  https://data-collections.nfdi4ing.de/dce#Physikalisch-Technische_Bundesanstalt
@@ -1899,7 +1900,8 @@ dce:PTB rdf:type owl:NamedIndividual ,
 dce:PTB-OAR rdf:type owl:NamedIndividual ,
                      dce:Institutional_Repository ,
                      dce:Service ;
-            dce:isHostedBy dce:Physikalisch-Technische_Bundesanstalt ;
+            dce:isHostedBy dce:PTB ,
+                           dce:Physikalisch-Technische_Bundesanstalt ;
             dce:hasAPI "yes" ;
             dce:hasServiceURL "https://oar.ptb.de"^^xsd:anyURI ;
             dce:isOpenAccess "yes" ;
