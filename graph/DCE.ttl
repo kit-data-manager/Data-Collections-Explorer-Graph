@@ -1554,7 +1554,9 @@ dce:NFDI-MatWerk_Repository rdf:type owl:NamedIndividual ,
                                      dce:Repository ,
                                      dce:Service ;
                             dce:hasSubjectArea dce:Materials_Science ;
-                            dce:isHostedBy dce:KIT ;
+                            dce:isHostedBy dce:KIT ,
+                                           dce:Karlsruhe_Institute_of_Technology ,
+                                           dce:Karlsruher_Institut_für_Technologie ;
                             dce:hasAPI "yes" ;
                             dce:hasPublicationCost "free" ;
                             dce:hasServiceURL "https://matwerk.datamanager.kit.edu"^^xsd:anyURI ;
