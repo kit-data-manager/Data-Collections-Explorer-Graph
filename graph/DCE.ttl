@@ -412,7 +412,8 @@ dce:BAM-Publica rdf:type owl:NamedIndividual ,
                          dce:Institutional_Repository ,
                          dce:Service ;
                 dce:hasSubjectArea dce:Interdisciplinary ;
-                dce:isHostedBy dce:BAM ;
+                dce:isHostedBy dce:BAM ,
+                               dce:Bundesanstalt_für_Materialforschung_und_-prüfung ;
                 dce:hasServiceURL "https://opus4.kobv.de/opus4-bam/home"^^xsd:anyURI ;
                 dce:isOpenAccess "partially" ;
                 rdfs:comment "Bibliography and institutional repository for publications by BAM scientists"@en ;
@@ -481,6 +482,7 @@ dce:Bundesamt_für_Wasserbau rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Bundesanstalt_für_Materialforschung_und_-prüfung
 dce:Bundesanstalt_für_Materialforschung_und_-prüfung rdf:type owl:NamedIndividual ,
                                                               dce:Host ;
+                                                     dce:hostsService dce:BAM-Publica ;
                                                      dce:hasHostURL "https://www.bam.de"^^xsd:anyURI .
 
 
