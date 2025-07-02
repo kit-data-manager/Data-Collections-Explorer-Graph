@@ -1855,7 +1855,9 @@ dce:PANGAEA rdf:type owl:NamedIndividual ,
             dce:hasSubjectArea dce:Earth_Science ,
                                dce:Environmental_Science ;
             dce:isHostedBy dce:AWI ,
-                           dce:MARUM ;
+                           dce:Alfred-Wegener-Institut ,
+                           dce:MARUM ,
+                           dce:Zentrum_für_Marine_Umweltwissenschaften ;
             dce:hasAPI "yes" ;
             dce:hasPublicationCost "free, but a donation of 500€ is welcome" ;
             dce:hasServiceURL "https://www.pangaea.de"^^xsd:anyURI ;
@@ -2428,6 +2430,7 @@ dce:Zenodo rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Zentrum_für_Marine_Umweltwissenschaften
 dce:Zentrum_für_Marine_Umweltwissenschaften rdf:type owl:NamedIndividual ,
                                                      dce:Host ;
+                                            dce:hostsService dce:PANGAEA ;
                                             dce:hasHostURL "https://www.marum.de"^^xsd:anyURI .
 
 
