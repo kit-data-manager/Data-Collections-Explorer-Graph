@@ -1600,7 +1600,8 @@ dce:NFDI4ING_Terminology_Service rdf:type owl:NamedIndividual ,
                                           dce:Terminology_Service ;
                                  dce:hasSubjectArea dce:Interdisciplinary ;
                                  dce:isHostedBy dce:NFDI4ING ,
-                                                dce:TIB ;
+                                                dce:TIB ,
+                                                dce:Technische_Informationsbibliothek ;
                                  dce:hasAPI "yes" ;
                                  dce:hasServiceURL "https://terminology.nfdi4ing.de"^^xsd:anyURI ;
                                  rdfs:comment "Repository for engineering ontologies"@en ;
@@ -2168,6 +2169,7 @@ dce:Technical_University_of_Denmark rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Technische_Informationsbibliothek
 dce:Technische_Informationsbibliothek rdf:type owl:NamedIndividual ,
                                                dce:Host ;
+                                      dce:hostsService dce:NFDI4ING_Terminology_Service ;
                                       dce:hasHostURL "https://www.tib.eu"^^xsd:anyURI .
 
 
