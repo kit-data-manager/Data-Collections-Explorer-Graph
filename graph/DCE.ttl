@@ -1420,7 +1420,8 @@ dce:Material_Hub rdf:type owl:NamedIndividual ,
                           dce:Repository ,
                           dce:Service ;
                  dce:hasSubjectArea dce:Materials_Science ;
-                 dce:isHostedBy dce:SLUB ;
+                 dce:isHostedBy dce:SLUB ,
+                                <https://data-collections.nfdi4ing.de/dce#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden> ;
                  dce:hasPublicationCost "free" ;
                  dce:hasServiceURL "https://www.materialhub.de"^^xsd:anyURI ;
                  dce:isOpenAccess "yes" ;
@@ -1927,7 +1928,8 @@ dce:Qucosa rdf:type owl:NamedIndividual ,
                     dce:Repository ,
                     dce:Service ;
            dce:hasSubjectArea dce:Interdisciplinary ;
-           dce:isHostedBy dce:SLUB ;
+           dce:isHostedBy dce:SLUB ,
+                          <https://data-collections.nfdi4ing.de/dce#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden> ;
            dce:hasAPI "yes" ;
            dce:hasPublicationCost "free" ;
            dce:hasServiceURL "https://slub.qucosa.de"^^xsd:anyURI ;
@@ -2634,6 +2636,8 @@ dce:zbMATH_Open rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden
 <https://data-collections.nfdi4ing.de/dce#Sächsische_Landesbibliothek_–_Staats-_und_Universitätsbibliothek_Dresden> rdf:type owl:NamedIndividual ,
                                                                                                                              dce:Host ;
+                                                                                                                    dce:hostsService dce:Material_Hub ,
+                                                                                                                                     dce:Qucosa ;
                                                                                                                     dce:hasHostURL "https://www.slub-dresden.de"^^xsd:anyURI .
 
 
