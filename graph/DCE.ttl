@@ -734,6 +734,7 @@ dce:DENSE_datasets rdf:type owl:NamedIndividual ,
 dce:DLR-TS rdf:type owl:NamedIndividual ,
                     dce:Host ;
            owl:sameAs dce:DLR_Institut_für_Verkehrssystemtechnik ;
+           dce:hostsService dce:DLR_Digitaler_Atlas ;
            dce:hasHostURL "https://www.dlr.de/ts"^^xsd:anyURI .
 
 
@@ -744,7 +745,8 @@ dce:DLR_Digitaler_Atlas rdf:type owl:NamedIndividual ,
                                  dce:Catalogue ,
                                  dce:Service ;
                         dce:hasSubjectArea dce:Interdisciplinary ;
-                        dce:isHostedBy dce:DLR-TS ;
+                        dce:isHostedBy dce:DLR-TS ,
+                                       dce:DLR_Institut_für_Verkehrssystemtechnik ;
                         dce:hasAPI "no" ;
                         dce:hasServiceURL "https://ts.dlr.de/geonetwork/srv/ger/catalog.search#/home"^^xsd:anyURI ;
                         dce:isOpenAccess "partially" ;
@@ -757,6 +759,7 @@ dce:DLR_Digitaler_Atlas rdf:type owl:NamedIndividual ,
 ###  https://data-collections.nfdi4ing.de/dce#DLR_Institut_für_Verkehrssystemtechnik
 dce:DLR_Institut_für_Verkehrssystemtechnik rdf:type owl:NamedIndividual ,
                                                     dce:Host ;
+                                           dce:hostsService dce:DLR_Digitaler_Atlas ;
                                            dce:hasHostURL "https://www.dlr.de/ts"^^xsd:anyURI .
 
 
