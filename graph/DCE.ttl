@@ -1544,6 +1544,7 @@ dce:Montanportal rdf:type owl:NamedIndividual ,
 dce:Motional rdf:type owl:NamedIndividual ,
                       dce:Host ;
              dce:hostsService dce:nuImages ,
+                              dce:nuPlan ,
                               <https://data-collections.nfdi4ing.de/dce#nuScenes_–_A_multimodal_dataset_for_autonomous_driving> ;
              dce:hasHostURL "https://motional.com"^^xsd:anyURI .
 
